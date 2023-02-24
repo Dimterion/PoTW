@@ -1,0 +1,43 @@
+.startScreen-container {
+  font-family: "Orbitron", sans-serif;
+  background: linear-gradient(
+    0deg,
+    rgba(33, 37, 41, 1) 0%,
+    rgba(52, 58, 64, 1) 50%,
+    rgba(73, 80, 87, 1) 100%
+  );
+  color: #dee2e6;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.startScreen-title {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.startScreen-menu {
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 2rem;
+}
+
+.startScreen-btn {
+  font-size: 1.5rem;
+  color: #dee2e6;
+  border: 1px solid #dee2e6;
+  text-decoration: none;
+  padding: 0.5rem 2.5rem;
+  margin: 1rem;
+  transition: color 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+}
+
+.startScreen-btn:hover {
+  color: #212529;
+  box-shadow: inset 200px 0 0 0 #dee2e6;
+}

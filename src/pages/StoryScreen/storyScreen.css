@@ -1,0 +1,51 @@
+.storyScreen-container {
+  font-family: "Orbitron", sans-serif;
+  letter-spacing: 0.1rem;
+  background: linear-gradient(
+    0deg,
+    rgba(33, 37, 41, 1) 0%,
+    rgba(52, 58, 64, 1) 50%,
+    rgba(73, 80, 87, 1) 100%
+  );
+  color: #dee2e6;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.storyScreen-headerImg {
+  max-height: 512px;
+  width: 1024px;
+  object-fit: cover;
+}
+
+.storyScreen-textContainer {
+  font-size: 1.4rem;
+  max-width: 1024px;
+  margin: 5vh 5vw;
+  border-top: 5px solid #dee2e6;
+  border-bottom: 5px solid #dee2e6;
+}
+
+.storyScreen-text {
+  font-family: "Turret Road", cursive;
+}
+
+.storyScreen-link {
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: #dee2e6;
+  transition: 0.5s;
+}
+
+.storyScreen-link:hover {
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+@media (max-width: 1024px) {
+  .storyScreen-headerImg {
+    height: 100%;
+    width: 100%;
+  }
+}
