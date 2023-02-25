@@ -32,15 +32,44 @@
 }
 
 .storyScreen-link {
-  font-size: 1.3rem;
-  text-decoration: none;
-  color: #dee2e6;
-  transition: 0.5s;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-image: linear-gradient(
+    to right,
+    #4cc9f0,
+    #4cc9f0 50%,
+    #f72585 50%
+  );
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin-bottom: 4vh;
+  position: relative;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.5s ease-in-out;
+}
+
+.storyScreen-link:before {
+  content: "";
+  background: #4cc9f0;
+  display: block;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  transition: all 0.5s ease-in-out;
 }
 
 .storyScreen-link:hover {
-  opacity: 0.7;
-  transition: 0.5s;
+  background-position: 0;
+}
+
+.storyScreen-link:hover::before {
+  width: 100%;
 }
 
 @media (max-width: 1024px) {

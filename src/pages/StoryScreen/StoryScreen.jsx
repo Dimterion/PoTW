@@ -81,9 +81,8 @@ function StoryScreen() {
           up.
         </p>
         <h3>This is the world you’re living in…</h3>
-        <h4>Work In Progress. To Be Continued...</h4>
-        <Link className="storyScreen-link" to="/about">
-          {">"} Additional Info
+        <Link className="storyScreen-link" to="/game">
+          {">>>"} Jump in
         </Link>
       </div>
     </div>
