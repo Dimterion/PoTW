@@ -1,15 +1,15 @@
 import "./mainComponent.css";
 
-function MainComponent({ text, image, alt }) {
+function MainComponent({ text, btnLeft, btnRight, setOption, idLeft, idRight, image, alt }) {
   return (
     <div className="mainComponent-container">
       <div className="mainComponent-imageAndText">
         <img className="mainComponent-image" src={image} alt={alt} />
         <p className="mainComponent-text">{text}</p>
       </div>
-      <div>
-        <button>Option 1</button>
-        <button>Option 2</button>
+      <div className="mainComponent-buttons">
+        <button onClick={() => setOption(idLeft)} className="mainComponent-leftBtn">{btnLeft}</button>
+        <button onClick={() => setOption(idRight)} className="mainComponent-rightBtn">{btnRight}</button>
       </div>
     </div>
   );

@@ -16,8 +16,24 @@
 }
 
 .mainComponent-text {
+  font-family: "Turret Road", cursive;
+  font-size: 1.4rem;
   white-space: pre-line;
   margin: 3vw;
+}
+
+.mainComponent-buttons {
+  margin: 3vh auto;
+}
+
+.mainComponent-rightBtn {
+  margin: 0 3vw;
+  cursor: pointer;
+}
+
+.mainComponent-leftBtn {
+  margin: 0 3vw;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 992px) {
