@@ -1,0 +1,33 @@
+.mainComponent-container {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainComponent-imageAndText {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.mainComponent-image {
+  margin: auto;
+}
+
+.mainComponent-text {
+  white-space: pre-line;
+  margin: 3vw;
+}
+
+@media screen and (max-width: 992px) {
+  .mainComponent-imageAndText {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 512px) {
+  .mainComponent-image {
+    width: 100%;
+  }
+}

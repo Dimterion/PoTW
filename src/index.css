@@ -3,17 +3,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Turret+Road:wght@400;700&display=swap");
 
 :root {
-  --primaryBackground: linear-gradient(
-    0deg,
-    rgba(33, 37, 41, 1) 0%,
-    rgba(52, 58, 64, 1) 50%,
-    rgba(73, 80, 87, 1) 100%
-  );
+  --primaryBackground: #343a40;
   --primaryColor: #dee2e6;
   --secondaryColor: #f72585;
   --tertiaryColor: #4cc9f0;
 }
 
 body {
+  background: var(--primaryBackground);
   margin: 0;
 }

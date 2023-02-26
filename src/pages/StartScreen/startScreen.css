@@ -1,6 +1,5 @@
 .startScreen-container {
   font-family: "Orbitron", sans-serif;
-  background: var(--primaryBackground);
   color: var(--primaryColor);
   display: flex;
   flex-flow: column nowrap;

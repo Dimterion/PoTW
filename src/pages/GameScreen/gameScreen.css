@@ -1,17 +1,9 @@
 .gameScreen-container {
   font-family: "Orbitron", sans-serif;
-  background: var(--primaryBackground);
   color: var(--primaryColor);
-  display: flex;
-  flex-flow: column nowrap;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  height: 100vh;
 }
 
-/* Temp area below */
-
+/* Temp area below
 .gameScreen-link {
   font-size: 1.3rem;
   text-decoration: none;
@@ -23,11 +15,4 @@
   color: var(--tertiaryColor);
   transition: 0.5s;
 }
-
-/* Temp area above */
-
-@media screen and (max-width: 200px), screen and (max-height: 200px) {
-  .startScreen-container {
-    height: auto;
-  }
-}
+Temp area above */
