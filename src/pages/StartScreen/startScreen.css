@@ -1,12 +1,7 @@
 .startScreen-container {
   font-family: "Orbitron", sans-serif;
-  background: linear-gradient(
-    0deg,
-    rgba(33, 37, 41, 1) 0%,
-    rgba(52, 58, 64, 1) 50%,
-    rgba(73, 80, 87, 1) 100%
-  );
-  color: #dee2e6;
+  background: var(--primaryBackground);
+  color: var(--primaryColor);
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
@@ -17,6 +12,7 @@
 
 .startScreen-title {
   font-size: 2.5rem;
+  text-shadow: 2px 2px var(--secondaryColor);
   margin: 0;
 }
 
@@ -28,8 +24,8 @@
 
 .startScreen-btn {
   font-size: 1.5rem;
-  color: #dee2e6;
-  border: 1px solid #dee2e6;
+  color: var(--primaryColor);
+  border: 1px solid var(--primaryColor);
   text-decoration: none;
   padding: 0.5rem 2.5rem;
   margin: 1rem;
@@ -37,8 +33,8 @@
 }
 
 .startScreen-btn:hover {
-  color: #212529;
-  box-shadow: inset 200px 0 0 0 #dee2e6;
+  color: var(--secondaryColor);
+  box-shadow: inset 200px 0 0 0 var(--tertiaryColor);
 }
 
 @media screen and (max-width: 200px), screen and (max-height: 200px) {

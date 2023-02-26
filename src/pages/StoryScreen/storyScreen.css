@@ -1,13 +1,8 @@
 .storyScreen-container {
   font-family: "Orbitron", sans-serif;
   letter-spacing: 0.1rem;
-  background: linear-gradient(
-    0deg,
-    rgba(33, 37, 41, 1) 0%,
-    rgba(52, 58, 64, 1) 50%,
-    rgba(73, 80, 87, 1) 100%
-  );
-  color: #dee2e6;
+  background: var(--primaryBackground);
+  color: var(--primaryColor);
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
@@ -23,8 +18,8 @@
   font-size: 1.4rem;
   max-width: 1024px;
   margin: 5vh 5vw;
-  border-top: 5px solid #dee2e6;
-  border-bottom: 5px solid #dee2e6;
+  border-top: 5px solid var(--tertiaryColor);
+  border-bottom: 5px solid var(--tertiaryColor);
 }
 
 .storyScreen-text {
@@ -36,9 +31,9 @@
   font-weight: bold;
   background-image: linear-gradient(
     to right,
-    #4cc9f0,
-    #4cc9f0 50%,
-    #f72585 50%
+    var(--tertiaryColor),
+    var(--tertiaryColor) 50%,
+    var(--secondaryColor) 50%
   );
   background-size: 200% 100%;
   background-position: -100%;
@@ -54,7 +49,7 @@
 
 .storyScreen-link:before {
   content: "";
-  background: #4cc9f0;
+  background: var(--tertiaryColor);
   display: block;
   position: absolute;
   bottom: -5px;

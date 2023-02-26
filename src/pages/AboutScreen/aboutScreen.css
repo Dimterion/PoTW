@@ -1,13 +1,8 @@
 .aboutScreen-container {
   font-family: "Orbitron", sans-serif;
   letter-spacing: 0.1rem;
-  background: linear-gradient(
-    0deg,
-    rgba(33, 37, 41, 1) 0%,
-    rgba(52, 58, 64, 1) 50%,
-    rgba(73, 80, 87, 1) 100%
-  );
-  color: #dee2e6;
+  background: var(--primaryBackground);
+  color: var(--primaryColor);
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
@@ -17,25 +12,29 @@
   width: 100vw;
 }
 
+.aboutScreen-title {
+  text-shadow: 2px 2px var(--secondaryColor);
+}
+
 .aboutScreen-linksContainer {
   display: flex;
   flex-flow: column nowrap;
   align-items: start;
   margin: 5vh auto;
   padding: 2vh 0;
-  border: 1px solid #dee2e6;
+  border: 1px solid var(--primaryColor);
 }
 
 .aboutScreen-link {
   font-size: 1.4rem;
   text-decoration: none;
-  color: #dee2e6;
-  margin: 2vh 1vw;
+  color: var(--primaryColor);
+  margin: 2vh 3vw;
   transition: 0.5s;
 }
 
 .aboutScreen-link:hover {
   text-decoration: underline;
-  opacity: 0.7;
+  color: var(--tertiaryColor);
   transition: 0.5s;
 }
