@@ -1,3 +1,4 @@
+import Footer from "../Footer/Footer";
 import "./mainComponent.css";
 
 function MainComponent({
@@ -30,6 +31,7 @@ function MainComponent({
           {btnRight}
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

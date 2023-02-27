@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import storyScreenHeaderImg from "../../assets/storyScreenHeaderImg.jpg";
+import Footer from "../../components/Footer/Footer";
 import "./storyScreen.css";
 
 function StoryScreen() {
@@ -85,6 +86,7 @@ function StoryScreen() {
           {">>>"} Jump in
         </Link>
       </div>
+      <Footer />
     </div>
   );
 }

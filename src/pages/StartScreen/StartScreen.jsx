@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
+import Footer from "../../components/Footer/Footer";
 import "./startScreen.css";
 
-function StartMenu() {
+function StartScreen() {
   return (
     <div className="startScreen-container">
       <h1 className="startScreen-title">Poets of Tomorrow’s World</h1>
@@ -13,8 +14,9 @@ function StartMenu() {
           About
         </Link>
       </div>
+      <Footer />
     </div>
   );
 }
 
-export default StartMenu;
+export default StartScreen;

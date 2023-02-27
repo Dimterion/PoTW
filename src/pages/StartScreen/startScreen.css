@@ -4,9 +4,8 @@
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
-  justify-content: center;
   text-align: center;
-  height: 100vh;
+  margin-top: 30vh;
   animation: mainComponent-load 400ms ease-in 200ms;
   animation-fill-mode: forwards;
   transform: translateY(-50px);

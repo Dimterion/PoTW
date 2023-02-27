@@ -13,17 +13,19 @@ function GameScreen() {
 
   const components = texts.map((text) => {
     return (
-      <MainComponent
-        key={text.id}
-        text={text.text}
-        btnLeft={text.options[0].text}
-        btnRight={text.options[1].text}
-        setOption={setOption}
-        idLeft={text.options[0].nextText}
-        idRight={text.options[1].nextText}
-        image={text.image}
-        alt={text.alt}
-      />
+      <>
+        <MainComponent
+          key={text.id}
+          text={text.text}
+          btnLeft={text.options[0].text}
+          btnRight={text.options[1].text}
+          setOption={setOption}
+          idLeft={text.options[0].nextText}
+          idRight={text.options[1].nextText}
+          image={text.image}
+          alt={text.alt}
+        />
+      </>
     );
   });
 

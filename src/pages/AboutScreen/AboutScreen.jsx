@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Footer from "../../components/Footer/Footer";
 import "./aboutScreen.css";
 
 function AboutScreen() {
@@ -28,6 +29,7 @@ function AboutScreen() {
           {">"} Start Screen
         </Link>
       </div>
+      <Footer />
     </div>
   );
 }
