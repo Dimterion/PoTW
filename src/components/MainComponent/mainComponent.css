@@ -3,6 +3,10 @@
   flex-flow: column nowrap;
   align-items: center;
   justify-content: center;
+  animation: mainComponent-load 400ms ease-in 200ms;
+  animation-fill-mode: forwards;
+  transform: translateY(-10px);
+  opacity: 0;
 }
 
 .mainComponent-imageAndText {
@@ -93,5 +97,17 @@
 @media screen and (max-width: 512px) {
   .mainComponent-image {
     width: 100%;
+  }
+}
+
+@keyframes mainComponent-load {
+  0% {
+    transform: translateY(-10px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
   }
 }

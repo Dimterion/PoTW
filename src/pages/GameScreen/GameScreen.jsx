@@ -1,11 +1,15 @@
 // import { Link } from "react-router-dom";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import MainComponent from "../../components/MainComponent/MainComponent";
 import texts from "../../utils/texts";
 import "./gameScreen.css";
 
 function GameScreen() {
   const [option, setOption] = useState(texts[0].id);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [option]);
 
   const components = texts.map((text) => {
     return (

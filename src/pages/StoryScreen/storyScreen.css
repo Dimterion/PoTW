@@ -5,6 +5,10 @@
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
+  animation: storyScreen-load 400ms ease-in 200ms;
+  animation-fill-mode: forwards;
+  transform: translateY(-50px);
+  opacity: 0;
 }
 
 .storyScreen-headerImg {
@@ -70,5 +74,17 @@
   .storyScreen-headerImg {
     height: 100%;
     width: 100%;
+  }
+}
+
+@keyframes storyScreen-load {
+  0% {
+    transform: translateY(-10px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
   }
 }

@@ -7,6 +7,10 @@
   justify-content: center;
   text-align: center;
   height: 100vh;
+  animation: mainComponent-load 400ms ease-in 200ms;
+  animation-fill-mode: forwards;
+  transform: translateY(-50px);
+  opacity: 0;
 }
 
 .startScreen-title {
@@ -29,6 +33,7 @@
   padding: 0.5rem 2.5rem;
   margin: 1rem;
   transition: color 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+  animation: btn-load 1s ease-in;
 }
 
 .startScreen-btn:hover {
@@ -39,5 +44,31 @@
 @media screen and (max-width: 200px), screen and (max-height: 200px) {
   .startScreen-container {
     height: auto;
+  }
+}
+
+@keyframes startScreen-load {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes btn-load {
+  0% {
+    transform: scale(0);
+  }
+
+  90% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
   }
 }

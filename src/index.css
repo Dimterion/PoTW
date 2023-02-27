@@ -13,4 +13,5 @@
 body {
   background: var(--primaryBackground);
   margin: 0;
+  scroll-behavior: smooth;
 }
