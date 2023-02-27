@@ -9,6 +9,7 @@
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
+  border: 5px solid var(--tertiaryColor);
 }
 
 .mainComponent-image {
@@ -16,24 +17,71 @@
 }
 
 .mainComponent-text {
+  border-top: 1px solid var(--secondaryColor);
+  border-bottom: 1px solid var(--secondaryColor);
   font-family: "Turret Road", cursive;
   font-size: 1.4rem;
   white-space: pre-line;
   margin: 3vw;
+  padding: 3vw;
 }
 
 .mainComponent-buttons {
-  margin: 3vh auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: auto;
+  border-right: 5px solid var(--tertiaryColor);
+  border-left: 5px solid var(--tertiaryColor);
+  border-bottom: 5px solid var(--tertiaryColor);
 }
 
 .mainComponent-rightBtn {
-  margin: 0 3vw;
+  background-color: var(--secondaryBackground);
+  font-family: "Turret Road", cursive;
+  font-size: 1.25rem;
+  width: 250px;
+  margin: 2vw;
+  padding: 2vh 1vw;
   cursor: pointer;
+  white-space: pre-line;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid var(--tertiaryColor);
+  color: var(--tertiaryColor);
+  transition: 0.5s;
+}
+
+.mainComponent-rightBtn:hover {
+  border: 1px solid var(--secondaryColor);
+  color: var(--secondaryColor);
+  transition: 0.5s;
 }
 
 .mainComponent-leftBtn {
-  margin: 0 3vw;
+  background-color: var(--secondaryBackground);
+  font-family: "Turret Road", cursive;
+  font-size: 1.25rem;
+  width: 250px;
+  margin: 2vw;
+  padding: 2vh 1vw;
   cursor: pointer;
+  white-space: pre-line;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid var(--tertiaryColor);
+  color: var(--tertiaryColor);
+  transition: 0.5s;
+}
+
+.mainComponent-leftBtn:hover {
+  border: 1px solid var(--secondaryColor);
+  color: var(--secondaryColor);
+  transition: 0.5s;
 }
 
 @media screen and (max-width: 992px) {

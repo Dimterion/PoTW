@@ -2,30 +2,28 @@
 import { useState } from "react";
 import MainComponent from "../../components/MainComponent/MainComponent";
 import texts from "../../utils/texts";
-import mainCharacterImage from "../../assets/mainCharacterImage.jpg";
 import "./gameScreen.css";
 
 function GameScreen() {
-  const [option, setOption] = useState(0);
+  const [option, setOption] = useState(texts[0].id);
 
-  return (
-    <div className="gameScreen-container">
-      {option === 0 && (
-        <MainComponent
-          text={texts[0].text}
-          btnLeft={texts[0].options[0].text}
-          btnRight={texts[0].options[1].text}
-          setOption={setOption}
-          idLeft={1}
-          idRight={2}
-          image={mainCharacterImage}
-          alt="Main character image"
-        />
-      )}
-      {option === 1 && "Option 1"}
-      {option === 2 && "Option 2"}
-    </div>
-  );
+  const components = texts.map((text) => {
+    return (
+      <MainComponent
+        key={text.id}
+        text={text.text}
+        btnLeft={text.options[0].text}
+        btnRight={text.options[1].text}
+        setOption={setOption}
+        idLeft={text.options[0].nextText}
+        idRight={text.options[1].nextText}
+        image={text.image}
+        alt={text.alt}
+      />
+    );
+  });
+
+  return <div className="gameScreen-container">{components[option - 1]}</div>;
 }
 
 export default GameScreen;
