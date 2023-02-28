@@ -4,6 +4,8 @@ Work In Progress
 
 [More Info](https://medium.com/@dimterion/making-an-interactive-text-adventure-game-with-react-779667cca2cb)
 
+[Live Version](https://poets-of-tomorrows-world.vercel.app/)
+
 [Original Version](https://github.com/Dimterion/Interactive-text-adventure-game)
 
 ## Current state
