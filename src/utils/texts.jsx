@@ -45,16 +45,16 @@ const texts = [
     
     “Hey, Soai! Nice to see you, buddy. How’s life? Wanna drink?”`,
     image: mnemonicBarEntranceImage,
-    alt: "Mnemonic bar entranceImage image",
+    additionalImage: unaEkImage,
+    alt: "Mnemonic bar entrance image",
+    additionalImageAlt: "Una Ek image",
     options: [
       {
-        text: `“Ah, you know, the usual, nothing new. Gonna do some writing in the arena tonight, came to kill some time and maybe to practice a bit. As for the drinks, I’ll pass. Prefer having a clear head. What’s new?”`,
+        text: `“Life goes by. I’ll pass on the drinks. Gonna do some writing in the arena tonight, came to kill time and maybe practice a bit. Prefer having a clear head. What’s new with you?”`,
         nextText: 4,
       },
       {
-        text: `“Hey-hey Una! Top of the world… or it’s bottom. As always. I wouldn’t mind a drink, but rather have my brains functioning normally tonight. So, water would be fine.”
-        
-        You sit at the counter near Una.`,
+        text: `“Hey-hey, Una! Top of the world… or rather its bottom. Wouldn’t mind a drink, but need my brain to function properly tonight. Doing some arena stuff. Water would be fine.”`,
         nextText: 41,
       },
     ],
@@ -1659,5 +1659,6 @@ import mainCharacterImage from "../assets/mainCharacterImage.jpg";
 import apartmentImage from "../assets/apartmentImage.jpg";
 import unicornImage from "../assets/unicornImage.jpg";
 import mnemonicBarEntranceImage from "../assets/mnemonicBarEntranceImage.jpg";
+import unaEkImage from "../assets/unaEkImage.jpg";
 
 export default texts;

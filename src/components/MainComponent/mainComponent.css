@@ -30,14 +30,28 @@
   padding: 3vw;
 }
 
-.mainComponent-buttons {
+.mainComponent-options {
   display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
+  flex-flow: column nowrap;
+  align-items: center;
   margin: auto;
   border-right: 5px solid var(--tertiaryColor);
   border-left: 5px solid var(--tertiaryColor);
   border-bottom: 5px solid var(--tertiaryColor);
+}
+
+.mainComponent-additionalImage {
+  border-right: 1px solid var(--tertiaryColor);
+  border-left: 1px solid var(--tertiaryColor);
+  border-bottom: 1px solid var(--tertiaryColor);
+  height: 250px;
+  width: 250px;
+}
+
+.mainComponent-buttons {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
 }
 
 .mainComponent-rightBtn {
