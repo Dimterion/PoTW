@@ -531,19 +531,41 @@ const texts = [
   // Other initial path (Dixie).
   {
     id: 34,
-    text: `You go out and head over to Dixie which is located one tier below. A good friend of yours, Nnif, owns it. She’s quite tech-savvy and, though it’s not a top-class shop, she always manages to get some quite unique stuff. Her regular customers are poets who try to get any advantage during the Writers Fights. Modifications are limited during the arena match, but still can be used to some extent.
-    Near the entrance to the shop you see a writing on the wall - “You can’t flatline the Flatline!”. Your vision slightly glitches when you pass by it. Happens every time though. It’s like a greeting to the shop. You go inside and see a tall woman wearing huge goggles with half a skull shaved and the other half’s hair painted bright green. The shaven part also has a tattoo of an ice ax.
+    text: `You head over to Dixie which is located one tier below. A good friend of yours, Nnif, owns it. She’s quite tech-savvy and, though it’s not a top-class shop, always manages to get some rather unique stuff. Her regular customers are poets trying to get any advantage during the Writers Fights. Modifications in the arena are limited, but still can be used to some extent.
+
+    Near the entrance to the shop you see a writing on its wall.
     
-    Nnif is talking to a huge muscular dude with shining chrome arms and a strange childish voice. - “Listen pal, it’s just an Aya doll, ok? Don’t use it for… other purposes. That won’t work and won’t bring you the results you want.” - The giant doesn’t look like listening to her, so she waves her hand in front of his face. - “Hello? That was an official warning for ya, that is now recorded and will be used if you decide to bring the doll back to whine about the warranty.” - Seeing that it didn’t bring any results for the customer, she just waved him off. - “Whatever, man, just get outta here. I hope I won’t hear about you in the near future.”
+    YOU CAN’T FLATLINE THE fLATLINE!
     
-    She looks irritated when the dude left. Then she turns to you like nothing happened. That’s Nnif, quite a character but getting cool off rather fast. - “Sup Soai. How’s life?”`,
+    Your vision slightly glitches when you pass by it. Happens every time, like a client greeting. You go inside and see a tall woman wearing huge goggles. Half of her skull is shaved and the other half’s hair is painted in bright purple color (she keeps saying that it’s supposed to be green). There is also a tattoo of an ice ax on the shaven part.
+    
+    Nnif is talking to a huge muscular bald guy with shining chrome arms.
+    
+    “Listen pal, it’s just an Aya doll, ok? Don’t use it for… other purposes. That won’t work and won’t bring you the results you want.”
+    
+    The giant doesn’t look like listening to her, so she waves her hand in front of his face.
+    
+    “Hello? That was an official warning for ya. It is now recorded and will be used against you if you decide to bring the doll back to whine about the warranty.”
+    
+    Seeing that her words didn’t bring any results, she just waved the customer off.
+    
+    “Whatever, man, just get outta here. I hope I won’t hear about you in the near future.”
+    
+    When the guy leaves, Nnif looks irritated. But then she turns to you like nothing happened. That’s Nnif, quite a character but getting cool off rather fast.
+    
+    “Sup, Soai. How are things in that poetic life of yours?”
+    `,
+    image: dixiesShopImage,
+    additionalImage: nnifImage,
+    alt: "Dixie's shop entrance image",
+    additionalImageAlt: "Nnif image",
     options: [
       {
-        text: `Hola Nnif. The usual, not too much, not too little. Got some special customer’s requests here, huh?” - You look at her with a knowing smile.`,
+        text: `“Hola, Nnif. The usual, nothing too much, anything too little. I see you’re getting some special requests, huh?”`,
         nextText: 35,
       },
       {
-        text: `“Salut Nnif. Life’s kicking and ticking. What’s new with you?”`,
+        text: `“Salut, Nnif! Life’s kicking and ticking, pouring over the top. How are things on your techy end of the flat line?”`,
         nextText: 84,
       },
     ],
@@ -1660,5 +1682,7 @@ import apartmentImage from "../assets/apartmentImage.jpg";
 import unicornImage from "../assets/unicornImage.jpg";
 import mnemonicBarEntranceImage from "../assets/mnemonicBarEntranceImage.jpg";
 import unaEkImage from "../assets/unaEkImage.jpg";
+import dixiesShopImage from "../assets/dixiesShopImage.jpg";
+import nnifImage from "../assets/nnifImage.jpg";
 
 export default texts;
