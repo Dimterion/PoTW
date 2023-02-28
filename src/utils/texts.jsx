@@ -22,25 +22,30 @@ const texts = [
   {
     id: 2,
     text: `Today is just another day of your second-level life in the Bridge. You woke up in your life-capsule, a tiny container where you live. By the press of a button your bed transformed into a small table with a chair. You sat at it, ate your microscopic portion of the daily ration, then tapped your temples to turn on the VR-implant and logged into zerOne.
-
+    
     Once being loaded into the virtual Bridge, you left your capsule and looked around, thinking where to go. In the evening you take part in the local Writers Fight.`,
     image: apartmentImage,
     alt: "Futuristic apartment image",
     options: [
       {
-        text: `You decide to go to the Mnemonic bar nearby, your favorite place to hang out.`,
+        text: `Go to the Mnemonic bar nearby, your favorite place to hang out`,
         nextText: 3,
       },
       {
-        text: `You think it's a good idea to visit the Dixie's shop which sells upgrades for the virtual characters.`,
+        text: `Visit the Dixie's shop that sells upgrades for the virtual characters`,
         nextText: 34,
       },
     ],
   },
   {
     id: 3,
-    text: `A giant smiling neon robo-dolphin is looking at you from above the doors of the Mnemonic bar. You go inside. At the counter a tall guy with long hair waves at you. It’s Una Ek, owner of the place. You see yourself in the reflection of his black glasses. He’s old fashioned and doesn’t use eyes’ implants even in virtual space.
-    Una smiles happily. He’s always in a good mood. - “Hey Soai! Nice to see you. How’s life? Wanna drink?”`,
+    text: `A giant smiling neon dolphin greets you from above the doors to the Mnemonic bar. You go inside. At the counter a tall guy with long hair waves at you. It’s Una Ek, owner of the place. You see yourself in the reflection of his black glasses. He’s old fashioned and doesn’t use eyes’ implants even in virtual space.
+
+    Una waves at you happily. He’s always in a good mood.
+    
+    “Hey, Soai! Nice to see you, buddy. How’s life? Wanna drink?”`,
+    image: mnemonicBarEntranceImage,
+    alt: "Mnemonic bar entranceImage image",
     options: [
       {
         text: `“Ah, you know, the usual, nothing new. Gonna do some writing in the arena tonight, came to kill some time and maybe to practice a bit. As for the drinks, I’ll pass. Prefer having a clear head. What’s new?”`,
@@ -874,19 +879,32 @@ const texts = [
   },
   {
     id: 55,
-    text: `Today is another wonderful day of your beautiful life in the Bridge. You woke up in your cozy apartment that provides you with everything you need: a place to sleep, eat and log into zerOne. By the press of a button your bed transformed into an ergonomic table with a chair. You sat there, ate your delicious breakfast and then tapped yourself on the left and right temples to turn on a VR-implant and log into zerOne.
-    *** Who are we kidding? Your apartment is a tiny capsule with just enough space to sleep and your food is simply a gray mass of some daily-needed chemical elements. You only need it for these two tasks as everything else is happening in the virtual world. No rainbow beginnings for ya, just continue the story! ***
-    
-    In the virtual Bridge you left your apartment and looked around thinking where to go. In the evening you take part in the local Writers Fight.
-    
-    You think where you want to go.`,
+    text: `Today is another wonderful day of your beautiful life in the Bridge. You woke up in your cozy apartment that provides you with everything you need and desire. By the press of a button your bed transformed into an ergonomic table with a comfy chair. You sat at it, ate your delicious breakfast, tapped your temples to turn on the VR-implant and logged into zerOne…
+
+    >>>
+    ~ { E R R O R 3 7 }
+    >>>
+
+    Who are we kidding? Your “apartment” is a tiny capsule with just enough space to sleep and your food is a suspiciously-looking gray mass containing the bare minimum chemical elements for the day. These are the only activities you can do in that microscopic place. Everything else happens in the virtual world.
+
+    And that creepycorn you see is but another glitch in your VR-implant, appearing for a millisecond every time before you’re fully logged in.
+
+    No rainbow beginnings for ya, just continue your path!
+
+    >>>
+    ~ { Restarting the simulation… }
+    >>>
+
+    Once being loaded into the virtual Bridge, you left your capsule and looked around, thinking where to go. In the evening you take part in the local Writers Fight.`,
+    image: unicornImage,
+    alt: "Futuristic unicorn image",
     options: [
       {
-        text: `You decide to go to the Mnemonic bar nearby, your favorite place to hang out.`,
+        text: `Go to the Mnemonic bar nearby, your favorite place to hang out`,
         nextText: 3,
       },
       {
-        text: `You think it's a good idea to visit the Dixie's shop which sells upgrades for the virtual characters.`,
+        text: `Visit the Dixie's shop that sells upgrades for the virtual characters`,
         nextText: 34,
       },
     ],
@@ -1639,5 +1657,7 @@ const texts = [
 
 import mainCharacterImage from "../assets/mainCharacterImage.jpg";
 import apartmentImage from "../assets/apartmentImage.jpg";
+import unicornImage from "../assets/unicornImage.jpg";
+import mnemonicBarEntranceImage from "../assets/mnemonicBarEntranceImage.jpg";
 
 export default texts;
