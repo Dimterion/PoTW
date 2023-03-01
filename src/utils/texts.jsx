@@ -141,31 +141,70 @@ const texts = [
   },
   {
     id: 7,
-    text: `An old man squints (however weird it may seem with his implants) and continues smiling. - “Nice day today, isn’t it?” - He nods in the direction of the window. - “And what a view! I can sit here all day and look at it.” - He suddenly gets serious and looks directly at you. - “You seem to be one of the young ones who like to do some fighting in the arena. And not the greatest one, aren’t you?” - He chuckles. - “Otherwise you’d be a bit higher than we are right now.” - He doesn’t let you object. - “But don’t worry, I’m sure one day you’ll manage. Hope is all we have after all. Let me give you a piece of advice.” - He moves closer and winks at you.`,
+    text: `The old man squints (however weird it may seem with his implants) and continues smiling.
+
+    “Nice day today, isn’t it?”
+    
+    He points at the window with the dragon head on his cane.
+    
+    “And what a view! I can sit here all day, looking at it and absorbing this scenery.”
+    
+    Suddenly his voice gets firm and he looks into your eyes.
+    
+    “You seem to be one of the young ones who like to do some fighting in the arena. And not the greatest one, aren’t you?”
+    
+    He grins, sounding mocking.
+    
+    “Otherwise you’d be a bit higher than we are right now. But don’t you worry, I’m sure one day you’ll manage. Don’t lose hope, it’s all we have after all. Perhaps your last song will shake the world, or, with some luck, make it, if not better, then at least a different place.”
+    
+    The old man moves closer, his wrinkled eyes wink at you from behind the moving lenses of the implants.
+    
+    “Allow me to give you a piece of advice. What do you say?”`,
+    image: mnemonicBarUpperFloorInteriorImage,
+    additionalImage: deoImage,
+    alt: "Mnemonic bar upper floor interior",
+    additionalImageAlt: "Deo image",
     options: [
       {
-        text: `“All right, grandpa, let’s hear it, you’ve got my attention.”`,
+        text: `“All right, grandpa, let’s hear this advice of yours. You’ve got my undivided attention. Lay it on me and make it count.” `,
         nextText: 8,
       },
       {
-        text: `“Ok, changed my mind, let’s not become friends, ok? I think I’ll manage without your old boy’s wisdom. Bartender Una will be happy to talk, but I’m a bit busy right now.`,
+        text: `“I say, I’ll manage without your oldboy’s wisdom. Bartender Una will be happy to jabber, but I’m in a different mood.”`,
         nextText: 44,
       },
     ],
   },
   {
     id: 8,
-    text: `He starts laughing. - “Oh, a bold one you are, maybe even a reckless one, huh? Ok then. Here’s something for you to consider. You must visit the Dixie shop before the arena. Tell Nnif that Deo says Hi. She might find something useful for you.” - He thinks about something for a while then adds. - “Remember Soai, don’t overthink it and go with the most straightforward approach that comes to mind… and don’t use global variables, ok?” - He stands up, pats you on the back and goes away. - “I will see you when the right moment comes, dear child. Take care.”
-    You wanted to ask him who is he and what was all that about, but he quickly stood up and went away. You decided to stay at the table a bit longer admiring the view. It’s started to rain and you look at the toxic drops drumming on the windows glass. Accompanied by that calming sound you stand up and go to the first floor of the bar again.
+    text: `The old man starts laughing.
+
+    “A bold one you are, maybe even a reckless one, eh? Very well. Here’s something for you to consider. You must visit the Dixie’s shop before the arena. Tell Nnif Deo says hi. She might find something useful for you.”
     
-    You see Una at his regular spot.`,
+    He gets quiet for a while, thinking, then continues talking.
+    
+    “Remember Soai, don’t overthink it and go with the most straightforward approach that comes to mind… And don’t use global variables. No scope is worse than quick scope.”
+    
+    He stands up, pats you on the back and walks away murmuring.
+    
+    “Who knows, perhaps we’ll meet again, if the right moment comes, dear child. Take care.”
+    
+    Thoughtfully looking at the old man shuffling down the stairs, you decided to stay at your table a bit longer, admiring the view.
+    
+    It’s started to rain, and you see toxic drops drumming on the windows glass. Accompanied by that calming sound, you finally get up and go to the first floor of the bar.
+    
+    You see Una at his usual place.`,
+    image: toxicRainImage,
+    additionalImage: unaEkImage,
+    alt: "Mnemonic bar upper floor interior",
+    additionalImageAlt: "Toxic rain",
     options: [
       {
-        text: `“Hey Una. Who was the old man that left some time ago? You know, the one with strange eyes’ implants and blue robe.”`,
+        text: `“Em-m, Una, do you know the oldie that just left? The blue robe one, with retro implants.”`,
         nextText: 9,
       },
       {
-        text: `You nod at Una, showing him that you’re heading out. - “See you man, don’t forget to feed the doggo!”`,
+        text: `“Alright, time for me to head out. Arena awaits. See you, man. Don’t forget to feed the doggo!”`,
         nextText: 52,
       },
     ],
@@ -1783,5 +1822,7 @@ import ckiwImage from "../assets/ckiwImage.jpg";
 import toxicCloudsImage from "../assets/toxicCloudsImage.jpg";
 import deoImage from "../assets/deoImage.jpg";
 import dixiesShopInteriorImage from "../assets/dixiesShopInteriorImage.jpg";
+import mnemonicBarUpperFloorInteriorImage from "../assets/mnemonicBarUpperFloorInteriorImage.jpg";
+import toxicRainImage from "../assets/toxicRainImage.jpg";
 
 export default texts;
