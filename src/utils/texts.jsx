@@ -61,49 +61,80 @@ const texts = [
   },
   {
     id: 4,
-    text: `Una nods with approval. - “My man. Straight to the point, huh?” - He starts cleaning the counter and keeps talking. - “It’s quiet today. Peeps will come later, to watch the fight and all. I heard there’ll be a new poet. Recently came from the first level, imagine that. Rumor has it she’s good. Though, I wonder what she was doing on the first level then."
+    text: `Una nods with approval.
+
+    “My man. Straight to the point, aren’t you?”
     
-    He finished with the cleaning and pet the cute little doggy that came from the room behind the counter. - "Who’s my boy, who’s my good Ckiw?"`,
+    He starts cleaning the counter and keeps talking.
+    
+    “It’s quiet today. Peeps will come later, to watch the fight and all. I heard there’ll be a new poet. Recently came from the first level, imagine that. Rumor has it she’s good. Though I wonder what she was doing on the first level then."
+        
+    A cute little doggy came from the room behind the counter and Una rubs it behind the ear.
+    
+    "Who’s my boy, who’s my good Ckiw?"
+    
+    The dog jumps towards you like a tiny happy ball of fur.`,
+    image: mnemonicBarInteriorImage,
+    additionalImage: unaEkImage,
+    alt: "Mnemonic bar interior image",
+    additionalImageAlt: "Una Ek image",
     options: [
       {
-        text: `“Hey little buddy!” - you pet the dog as well. - “Strange name he has. I’d call him Johnny.”`,
+        text: `“Hey, little buddy! A weird name you have. I’d call you Johnny.”`,
         nextText: 5,
       },
       {
-        text: `You are irritated by the dog and kick him away with your foot.`,
+        text: `You are annoyed by the dog and kick it off the counter.`,
         nextText: 42,
       },
     ],
   },
   {
     id: 5,
-    text: `Una chuckles. - “Nah, man. He’s my little Ckiw. You can go upstairs if you want to find a quiet place to practice. Nobody’s there at this time of the day. Take your usual table at the far side near the window. I’ll be here if you need anything or want to chat.”`,
+    text: `Una chuckles.
+
+    “Nah, man. He’s my little Ckiw. You can go upstairs if you want to find a quiet place to practice. Nobody’s there at this time. Take your usual table at the far side, near the window. I’ll be here if you need anything or want to chat.”`,
+    image: ckiwImage,
+    additionalImage: unaEkImage,
+    alt: "A dog in a futuristic bar",
+    additionalImageAlt: "Una Ek image",
     options: [
       {
-        text: `“Thanks Una. You’re the best.” - You go to your table.`,
+        text: `“Thanks, Una! You’re the best. I’ll go upstairs then.`,
         nextText: 6,
       },
       {
-        text: `You pat the dog on the head. - "Good boy! Keep an eye on Una, ok?"`,
+        text: `Good boy, Ckiw-y! Keep an eye on Una, ok?`,
         nextText: 43,
       },
     ],
   },
   {
     id: 6,
-    text: `Una replies. - “YOU are the best!” - then he turns away and continues with his bartender work.
-    You go to the second floor of the bar which is almost empty at the moment. You find your favorite place - a table at the far corner, near the window. Mnemonic bar is located on the platform at the north side of the building, hanging over the abyss like a balcony. The view is breathtaking: down below you can see the toxic clouds of all shades of green and yellow, right in front of you everything is dirty gray with a glimpse of sun to your right and up above the sky is still blue and clouds are white, though you have a feeling that these colors are not so blue and white as before. Pollution is slowly but surely getting higher and higher and all towers have their last floor. No one knows how long it can last and no one's found a solution so far.
+    text: `“YOU are the best!”
+
+    Una turns away and continues his bartender work.
     
-    You’ve spent some time looking at the window. Suddenly an old man sits at your table in front of you. He has a long white beard, stylish vintage steampunk-like eyes’ implants that keep clinking and clanking all the time making an impression of always trying to focus or fix on something. He wears a bright blue robe and holds an expensive-looking cane with a golden dragon head as a handle. He doesn’t speak and looks at you with a strange smile.
+    You go to the Mnemonic second floor which is empty at the moment. You find your favorite place - a table at the far corner, near the window. The bar is located on the platform at the north side of the building, hanging over the abyss like a balcony. The view is breathtaking, a live stream from the real world: down below you can see toxic clouds, a tattered spiky chain of all shades of green and yellow, right in front of you everything is dirty gray with a glimpse of sun to your right, and up above the sky is still blue and clouds are white, though you have a feeling that these colors are not so blue and white as they used to be. Pollution is slowly but surely getting higher and higher, and all towers have their last floor. No one knows how long it can last. The end is approaching, and there’s no solution so far.
+    
+    You’ve spent some time looking at the window, consumed by your grim thoughts.
+    
+    Suddenly an old man sits at the table in front of you. He has a long white beard and vintage steampunk-style eyes’ implants that keep clinking and clanking, like constantly focussing on something. A bright blue robe and an expensive-looking cane with a golden dragon head as a handle give him a look of some overpriced museum piece.
+    
+    The man doesn’t speak and looks at you with a strange smile.
     
     You’ve never seen that article and are a bit confused.`,
+    image: toxicCloudsImage,
+    additionalImage: deoImage,
+    alt: "A dog in a futuristic bar",
+    additionalImageAlt: "Deo image",
     options: [
       {
-        text: `“Erm, may I help  you… sir? I don't think I know you.”`,
+        text: `“Erm, hello. May I help  you… sir? I don't think I know you. Have we met before?”`,
         nextText: 7,
       },
       {
-        text: `“Listen, I don’t want to be rude but could you please stop staring at me and find someone else to chat with?”`,
+        text: `“Listen, I don’t want to be rude, but could you stop staring at me and find someone else for that?”`,
         nextText: 44,
       },
     ],
@@ -677,15 +708,22 @@ const texts = [
   },
   {
     id: 42,
-    text: `Una’s face changes. It is now a mask of a cold-blooded killer who rips his enemies apart with a pencil or everything else at the reach of his hand. He’s speaking like throwing bricks at you, making pauses after each word. - “You.. have.. punched… the wrong… doggy.”
-    Una did terrible things to you. Things that should better not be described. Your digital character was wiped and you started from scratch on the following day, not remembering anything. To your luck Una knows that and considers that you won’t do this again. Let’s be honest, you should not harm cute little animals that did nothing to you, ok?`,
+    text: `Una’s face immediately changes. It is now a mask of a cold-blooded killer who rips his enemies apart with a pencil or anything else at the reach of his hand. He’s talking like throwing bricks at you, getting angrier with each word.
+
+    “You.. kicked… the wrong… doggo!”
+    
+    Una did terrible things to you. Things that should better not be described. Your digital character has been wiped off and you start from scratch on the following day, not remembering anything. To your luck, Una knows that and considers that you won’t do this again.
+    
+    Let’s be honest, you should not harm cute little animals that did nothing to you, ok? Even if they live in the virtual world.`,
+    image: gameOverImage,
+    alt: "Game over image",
     options: [
       {
-        text: `Start from the beginning and be ashamed of yourself.`,
+        text: `Start from the beginning and be ashamed of yourself, always remembering this valuable life lesson.`,
         nextText: 1,
       },
       {
-        text: `Yes, start from the beginning. What did you think? That there will be another option for you? No!`,
+        text: `Yes, start from the beginning. What did you expect? That there will be another option for you? No!`,
         nextText: 1,
       },
     ],
@@ -1684,5 +1722,10 @@ import mnemonicBarEntranceImage from "../assets/mnemonicBarEntranceImage.jpg";
 import unaEkImage from "../assets/unaEkImage.jpg";
 import dixiesShopImage from "../assets/dixiesShopImage.jpg";
 import nnifImage from "../assets/nnifImage.jpg";
+import mnemonicBarInteriorImage from "../assets/mnemonicBarInteriorImage.jpg";
+import gameOverImage from "../assets/gameOverImage.jpg";
+import ckiwImage from "../assets/ckiwImage.jpg";
+import toxicCloudsImage from "../assets/toxicCloudsImage.jpg";
+import deoImage from "../assets/deoImage.jpg";
 
 export default texts;
