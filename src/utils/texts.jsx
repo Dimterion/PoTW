@@ -126,7 +126,7 @@ const texts = [
     You’ve never seen that article and are a bit confused.`,
     image: toxicCloudsImage,
     additionalImage: deoImage,
-    alt: "A dog in a futuristic bar",
+    alt: "Toxic green and yellow clouds",
     additionalImageAlt: "Deo image",
     options: [
       {
@@ -603,14 +603,24 @@ const texts = [
   },
   {
     id: 35,
-    text: `Nnif chuckles. - “Well, everyone is so special now. Dare say, unique even. But I’ve been working here for too long. Have some gut feeling that this one will return with a bunch of weird complaints and warranty claims. I’ve just gone ahead and added several “official” warnings with recordings.” - She taps herself on the ice ax tattoo. - “And once he comes back, I’ll have some proof to bring.”`,
+    text: `Nnif snorts.
+
+    “Pff, everyone is so special now. Dare say, unique even. But I’ve been working here for too long. Have some gut feeling that this ironhand friendo will return with a bunch of weird complaints and warranty claims. I’ve just gone ahead and added a few “official” warnings while recording it as well.”
+    
+    She taps herself on the ice ax tattoo.
+    
+    “And once he comes back, I’ll have some proofs to place on the table.”`,
+    image: dixiesShopInteriorImage,
+    additionalImage: nnifImage,
+    alt: "Dixie's shop interior",
+    additionalImageAlt: "Nnif image",
     options: [
       {
-        text: `“Nice tattoo btw. Always wanted to ask you where did you get it?”`,
+        text: `“Nice tattoo by the way. Makes you think about breaking the ice, heh. Always wanted to ask where do you get such cool stuff?”`,
         nextText: 36,
       },
       {
-        text: `You decide to go straight to the point. - “I feel ya. Listen Nnif, I’ll be doing the poetic work today, if you get my meaning. Was wondering if you have something interesting for that line of business.”`,
+        text: `“I feel ya. Listen Nnif, I’ll be doing some poetic work today, if you get my meaning. Was wondering if you have anything for that line of business.”`,
         nextText: 37,
       },
     ],
@@ -692,16 +702,36 @@ const texts = [
   // Other misc. dialogues.
   {
     id: 41,
-    text: `“Excellent choice sir! One glass of perfectly clean and healthy water coming right up!” - Una theatrically pours you a glass and hands it to you with a bow. - “Always feels weird drinking anything in the artificial world of ours, huh? But these bastards somehow managed to make it like you’re really drinking and feeling it. Can’t believe we’ve become part of this man! Sometimes I just want to be someone else. It’s like a feeling of taking the wrong pill a long time ago. Or maybe it was the right one but didn’t really make any difference. Or maybe it was the same pill, just a different color.” - Una looks like he’s somewhere else and just talking to himself. - “Or was there any pill at all? Was it a battery and you were not supposed to swallow it? If only some voice of wisdom in my head could tell me…”
+    text: `“Excellent choice, sir! One glass of perfectly clean and healthy water coming right up!”
+
+    Una theatrically pours you a glass and hands it over with a bow.
     
-    Una finally stops talking and sees your surprised face. - “Oopsie. Don’t mind me, water-lover. Sometimes I become a bit… carried away. Maybe I was the chosen one in my former life, huh? Speaking of the chosen ones…” - A cute little doggy came from the room behind the counter and Una starts playing with it. - “Who’s my boy, who’s my good Ckiw?”`,
+    “Always feels weird drinking anything in that artificial world of ours, eh? But the eggheads somehow managed to make it like you’re really sensing it. Can’t believe we’ve become part of this, man! Sometimes I just want to be someone else. Have this dream about taking the wrong pill a long time ago. Or maybe it was the right one which didn’t really make any difference in the end. Perhaps it was the same pill, just a different color?”
+    
+    Una looks like he’s somewhere else and just talking to himself.
+    
+    “Or was there any pill at all? Was it a battery, and we were not supposed to swallow it? If only some voice of wisdom in my head could tell me…”
+    
+    He finally stops talking and sees your surprised face.
+    
+    “Oopsie. Don’t mind me, water-lover. Sometimes I become a bit… carried away. Maybe I was the chosen one in my former life, huh? Speaking of the chosen ones…”
+    
+    A cute little doggy came from the room behind the counter, and Una starts playing with it.
+    
+    “Who’s my boy, who’s my good Ckiw?”
+    
+    The dog jumps towards you like a tiny happy ball of fur.`,
+    image: mnemonicBarInteriorImage,
+    additionalImage: unaEkImage,
+    alt: "Mnemonic bar interior image",
+    additionalImageAlt: "Una Ek image",
     options: [
       {
-        text: `“Hey little buddy!” - you pet the dog as well. - “Strange name he has. I’d call him Johnny.”`,
+        text: `“Hey, little buddy! A weird name you have. I’d call you Johnny.”`,
         nextText: 5,
       },
       {
-        text: `You are irritated by the dog and kick it away with your foot.`,
+        text: `You are annoyed by the dog and kick it off the counter.`,
         nextText: 42,
       },
     ],
@@ -730,19 +760,36 @@ const texts = [
   },
   {
     id: 43,
-    text: `Una laughs. - “Oh, he'll definitely do that. Don’t tell anyone but it’s actually a full digital copy of a real dog I had back in my rebel youth days. My good friend gave him to me. She had two, but then needed to go to her daughter she hadn’t seen for years. So, she wasn’t able to travel with both of them. You better not know what beasts these two were. I needed to do some tuning for the digital version. I’m at peace now and so should be my pet. Ok, enough chit chatting, go practice already. Hope you win my man.” - then he turns away and continues with his bartender work.
-    You go to the second floor of the bar which is almost empty at the moment. You find your favorite place - a table at the far corner, near the window. Mnemonic bar is located on the platform at the north side of the building, hanging over the abyss like a balcony. The view is breathtaking: down below you can see the toxic clouds of all shades of green and yellow, right in front of you everything is dirty gray with a glimpse of sun to your right and up above the sky is still blue and clouds are white, though you have a feeling that these colors are not so blue and white as before. Pollution is slowly but surely getting higher and higher and all towers have their last floor. No one knows how long it can last and no one's found a solution so far.
+    text: `Una laughs.
+
+    “Oh, he definitely will. Don’t tell anyone, but it’s actually a full digital copy of a real dog I had back in my rebel youth days. A good friend of mine gave him to me. She had two, but one day needed to go to her daughter she hadn’t seen for years, and couldn’t travel with both of them. You better not know what beasts these two were, don’t let the cuteness fool you. Had to do some tuning for the digital version. I’m at peace now and so should be my pet.”
     
-    You’ve spent some time looking at the window. Suddenly an old man sits at your table in front of you. He has a long white beard, stylish vintage steampunk-like eyes’ implants that keep clinking and clanking all the time making an impression of always trying to focus or fix on something. He wears a bright blue robe and holds an expensive-looking cane with a golden dragon head as a handle. He doesn’t speak and looks at you with a strange smile.
+    Una winks at you, then waves at the stairs to the second floor.
+    
+    “Ok, enough chit chatting and lollygagging, go practice already. Hope you win, my man.”
+    
+    He turns away and continues his bartender work.
+    
+    You go to the Mnemonic second floor which is empty at the moment. You find your favorite place - a table at the far corner, near the window. The bar is located on the platform at the north side of the building, hanging over the abyss like a balcony. The view is breathtaking, a live stream from the real world: down below you can see toxic clouds, a tattered spiky chain of all shades of green and yellow, right in front of you everything is dirty gray with a glimpse of sun to your right, and up above the sky is still blue and clouds are white, though you have a feeling that these colors are not so blue and white as they used to be. Pollution is slowly but surely getting higher and higher, and all towers have their last floor. No one knows how long it can last. The end is approaching, and there’s no solution so far.
+        
+    You’ve spent some time looking at the window, consumed by your grim thoughts.
+    
+    Suddenly an old man sits at the table in front of you. He has a long white beard and vintage steampunk-style eyes’ implants that keep clinking and clanking, like constantly focussing on something. A bright blue robe and an expensive-looking cane with a golden dragon head as a handle give him a look of some overpriced museum piece.
+    
+    The man doesn’t speak and looks at you with a strange smile.
     
     You’ve never seen that article and are a bit confused.`,
+    image: toxicCloudsImage,
+    additionalImage: deoImage,
+    alt: "Toxic green and yellow clouds",
+    additionalImageAlt: "Deo image",
     options: [
       {
-        text: `“Erm, may I help  you… sir? I don't think I know you.”`,
+        text: `“Erm, hello. May I help  you… sir? I don't think I know you. Have we met before?”`,
         nextText: 7,
       },
       {
-        text: `“Listen, I don’t want to be rude but could you please stop staring at me and find someone else to chat with?”`,
+        text: `“Listen, I don’t want to be rude, but could you stop staring at me and find someone else for that?”`,
         nextText: 44,
       },
     ],
@@ -1431,14 +1478,22 @@ const texts = [
   // More choices for the second initial path.
   {
     id: 84,
-    text: `Nnif chuckles. - “Same, though I’m trying to be on the kicking and ticking side myself when it comes to customers.” - She taps herself on the ice ax tattoo.`,
+    text: `Nnif chuckles.
+
+    “Still trying to make me talk about that writing on the wall? Gotta figure it out yourself, my dear friend. No flatline explanations for ya. As for the things and how they are going, the same, though I’m trying to be on the kicking and ticking side myself. When it comes to customer support, I can be one hell of a surprise and delight.”
+    
+    She taps herself on the ice ax tattoo.`,
+    image: dixiesShopInteriorImage,
+    additionalImage: nnifImage,
+    alt: "Dixie's shop interior",
+    additionalImageAlt: "Nnif image",
     options: [
       {
-        text: `“Nice tattoo btw. Always wanted to ask you where did you get it?”`,
+        text: `Nice tattoo by the way. Makes you think about breaking the ice, heh. Always wanted to ask where do you get such cool stuff?`,
         nextText: 36,
       },
       {
-        text: `You decide to go straight to the point. - “I feel ya. Listen Nnif, I’ll be doing the poetic work today, if you get my meaning. Was wondering if you have something interesting for that line of business.”`,
+        text: `I feel ya. Listen Nnif, I’ll be doing some poetic work today, if you get my meaning. Was wondering if you have anything for that line of business.`,
         nextText: 37,
       },
     ],
@@ -1727,5 +1782,6 @@ import gameOverImage from "../assets/gameOverImage.jpg";
 import ckiwImage from "../assets/ckiwImage.jpg";
 import toxicCloudsImage from "../assets/toxicCloudsImage.jpg";
 import deoImage from "../assets/deoImage.jpg";
+import dixiesShopInteriorImage from "../assets/dixiesShopInteriorImage.jpg";
 
 export default texts;
