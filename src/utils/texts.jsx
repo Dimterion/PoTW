@@ -284,10 +284,20 @@ const texts = [
   },
   {
     id: 14,
-    text: `Nnif clears her throat. - “Well, let’s avoid the “chea”-word from now on. As I said, it’s not really prohibited. Just a bit shady, let’s put it like that. Deo was the one who created it and, honestly, only he knows how exactly this thing works. To cut it short, it makes you see the most possible move of your opponent with a huge chance for it to happen. I believe it’s like a hundred percent, but Deo said it’s just close to that as nothing is really one hundred percent and blah, blah, blah. Let’s just consider it to be always correct. To be fair, I’ve never used it on me, but it’s been tested many times, so it works, that I know. The rest will think that it’s kinda UI adjustment, so I suggest not go into too many details and explain it to everyone. Just confirm that it is and keep using it. And in case you are wondering, old dog insisted on not showing it to anyone unless someone mentions his name, so you’ll be entering the brave new world of first guinea pigs. That’s pretty much it. Wanna proceed with the installation?”`,
+    text: `Nnif clears her throat.
+
+    “Let’s avoid the chea-word from now on, shall we? As I said, it’s not really prohibited. A bit shady, let’s put it like that. Deo was the one who created it and, honestly, only he knows how exactly this thing works. To cut it short, it makes you see the most possible move of your opponent with a huge chance for it to happen. I believe it’s like a hundred percent, but Deo said it’s only close to it, as nothing is really one hundred percent, we should learn math properly, and blah, blah, blah. Let’s consider it to be always correct. To be fair, I’ve never used it on me, but it’s been tested and it works. Famous last words, as they say. But most of the tech is like that, if you ask me.”
+    
+    Nnif shrugs, as if she was talking about something obvious, then continues.
+    
+    “Everyone will think that it’s kinda UI enhancement, so I suggest not go into too many details and explain the rest. Just confirm that it is an enhancement and keep using it. And, in case you are wondering, the old dog insisted on not showing it to anyone unless his name is mentioned, so you’ll be entering the brave new world of first guinea pigs, congrats buddy. That’s pretty much it. Green light to proceed with the installation?”`,
+    image: dixiesShopInteriorImage,
+    additionalImage: nnifImage,
+    alt: "Dixie's shop interior",
+    additionalImageAlt: "Nnif image",
     options: [
       {
-        text: `“Yeah, let’s do this. Wrap it up, plug it in. Where do I need to sign to be able to see the future with this old man’s gift?”`,
+        text: `“Yeah, let’s do this. Wrap it up, plug it in. Where do I sign to see the future with the old man’s gift?”`,
         nextText: 15,
       },
       {
@@ -686,60 +696,124 @@ const texts = [
   },
   {
     id: 37,
-    text: `Nnif winks. - “Arena, huh? Can’t stop coming back there and testing your luck bro? Well, I hope you do win one day. Let me see what I can get you.” - She goes to the storage room. - “I’ll be back in a min. Will try to find something useful and relatively new, maybe it’ll increase your chances as old tricks are all well-known, so they won’t bring any results rather than eating your creds.”
-    While you’re waiting for Nnif, an old man comes into the shop. He has a long white beard, stylish vintage steampunk-like eyes’ implants that keep clinking and clanking all the time making an impression of always trying to focus or fix on something. He wears a bright blue robe and holds an expensive-looking cane with a golden dragon head as a handle. He doesn’t speak and looks at you with a strange smile.
+    text: `Nnif winks at you.
+
+    “Arena, huh? Can’t stop coming back there and testing your luck, bro? Well, I hope you do win one day. Let me see if I can get you anything.”
+    
+    She goes to the storage room.
+    
+    “Be back in a min. Will try to find something useful and relatively new, as old tricks are all well-known and won’t bring any results except for eating up your creds.”
+    
+    While you’re waiting for Nnif, an old man enters the shop. He has a long white beard and vintage steampunk-style eyes’ implants that keep clinking and clanking, like constantly focussing on something. A bright blue robe and an expensive-looking cane with a golden dragon head as a handle give him a look of some overpriced museum piece.
+    
+    The man doesn’t speak and looks at you with a strange smile.
     
     You’ve never seen that article and are a bit confused.`,
+    image: dixiesShopStorageRoomImage,
+    additionalImage: deoImage,
+    alt: "Dixie's shop storage room image",
+    additionalImageAlt: "Deo image",
     options: [
       {
-        text: `“Erm, may I help  you… sir? I don't think I know you.”`,
+        text: `“Erm, hello. May I help  you… sir? I don't think I know you. Have we met before?”`,
         nextText: 38,
       },
       {
-        text: `“Listen, I don’t want to be rude but could you please stop staring at me and find someone else to chat with?”`,
+        text: `“Listen, I don’t want to be rude, but could you stop staring at me and find someone else for that?”`,
         nextText: 87,
       },
     ],
   },
   {
     id: 38,
-    text: `An old man squints (however weird it may seem with his implants) and continues smiling. - “Nice place this is. A bit un…ordered, but quite cozy.” - He nods in the direction of the shelves around the shop. - “And the owner is such a good lady. Oh, I loved coming here back in my days” - He suddenly gets serious and looks directly at you. - “You seem to be one of the young ones who like to do some fighting in the arena. And not the greatest one, aren’t you?” - He chuckles. - “Otherwise you’d be a bit higher than we are right now.” - He doesn’t let you object. - “But don’t worry, I’m sure one day you’ll manage. Hope is all we have after all. Let me give you a piece of advice.” - He moves closer and winks at you.`,
+    text: `The old man squints (however weird it may seem with his implants) and continues smiling.
+
+    “Nice place this is. A bit un…ordered, but quite cozy.”
+    
+    He nods at the shelves around the shop.
+    
+    “And the owner is such a good lady. Oh, I loved coming here back in my days.”
+    
+    Suddenly his voice gets firm and he looks into your eyes.
+    
+    “You seem to be one of the young ones who like to do some fighting in the arena. And not the greatest one, aren’t you?”
+    
+    He grins, sounding mocking.
+    
+    “Otherwise you’d be a bit higher than we are right now. But don’t you worry, I’m sure one day you’ll manage. Don’t lose hope, it’s all we have after all. Perhaps your last song will shake the world, or, with some luck, make it, if not better, then at least a different place.”
+    
+    The old man moves closer, his wrinkled eyes wink at you from behind the moving lenses of the implants.
+    
+    “Allow me to give you a piece of advice. What do you say?”`,
+    image: dixiesShopStorageRoomImage,
+    additionalImage: deoImage,
+    alt: "Dixie's shop storage room image",
+    additionalImageAlt: "Deo image",
     options: [
       {
-        text: `“All right, grandpa, let’s hear it, you’ve got my attention.”`,
+        text: `“All right, grandpa, let’s hear this advice of yours. You’ve got my undivided attention. Lay it on me and make it count.”`,
         nextText: 39,
       },
       {
-        text: `“Ok, changed my mind, let’s not become friends, ok? I think I’ll manage without your old boy’s wisdom. Nnif who runs this shop might be ok with listening to you, but I’m a bit busy right now.`,
+        text: `“I say, I’ll manage without your oldboy’s wisdom. Nnif might give you a chance for an audience, but my stage is occupied.”`,
         nextText: 87,
       },
     ],
   },
   {
     id: 39,
-    text: `He starts laughing. - “Oh, a bold one you are, maybe even a reckless one, huh? Ok then. Here’s something for you to consider. Once she comes back, tell Nnif that Deo says Hi. She might find something useful for you.” - He thinks about something for a while then adds. - “Remember Soai, don’t overthink it and go with the most straightforward approach that comes to mind… and don’t use global variables, ok?” - He pats you on the back, turns around and goes away. - “I will see you when the right moment comes, dear child. Take care.”
-    You wanted to ask him who is he and what was all that about, but he quickly stood up and went away. Nnif comes back and looks at your puzzled face. - “What’s the matter? You’ve seen a ghost?”`,
+    text: `The old man starts laughing.
+
+    “A bold one you are, maybe even a reckless one, eh? Very well. Here’s something for you to consider. Once Nnif comes back, tell her Deo says hi. She might find something useful for you.”
+    
+    He gets quiet for a while, thinking, then continues talking.
+    
+    “Remember Soai, don’t overthink it and go with the most straightforward approach that comes to mind… And don’t use global variables. No scope is worse than quick scope.”
+    
+    He pats you on the back, turns around and walks away murmuring.
+    
+    “Who knows, perhaps we’ll meet again, if the right moment comes, dear child. Take care.”
+    
+    Before you are able to say anything, the old man leaves the shop.
+    
+    Nnif comes back and looks at your puzzled face.
+    
+    “What’s the matter? You’ve seen a ghost?”`,
+    image: dixiesShopInteriorImage,
+    additionalImage: nnifImage,
+    alt: "Dixie's shop interior",
+    additionalImageAlt: "Nnif image",
     options: [
       {
-        text: `“Erm… There was a strange-looking old fellow here. He’s just left but before that asked me to tell you Deo says Hi.” - You described the man to Nnif.`,
+        text: `“That question remains open. A strange-looking old fellow came by. Asked me to tell you Deo says hi.”`,
         nextText: 40,
       },
       {
-        text: `“Nah, just some weird folk pretending to be smart. Got anything useful for me?”`,
+        text: `“Nah, just some weird folk pretending to be smart and muttering nonsense. Got anything shiny for me?”`,
         nextText: 91,
       },
     ],
   },
   {
     id: 40,
-    text: `Nnif looks at you with big eyes. - “Oh my… He talked to you directly? Here? Wow. That’s something. Haven’t seen that old bastard for a long time. Say one thing about him… He can make an appearance, ain’t he?” - She thinks about something for a while. - “Okie-dokie, mister genius doesn’t come just for a conversation. Fine. Anyway it was made by him back in the days. I’ve found a couple of tools for ya, but as you mentioned this grumpy old kitten I can provide you with something else… An interesting mode for the arena. Call it Event Horizon or simply EH. In some eyes it may look like cheating, but peeps mostly don’t know about it or don’t understand how it works, so it won’t get you banhammered if that worries you. Wanna know more?”`,
+    text: `Nnif’s brows fly up.
+
+    “Oh my… He talked to you directly? Here? Wow. That’s something. Haven’t seen that old bastard for a long time. Say one thing about him… He can produce himself out of nowhere, ain’t he?”
+    
+    She taps her lip with a thumb thoughtfully.
+    
+    “Okie-dokie, mister genius usually doesn’t come just for a conversation. Fine. As you mentioned this grumpy old kitten, I can provide you with something else… Anyway it was made by him back in the days. An interesting mode for the arena. Call it Event Horizon or simply EH. In some eyes it may look like cheating, but peeps mostly don’t know about it or don’t understand how it works, so it won’t get you banhammered, if that worries you. Wanna know more?”`,
+    image: dixiesShopInteriorImage,
+    additionalImage: nnifImage,
+    alt: "Dixie's shop interior",
+    additionalImageAlt: "Nnif image",
     options: [
       {
-        text: `“Why not? Hit me with all you’ve got, almighty tech expert. Cheating or no-cheating has alway been a foggy border for me.”`,
+        text: `“Why not? Hit me with all you’ve got, almighty tech expert. Cheating or no-cheating has always been a foggy borderline for me.”`,
         nextText: 14,
       },
       {
-        text: `“Hm, I guess, I don’t. Not sure I’m the one who likes to test new and unknown things. Nope, I'll pass.”`,
+        text: `“Hm, I guess, I don’t. Not sure I’m the one who likes to test new and unknown things. Nope, I'll pass on that one.”`,
         nextText: 92,
       },
     ],
@@ -1861,5 +1935,6 @@ import mnemonicBarUpperFloorInteriorImage from "../assets/mnemonicBarUpperFloorI
 import toxicRainImage from "../assets/toxicRainImage.jpg";
 import blueScreenImage from "../assets/blueScreenImage.jpg";
 import dixieImage from "../assets/dixieImage.jpg";
+import dixiesShopStorageRoomImage from "../assets/dixiesShopStorageRoomImage.jpg";
 
 export default texts;
