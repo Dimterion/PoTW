@@ -106,6 +106,10 @@
   .mainComponent-imageAndText {
     flex-wrap: wrap;
   }
+
+  .mainComponent-buttons {
+    margin: 1vh 0;
+  }
 }
 
 @media screen and (max-width: 512px) {

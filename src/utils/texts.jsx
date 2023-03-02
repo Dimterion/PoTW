@@ -666,14 +666,20 @@ const texts = [
   },
   {
     id: 36,
-    text: `Nnif smiles. - “It’s not a tattoo dude. It’s an implant. I couldn’t hold myself and asked for a sort of an RGB-extension for it, just less colorful and more vintage. Using it to save some funds on the shop guard you know. It’s a hacking module. Can dive into your target’s implants and make them a bit… warm. Nothing lethal of course. Sort of a brain taser. Walks somewhere on the thin red borderline of legality - it’s kinda ok-not-ok to have one, so nobody really cares as it’s hard to get anyway. That kind of gadget. Oh, yeah, it also records your conversations and visuals, in case you’ll need them, like I am now. If you decide to get something similar, I can dig a bit; can’t promise anything as it’s not cheap, but I’ll see what I can do for a friend.”`,
+    text: `Nnif smiles.
+
+    “It’s not a tattoo, dude. It’s an implant. I couldn’t resist and ordered a sort of an RGB-extension for it, just less colorful and more vintage-looking. Use it to save some funds on the shop guard, you know. It’s a hacking module. Can dive into your target’s implants and make them a bit… warm. Nothing lethal of course. Consider it a brain taser. Stands somewhere on the thin red borderline of legality, meaning it’s kinda ok-not-ok to have one, so nobody really cares. Besides, it’s hard to get anyway. That kind of gadget. Oh, yeah, it also records your conversations and visuals, in case you’ll need them, like in my case. If you want something similar, I can dig a bit, though can’t promise anything as it’s not cheap. But I’ll see what I can do for a friend.”`,
+    image: dixiesShopInteriorImage,
+    additionalImage: nnifImage,
+    alt: "Dixie's shop interior",
+    additionalImageAlt: "Nnif image",
     options: [
       {
-        text: `“Thanks Nnif, appreciate it, though currently I’m more interested in arena-related tools.”`,
+        text: `“Thanks Nnif, appreciate it, but I’m currently more interested in arena-related tech.”`,
         nextText: 37,
       },
       {
-        text: `“Wow, where did you get such things?”`,
+        text: `“Impressing as always. Care to share your source of such awesome toolsies?”`,
         nextText: 85,
       },
     ],
@@ -1539,31 +1545,60 @@ const texts = [
   },
   {
     id: 85,
-    text: `Nnif hesitates a bit but then gives up. - “Well, I’d prefer to make a mystery out of it, but on the other hand, you’re an ok-ish character and besides nobody cares… I have a friend on the fourth level. We manage to meet using some proxy-shmoxy from time to time. She considers herself to be a sort of a well-doer by providing lower folks with more advanced tech. And I just play along. Guess we can call it a win-win. Has a strange love for yellow colors.” - Nnif shrugs. - “Apart from that I don’t much care as long as I can pay her back with some news from our beloved level numero deux.”`,
+    text: `Nnif hesitates a bit, but then gives up.
+
+    “Well, I’d prefer to make a mystery out of it, but, on the other hand, you’re an okay-ish character, and, besides, nobody cares… I have a friend on the fourth level. We manage to meet using some proxy-shmoxy from time to time. She considers herself a sort of a well-doer and provides lower folks with more advanced tech. And I just play along and all. Guess we can call it a partnership of a kind. She has a weird obsession with yellow colors, but who am I to judge?”
+    
+    Nnif shrugs indifferently.
+    
+    “Apart from that I don’t much care as long as I can pay her back with some news from our beloved level numero deux. She asks how things are here, and I give her an idea on how bad they are.”`,
+    image: dixiesShopInteriorImage,
+    additionalImage: nnifImage,
+    alt: "Dixie's shop interior",
+    additionalImageAlt: "Nnif image",
     options: [
       {
-        text: `“That sounds super-cool but beyond the paywall for me sadly. Got something affordable for the poetic folk?”`,
+        text: `“Sounds super-cool, but, as I don’t have any friends from above, this is beyond my paywall. Got anything affordable for a poetician?”`,
         nextText: 37,
       },
       {
-        text: `And justice for all. - “That’s against the law! I won’t tolerate this!” - Start calling the level authorities to inform them about this violation.`,
+        text: `“That’s against the law! And justice for all! I’m calling the level authorities to inform them about such a horrible violation.”`,
         nextText: 86,
       },
     ],
   },
   {
     id: 86,
-    text: `Nnif yawns. - “Seriously dude? Ok, fine.” - She taps herself on the tattoo. - Come back some other time with a clean memory.”
-    You didn’t manage to make any calls and a strong electroshock hit you. It was so unexpected that you didn’t feel any pain but it wiped all your memories of the recent events. You woke up in an unknown place surrounded by darkness. The only source of light are the flickering letters in front of you - “!eniltalF eht eniltalf t’nac ouY”.
+    text: `Nnif yawns.
+
+    “Seriously, dude? Oh well, fine.”
     
-    When your eyes get used to the darkness you see an old and rusty dixie near you. Looks like it has eyes, nose, mouth and a giant revolver with a handle wrapped in tape. - “Listen, buddy, that’s not the right place to play the law-abiding citizen, ok? Besides, Nnif is a very nice and sensitive person inside. Do apologize now and I will bring you back. Continue this bad-boy behavior and I will use this” - It waves with the revolver near your face. - “to send you back where you began.”`,
+    She taps herself on the tattoo.
+    
+    “Come back some other time with a clearer head.”
+    
+    You didn’t manage to make any calls once a strong electric impulse hit you. It was so unexpected that you felt no pain, and then everything faded out in one moment. You woke up in an unknown place, surrounded by darkness. The only source of light are the flickering letters in front of you.
+    
+    !ENILTALf EHT ENILTALF T’NAC OUY
+    
+    When your eyes get used to the darkness, you see an old and rusty dixie near you. Looks like it has some kind of face, and there’s a giant ancient revolver with a handle wrapped in tape. It’s hard to tell how it’s being held, but there’s a chance that it’s being pointed at you.
+    
+    “Listen, buddy, that’s not the right place to play a law-abiding citizen, ok? Besides, Nnif is a very delicate and sensitive person inside. Thus, she kindly sent you on a small loop-ride to calm down. Do apologize right now, and I will bring you back with some rewinding of these sorry events, so we can call it a one-time rollback by an exception. Continue this bad-boy behavior and I will use this…”
+    
+    It waves with the revolver at your face.
+    
+    “...to send you back where you began.”`,
+    image: blueScreenImage,
+    additionalImage: dixieImage,
+    alt: "OS Blue screen image",
+    additionalImageAlt: "Dixie image",
     options: [
       {
-        text: `Calm down. - “Yeah, that was too much, tell Nnif I’m sorry.”`,
+        text: `“Yeah, that was too much. Tell Nnif I’m sorry. Dunno what got into me.”`,
         nextText: 85,
       },
       {
-        text: `“What did you say to me, you prehistoric grandparent of a kettle? I wi…”`,
+        text: `“What did you say to me, you prehistoric grandparent of a kettle?”`,
         nextText: 1,
       },
     ],
@@ -1824,5 +1859,7 @@ import deoImage from "../assets/deoImage.jpg";
 import dixiesShopInteriorImage from "../assets/dixiesShopInteriorImage.jpg";
 import mnemonicBarUpperFloorInteriorImage from "../assets/mnemonicBarUpperFloorInteriorImage.jpg";
 import toxicRainImage from "../assets/toxicRainImage.jpg";
+import blueScreenImage from "../assets/blueScreenImage.jpg";
+import dixieImage from "../assets/dixieImage.jpg";
 
 export default texts;
