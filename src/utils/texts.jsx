@@ -196,8 +196,8 @@ const texts = [
     You see Una at his usual place.`,
     image: toxicRainImage,
     additionalImage: unaEkImage,
-    alt: "Mnemonic bar upper floor interior",
-    additionalImageAlt: "Toxic rain",
+    alt: "Toxic rain image",
+    additionalImageAlt: "Una Ek image",
     options: [
       {
         text: `“Em-m, Una, do you know the oldie that just left? The blue robe one, with retro implants.”`,
@@ -211,10 +211,20 @@ const texts = [
   },
   {
     id: 9,
-    text: `Una looks at you with surprise. - “Erm, what old man? I was here the whole time and haven’t seen anybody except for you and Ckiw. Seems your implant glitches dude. Or you browsed “something” interesting recently without turning on the incognito mode.” - He winks at you. - “And now you’re getting some targeted ads directly into your brain. In any case, sorry not sorry pal. You must keep your soft and hardware in order, you know.”`,
+    text: `Una looks surprised.
+
+    “Hmm, what old man? I was here the whole time and haven’t seen anybody except you and Ckiw. Seems like your implant is glitching, dude. Or you browsed “something” interesting recently without turning on the incognito mode.”
+    
+    He winks at you.
+    
+    “And now you’re getting some targeted ads directly into your brain. In any case, sorry not sorry, pal. Have to keep your soft and hardware in order, you know.”`,
+    image: mnemonicBarInteriorImage,
+    additionalImage: unaEkImage,
+    alt: "Mnemonic bar interior image",
+    additionalImageAlt: "Una Ek image",
     options: [
       {
-        text: `You decide not to dive deeper into the question and better to go check the upgrades shop the old man mentioned. - “All right Una, you’re probably right. I’ll go visit Dixie. Need to see if they have something interesting in stock. Might come in handy during the writing in the arena.”`,
+        text: `“Aye, Una, you’re probably right. I’ll go visit Dixie. Need to see if there’s something interesting in stock. Might come in handy during the writing in the arena.”`,
         nextText: 10,
       },
       {
@@ -225,31 +235,62 @@ const texts = [
   },
   {
     id: 10,
-    text: `Una nods. - “You do you. Ask Nnif to check your brains as well. She might help you with some temp files deletion.” - He smiles. - “Take care my friend.”
-    You go out and head over to Dixie, an upgrades shop located one tier below. A good friend of yours, Nnif, owns it. She’s quite tech-savvy and, though it’s not a top-class shop, she always manages to get some quite unique stuff. Her regular customers are poets who try to get any advantage during the Writers Fights. Modifications are limited during the arena match, but still can be used to some extent.
-    Near the entrance to the shop you see a writing on the wall - “You can’t flatline the Flatline!”. Your vision slightly glitches when you pass by it. Happens every time though. It’s like a greeting to the shop. You go inside and see a tall woman wearing huge goggles with half a skull shaved and the other half’s hair painted bright green. The shaven part also has a tattoo of an ice ax. She notices you but makes a gesture to wait while she is dealing with another customer (who is not present, she’s talking to him through her implant).
-    Nnif seems quite pissed. - “I’ve told you a mil times buddy. It’s not THAT doll, ok? Now it’s not covered by warranty anymore, so I’m not going to provide another one, got it? And don’t you dare bring it here, I won’t touch it… No, you listen, pal, it’s the wrong shop for you, and I advise you not to come here anymore or a good friend of mine, by the name of Ice Breaker, will do some serious damage to your VR-implant.” - She angrily disconnects and turns to you like nothing happened. That’s Nnif, quite a character but getting cool off rather fast. - “Sup Soai. How’s life?”`,
+    text: `Una nods.
+
+    “You do you. Ask Nnif to check your brains as well. She might help with some temp files deletion. Take care, my friend.”
+    
+    You head over to Dixie which is located one tier below. A good friend of yours, Nnif, owns it. She’s quite tech-savvy and, though it’s not a top-class shop, always manages to get some rather unique stuff. Her regular customers are poets trying to get any advantage during the Writers Fights. Modifications in the arena are limited, but still can be used to some extent.
+    
+    Near the entrance to the shop you see a writing on its wall.
+    
+    YOU CAN’T FLATLINE THE fLATLINE!
+    
+    Your vision slightly glitches when you pass by it. Happens every time, like a client greeting. You go inside and see a tall woman wearing huge goggles. Half of her skull is shaved and the other half’s hair is painted in bright purple color (she keeps saying that it’s supposed to be green). There is also a tattoo of an ice ax on the shaven part.
+    
+    She notices you and makes a gesture to wait while she is talking to a customer through her VR-implant.
+    
+    Nnif seems quite pissed.
+    
+    “I’ve told you a mil times, buddy. It’s not THAT doll, ok? Now, it’s not covered by the warranty anymore, so I’m not going to provide another one, got it? And don’t you dare bring it here, I won’t touch it… No, you listen, pal, this is a respectable establishment, and I advise you not to come back anymore or a good friend of mine, called Icebreaker, will do some serious damage to your VR-neurons.”
+    
+    She angrily disconnects and turns to you like nothing happened. That’s Nnif, quite a character but gets cooled off rather quickly.
+    
+    “Sup, Soai. How are things in that poetic life of yours?”`,
+    image: dixiesShopImage,
+    additionalImage: nnifImage,
+    alt: "Dixie's shop entrance image",
+    additionalImageAlt: "Nnif image",
     options: [
       {
-        text: `“Hola Nnif. The usual, not too much, not too little. Got some clientele issues, huh?” - You look at her with a knowing smile.`,
+        text: `“Hola, Nnif. The usual, nothing too much, anything too little. I see you’re getting some clientele issues, huh?”`,
         nextText: 11,
       },
       {
-        text: `“Salut Nnif. Life’s kicking and ticking. What’s new with you?”`,
+        text: `“Salut, Nnif! Life’s kicking and ticking, pouring over the top. How are things on your techy end of the flat line?”`,
         nextText: 54,
       },
     ],
   },
   {
     id: 11,
-    text: `Nnif chuckles. - “Apparently that’s not what you think. Dude bought an Aya doll and, guess what, started using it as a farm bot in Theorycraftworld. It’s forbidden as you may know. Have to use your own hands if you want to get some skins. He could have bought a normal bot from the Yarrr market, it’s cheaper and less… detectable, but that article thought that Aya doll is less suspicious. Admins got him, obviously. And wiped the doll's brains with all his farmed gains included. Just to kill two birds... And now he’s trying to get another doll with the warranty.” - She taps herself on the ice ax tattoo. - “If he dares come here, I’ll use some persuasion technique to get rid of the idiot. Should be an educated consumer next time.”`,
+    text: `Nnif chuckles.
+
+    “Apparently that’s not what you think. Dude bought an Aya doll and, guess what, started using it as a farm bot in Theorycraft World. It’s forbidden, as you may well know. Have to use your own hands if you want to grind some skins. He could have purchased a normal good old bot from the Yarrr market, it’s cheaper and less detectable, but that article thought Aya doll won’t look suspicious. Adeptus Admins got him, obviously. As a bonus to deleting all his farmed gains, they also wiped the doll's brains. To kill two birds with one banwave. And now he’s trying to get a replacement by the warranty.”
+    
+    She taps herself on the ice ax tattoo.
+    
+    “But if he dares come here, I’ll use some persuasion technique to get rid of the smarty. Will be an educated customer next time.”`,
+    image: dixiesShopInteriorImage,
+    additionalImage: nnifImage,
+    alt: "Dixie's shop interior image",
+    additionalImageAlt: "Nnif image",
     options: [
       {
-        text: `“Nice tattoo btw. Always wanted to ask you where did you get it?”`,
+        text: `“Nice tattoo by the way. Makes you think about breaking the ice, heh. Always wanted to ask where do you get such cool stuff?”`,
         nextText: 12,
       },
       {
-        text: `You decide to go straight to the point. - “Listen Nnif, I’ve bumped into a strange old man today. Wearing chic blue robe and steampunk goggles. Apparently he asked me to tell you Deo says hi if that means something to you.”`,
+        text: `“Listen Nnif, I’ve bumped into a strange old man. Chic blue robe, steampunk goggles. Asked me to tell you Deo says hi, if that means anything to you.”`,
         nextText: 13,
       },
     ],
@@ -666,7 +707,7 @@ const texts = [
     
     “Whatever, man, just get outta here. I hope I won’t hear about you in the near future.”
     
-    When the guy leaves, Nnif looks irritated. But then she turns to you like nothing happened. That’s Nnif, quite a character but getting cool off rather fast.
+    When the guy leaves, Nnif looks irritated. But then she turns to you like nothing happened. That’s Nnif, quite a character but gets cooled off rather quickly.
     
     “Sup, Soai. How are things in that poetic life of yours?”
     `,
@@ -1094,7 +1135,7 @@ const texts = [
     
     You go out and head over to Dixie, an upgrades shop located one tier below. A good friend of yours, Nnif, owns it. She’s quite tech-savvy and, though it’s not a top-class shop, she always manages to get some quite unique stuff. Her regular customers are poets who try to get any advantage during the Writers Fights. Modifications are limited during the arena match, but still can be used to some extent.
     Near the entrance to the shop you see a writing on the wall - “You can’t flatline the Flatline!”. Your vision slightly glitches when you pass by it. Happens every time though. It’s like a greeting to the shop. You go inside and see a tall woman wearing huge goggles with half a skull shaved and the other half’s hair painted bright green. The shaven part also has a tattoo of an ice ax. She notices you but makes a gesture to wait while she is dealing with another customer (who is not present, she’s talking to him through her implant).
-    Nnif seems quite pissed. - “I’ve told you a mil times buddy. It’s not THAT doll, ok? Now it’s not covered by warranty anymore, so I’m not going to provide another one, got it? And don’t you dare bring it here, I won’t touch it… No, you listen, pal, it’s the wrong shop for you, and I advise you not to come here anymore or a good friend of mine, by the name of Ice Breaker, will do some serious damage to your VR-implant.” - She angrily disconnects and turns to you like nothing happened. That’s Nnif, quite a character but getting cool off rather fast. - “Sup Soai. How’s life?”`,
+    Nnif seems quite pissed. - “I’ve told you a mil times buddy. It’s not THAT doll, ok? Now it’s not covered by warranty anymore, so I’m not going to provide another one, got it? And don’t you dare bring it here, I won’t touch it… No, you listen, pal, it’s the wrong shop for you, and I advise you not to come here anymore or a good friend of mine, by the name of Ice Breaker, will do some serious damage to your VR-implant.” - She angrily disconnects and turns to you like nothing happened. That’s Nnif, quite a character but gets cooled off rather quickly. - “Sup Soai. How’s life?”`,
     options: [
       {
         text: `“Hola Nnif. The usual, not too much, not too little. Got some clientele issues, huh?” - You look at her with a knowing smile.`,
@@ -1112,7 +1153,7 @@ const texts = [
     
     You just grin at Una, go out and head over to Dixie, an upgrades shop located one tier below. A good friend of yours, Nnif, owns it. She’s quite tech-savvy and, though it’s not a top-class shop, she always manages to get some quite unique stuff. Her regular customers are poets who try to get any advantage during the Writers Fights. Modifications are limited during the arena match, but still can be used to some extent.
     Near the entrance to the shop you see a writing on the wall - “You can’t flatline the Flatline!”. Your vision slightly glitches when you pass by it. Happens every time though. It’s like a greeting to the shop. You go inside and see a tall woman wearing huge goggles with half a skull shaved and the other half’s hair painted bright green. The shaven part also has a tattoo of an ice ax. She notices you but makes a gesture to wait while she is dealing with another customer (who is not present, she’s talking to him through her implant).
-    Nnif seems quite pissed. - “I’ve told you a mil times buddy. It’s not THAT doll, ok? Now it’s not covered by warranty anymore, so I’m not going to provide another one, got it? And don’t you dare bring it here, I won’t touch it… No, you listen, pal, it’s the wrong shop for you, and I advise you not to come here anymore or a good friend of mine, by the name of Ice Breaker, will do some serious damage to your VR-implant.” - She angrily disconnects and turns to you like nothing happened. That’s Nnif, quite a character but getting cool off rather fast. - “Sup Soai. How’s life?”`,
+    Nnif seems quite pissed. - “I’ve told you a mil times buddy. It’s not THAT doll, ok? Now it’s not covered by warranty anymore, so I’m not going to provide another one, got it? And don’t you dare bring it here, I won’t touch it… No, you listen, pal, it’s the wrong shop for you, and I advise you not to come here anymore or a good friend of mine, by the name of Ice Breaker, will do some serious damage to your VR-implant.” - She angrily disconnects and turns to you like nothing happened. That’s Nnif, quite a character but gets cooled off rather quickly. - “Sup Soai. How’s life?”`,
     options: [
       {
         text: `“Hola Nnif. The usual, not too much, not too little. Got some clientele issues, huh?” - You look at her with a knowing smile.`,
