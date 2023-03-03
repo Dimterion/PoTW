@@ -28,11 +28,11 @@ const texts = [
     alt: "Futuristic apartment image",
     options: [
       {
-        text: `Go to the Mnemonic bar nearby, your favorite place to hang out`,
+        text: `Go to the Mnemonic bar nearby, your favorite place to hang out.`,
         nextText: 3,
       },
       {
-        text: `Visit the Dixie's shop that sells upgrades for the virtual characters`,
+        text: `Visit the Dixie's shop that sells upgrades for the virtual characters.`,
         nextText: 34,
       },
     ],
@@ -308,47 +308,82 @@ const texts = [
   },
   {
     id: 15,
-    text: `Nnif laughs. - “Chill a smidge, space cowboy. Nobody’s talked about seeing the future or any signatures. Here.” - She taps herself on the ice ax implant and it starts to glow with a bright neon blue color. - “Don’t worry, this time it’s not gonna be a taser. I just connected it to my other implants activities, so it attracts customers with eye-catching effects. And btw, it’s done already. Verbal confirmation was sufficient, so I went ahead and loaded you with Event Horizon mode. Let me show you something.” - She taps herself on the wrist to open the holo-projection on the wall. - “A live event of the arena game from the first level. Happening right now. Look at it, focus and tell me what you see.”
-    You see the final round of the game. A guy in the blue costume with a sign 67 is fighting a huge orc with a stick that looks like a distant relative of a gun. Orc buffs himself with a Wa-a-agh boost and starts moving faster, louder and deadlier. A typical boyz-clans strategy. Or the lack of it. Blue costume guy pulls out a strange looking device, presses a couple of buttons on it, then time slows and he starts methodically shooting the orc’s limbs one by one. That scene lasts for several seconds during which the orc was moving in slow-motion and being filled up with bullets. He almost reached his opponent trying to smash him with his gun (hard to tell why he didn’t shoot it, but as it was an orc, it’s not really a valid question), but then finally fell down and stopped moving.
+    text: `Nnif laughs.
+
+    “Chill a smidge, space cowboy. Nobody’s talked about seeing the future or any signatures. Here.”
+    
+    She taps herself on the ice ax implant, and it starts to glow with a bright neon blue color.
+    
+    “Don’t worry, this time it’s not gonna be a taser. It’s connected to my other implants and does a bit of coloring when they’re active. And by the way, it’s done already. Verbal confirmation was sufficient, so I went ahead and loaded you with Event Horizon mode. Let me show you something.”
+    
+    She touches her wrist to display a holo-projection on the wall.
+    
+    “A live broadcast of the arena game from the first level. Look at it, focus and tell me what you see.”
+    
+    You watch the final round of the game. A guy in a blue costume with a sign 67 is fighting a huge orc with a stick that looks like a distant relative of a gun. The green giant buffs himself with a Wa-a-agh boost and starts moving faster, louder and deadlier. A typical boyz-clans strategy. Or the lack of it. Blue costume guy pulls out a strange looking device, presses a couple of buttons on it, the time slows, and he starts methodically shooting the orc’s limbs one by one. That scene lasted for a few seconds during which the orc was moving in slow-motion and being filled up with bullets. He almost reached his opponent, trying to smash him with the gun (hard to tell why he didn’t shoot it, but, as it’s an orc, this is not really a valid question), but then finally fell down and stopped moving.
     
     You turn to Nnif unimpressed.`,
+    image: orcImage,
+    additionalImage: nnifImage,
+    alt: "Orc with a stick",
+    additionalImageAlt: "Nnif image",
     options: [
       {
-        text: `“Don’t really see any difference. A typical low-level arena game. Ripboy abuses the time catching tactics while the greenie just rushes which is always a 50/50 situation. What’s so special about your mode?”`,
+        text: `“A typical low-level arena game. Ripboy abuses the time catching tactics, while greenie just counts on rush which is always a 50/50 situation. What’s so special about it?”`,
         nextText: 16,
       },
       {
-        text: `“Hm, I don’t think this thing works. You sure you did the installation correctly. No offense, but maybe we should reinstall it?”`,
+        text: `“Hm, I don’t think this thing works. Are you sure you did the installation correctly? No offense, but maybe we should reinstall it? I’m something of a programmer myself.”`,
         nextText: 59,
       },
     ],
   },
   {
     id: 16,
-    text: `Nnif looks at you with a strange smile. - “The special is the fact that it’s not yet happened.” - She starts typing something on her wrist-interface. - “I’ve deactivated the mode. Take a look at the screen now.”
-    You look there once again and suddenly realize that the match’s just started and continues exactly the way you saw it a minute ago. When the orc stopped breathing you turn to Nnif with a weird expression on your face. She winks. - “I know, right? Pretty cool. I’ve added an on/off switch, you’ll be able to see it in your UI now. No other options really. You either use it or keep it turned off.”`,
+    text: `Nnif looks at you with a strange smile.
+
+    “The special is the fact that it’s not yet happened.”
+    
+    She starts typing something on her wrist-interface.
+    
+    “I’ve deactivated the mode. Take a look at the game now.”
+    
+    You look at it once again and suddenly realize that the match has just started and continues exactly the way you saw it a minute ago. Once the orc stops breathing, you turn to Nnif with a puzzled expression on your face. She winks.
+    
+    “I know, right? Pretty cool. I’ve added an on/off switch, so you’ll be able to see it in your UI now. No other options really. You either use it or not.”`,
+    image: dixiesShopInteriorImage,
+    additionalImage: nnifImage,
+    alt: "Dixie's shop interior",
+    additionalImageAlt: "Nnif image",
     options: [
       {
-        text: `“Some practice needed, but looks great. Thanks Nnif, you rock. As always. Appreciate it.” - You realize that your arena will start soon. - “Ok, I better go now, looking forward to testing this thingy regardless of the match results. Thanks again. See you on the other level… one day.”`,
+        text: `“Some practice needed, but looks great. Thanks Nnif, you rock. As always. Appreciate it. I better go now, looking forward to testing this thingy. See you on the other level… one day.”`,
         nextText: 17,
       },
       {
-        text: `“Whoa, this thing scares me Nnif. Can you uninstall it? I think I’ve changed my mind. Feels like old pal is messing with my brain. I’d prefer just some regular upgrades.”`,
+        text: `“Whoa, this thing scares the chips out of me, Nnif. Can you uninstall it? I think I’ve changed my mind. Feels like your old pal is messing with my brain. I’d prefer just some regular upgrades.”`,
         nextText: 60,
       },
     ],
   },
   {
     id: 17,
-    text: `“No stop up to the top. Take care pal. Gimme some shoutouts if you win, will ya?” - Nnif waves at you and starts taking another customer’s call. - “Oh, you JUST wanted to try it and bought it to return in two hours? Really!? Now, listen to me…” - You leave the shop accompanied by this charming discussion.
-    You realize that it’s time to go to the arena now. It’s located on the tier above the Mnemonic bar.`,
+    text: `“No stop up to the top. Take care, Soai. Gimme some shoutouts if you win, will ya?”
+
+    Nnif waves at you and starts talking with a customer over her VR-interface.
+    
+    “Oh, you JUST wanted to try it and bought it to return in two hours? Really!? Now, listen to me…”
+    
+    Leaving the shop accompanied by this charming discussion, you realize that it’s time to go to the arena now.`,
+    image: dixiesShopInteriorImage,
+    alt: "Dixie's shop interior",
     options: [
       {
-        text: `You decide to go directly to the arena and wait for it to start there.`,
+        text: `Go directly to the arena and wait for it to start.`,
         nextText: 18,
       },
       {
-        text: `You think that you have a bit of time to check your virtual apartment.`,
+        text: `Quickly check your virtual apartment.`,
         nextText: 61,
       },
     ],
@@ -1126,11 +1161,11 @@ const texts = [
     alt: "Futuristic unicorn image",
     options: [
       {
-        text: `Go to the Mnemonic bar nearby, your favorite place to hang out`,
+        text: `Go to the Mnemonic bar nearby, your favorite place to hang out.`,
         nextText: 3,
       },
       {
-        text: `Visit the Dixie's shop that sells upgrades for the virtual characters`,
+        text: `Visit the Dixie's shop that sells upgrades for the virtual characters.`,
         nextText: 34,
       },
     ],
@@ -1936,5 +1971,6 @@ import toxicRainImage from "../assets/toxicRainImage.jpg";
 import blueScreenImage from "../assets/blueScreenImage.jpg";
 import dixieImage from "../assets/dixieImage.jpg";
 import dixiesShopStorageRoomImage from "../assets/dixiesShopStorageRoomImage.jpg";
+import orcImage from "../assets/orcImage.jpg";
 
 export default texts;
