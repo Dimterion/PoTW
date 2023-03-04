@@ -297,21 +297,37 @@ const texts = [
   },
   {
     id: 12,
-    text: `Nnif smiles. - “It’s not a tattoo dude. It’s an implant. I couldn’t hold myself and asked for a sort of an RGB-extension for it, just less colorful and more vintage. Using it to save some funds on the shop guard you know. It’s a hacking module. Can dive into your target’s implants and make them a bit… warm. Nothing lethal of course. Sort of a brain taser. Walks somewhere on the thin red borderline of legality - it’s kinda ok-not-ok to have one, so nobody really cares as it’s hard to get anyway. That kind of gadget. If you decide to get something similar, I can dig a bit; can’t promise anything as it’s not cheap, but I’ll see what I can do for a friend.”`,
+    text: `Nnif smiles.
+
+    “It’s not a tattoo, dude. It’s an implant. I couldn’t resist and ordered a sort of an RGB-extension for it, just less colorful and more vintage-looking. Use it to save some funds on the shop guard, you know. It’s a hacking module. Can dive into your target’s implants and make them a bit… warm. Nothing lethal of course. Consider it a brain taser. Stands somewhere on the thin red borderline of legality, meaning it’s kinda ok-not-ok to have one, so nobody really cares. Besides, it’s hard to get anyway. That kind of gadget. Oh, yeah, it also records your conversations and visuals, in case you’ll need them, like in my case. If you want something similar, I can dig a bit, though can’t promise anything as it’s not cheap. But I’ll see what I can do for a friend.”`,
+    image: dixiesShopInteriorImage,
+    additionalImage: nnifImage,
+    alt: "Dixie's shop interior image",
+    additionalImageAlt: "Nnif image",
     options: [
       {
-        text: `“Thanks Nnif, appreciate it, though currently I’m more interested in arena-related tools. That said, I’ve bumped into a strange old man today. Wearing chic blue robe and steampunk goggles. Apparently he asked me to tell you Deo says hi if that means something to you.”`,
+        text: `“Thanks Nnif, but I’m more interested in arena-related tech. That said, bumped into a strange old man. Chic blue robe, steampunk goggles. Asked me to tell you Deo says hi. Mean anything to you?”`,
         nextText: 13,
       },
       {
-        text: `You sigh. - “Short on finances now… Was hoping you have something cheap and effective for the arena. I’m sort of out of new tricks over there.”`,
+        text: `“Frankly speaking, I’m kinda short on finances at the moment… Was hoping you have something within my price range for the arena. Out of new tricks over there, keeping my little hope though.”`,
         nextText: 56,
       },
     ],
   },
   {
     id: 13,
-    text: `Nnif looks at you with big eyes. - “Oh my… He talked to you directly? Wow. That’s something. Haven’t seen that old bastard for a long time. Say one thing about him… He can make an appearance, ain’t he?” - She thinks about something for a while. - “Okie-dokie, mister genius doesn’t come just for a conversation. Fine. Anyway it was made by him back in the days. I can provide you with an… interesting mode for the arena. Call it Event Horizon or simply EH. In some eyes it may look like cheating, but peeps mostly don’t know about it or don’t understand how it works, so it won’t get you banhammered if that worries you. Wanna know more?”`,
+    text: `Nnif’s brows fly up.
+
+    “Oh my… He talked to you directly? Wow. That’s something. Haven’t seen that old bastard for a long time. Say one thing about him… He can produce himself out of nowhere, ain’t he?”
+    
+    She taps her lip with a thumb thoughtfully.
+    
+    “Okie-dokie, mister genius usually doesn’t come just for a conversation. Fine. As you mentioned this grumpy old kitten, I can provide you with something else… Anyway it was made by him back in the days. An interesting mode for the arena. Call it Event Horizon or simply EH. In some eyes it may look like cheating, but peeps mostly don’t know about it or don’t understand how it works, so it won’t get you banhammered, if that worries you. Wanna know more?”`,
+    image: dixiesShopInteriorImage,
+    additionalImage: nnifImage,
+    alt: "Dixie's shop interior image",
+    additionalImageAlt: "Nnif image",
     options: [
       {
         text: `“Sure, I’m always up to some borderline cheating usage. Tell me what it does.”`,
@@ -431,19 +447,32 @@ const texts = [
   },
   {
     id: 18,
-    text: `You go up to the next tier and enter the arena. While in the real world it doesn’t exist, in the virtual one it’s built like an actual sports stadium. Each tower level has an arena of a unique design, the higher the level, the cooler the arena.
-    Bridge arena is called Shrike. Its main elements are spikes and sharp edges. Everything there can kill you pretty easily and this one specializes in running through obstacles till the finish line. You can do whatever you like with your opponents, and your main goal is to be the first one. Your second goal is to at least finish the race.
+    text: `You go to the tier where the arena is located and enter it. While in the real world it doesn’t exist, in the virtual one it is made like an actual sports stadium. Every level of the towers has its own arena with a unique design, the higher the level, the more advanced its arena is.
+
+    Bridge arena is called Shrike. Its main elements are spikes and blades. Everything there can kill you pretty easily while you’re racing to the finish line. You can do whatever you like with your opponents, and the main goal is to be the first one. Your second goal is to at least finish the race.
     
-    You enter the arena through the back door for the participants, it’s displayed only for those who are eligible to take part in the current match. You’ve registered in advance, so all good on that side. You go to the lockers area, where you prepare for the race and choose your character. As you arrived quite early, there’s nobody there except for one girl that you haven’t seen before. She wears a red bike suite, her hair is of bright yellow color that matches her implanted lenses that fully cover her eyes. She turns back and notices you. Then the lenses slided to the sides of her eyes and you see that her pupils are also yellow.
+    You enter the arena through the back door which is visible only to those who are eligible to take part in the current match. You’ve registered in advance and go to the lockers area where you can prepare for the race and choose your character.
     
-    She smiles awkwardly. - “Oh, hey there. I’ve thought I’m the only one coming here early. First time you know.” - She giggles. - “I’m Arika.” - She gives you her hand to shake.`,
+    You’ve arrived quite early and nobody is there except for one girl that you haven’t seen before. She wears a red bike suit, her hair is of bright yellow color, same as the implanted lenses that fully cover her eyes. She turns around and notices you. The lenses slide to the sides of her eyes, and you see that her pupils are also yellow.
+    
+    She smiles awkwardly.
+    
+    “Oh, hey there! I’ve thought I’m the only one coming here early. First time in this arena, you know.”
+    
+    She giggles.
+    
+    “I’m Arika.”`,
+    image: shrikeEntranceImage,
+    additionalImage: arikaImage,
+    alt: "Shrike Entrance",
+    additionalImageAlt: "Arika image",
     options: [
       {
-        text: `You shake hands with Arika. - “Hey-hey. Welcome. I’m Soai. Kind of a regular here, lol. I guess one can even say stuck. But we can all hope for a better tomorrow. Where did you come from if you don’t mind me asking?”`,
+        text: `“Hey-hey! Welcome. I’m Soai. Kind of a regular here. Or just stuck, heh. But we can all hope for a better tomorrow. Where did you come from if you don’t mind me asking?”`,
         nextText: 19,
       },
       {
-        text: `Cross your hands on the chest and play a cool-boy. - “So, we’ve got a newbie here, haven’t we? Call me Soai. I'm a veteran here, know all the ins and outs of this arena.”`,
+        text: `“So, we’ve got ourselves a newbie here, haven’t we? You can call me Soai. I'm a veteran here, a real pro, and know all the ins and outs of the place better than anyone.”`,
         nextText: 64,
       },
     ],
@@ -2013,5 +2042,7 @@ import blueScreenImage from "../assets/blueScreenImage.jpg";
 import dixieImage from "../assets/dixieImage.jpg";
 import dixiesShopStorageRoomImage from "../assets/dixiesShopStorageRoomImage.jpg";
 import orcImage from "../assets/orcImage.jpg";
+import shrikeEntranceImage from "../assets/shrikeEntranceImage.jpg";
+import arikaImage from "../assets/arikaImage.jpg";
 
 export default texts;
