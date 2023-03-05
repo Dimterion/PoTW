@@ -479,40 +479,70 @@ const texts = [
   },
   {
     id: 19,
-    text: `Arika frowns and hesitates a bit. - “Ah, you know, I’d say I was traveling for some time. Long story, been here and there, and currently came from the first level.” - She winced. - “My oh my, that’s one mess of a place. Arena was kinda cool though. It has a strange “local” name which I didn’t really get but most of the peeps there called it !Wegun. Considering what happens to those who don’t make it till its end, quite a picturesque name. If you know what I mean.” - She giggles again. - “First-levelers have an interesting sense of humor.”
-    While you speak with Arika other participants start entering the lockers area. While the space looks small, developers made a system of layers, so everyone can fit in and still be able to communicate with the rest. Actually, they called it shards, not layers, but frankly nobody really understood the difference. Long story short, a small lockers area could fit lots of poets without the need to extend its physical space.
+    text: `Arika frowns and hesitates for a second.
+
+    “Ah, you know, I’d say I was mostly traveling lately. Long story, been here and there, ended up coming from the first level.”
     
-    Due to this you don’t see all of the participants but you can check the list in your UI interface and target those you want to talk to. Arika was the first one to come, so she automatically got into the same shard as you. She looks at the crowd pouring into the room. - “Was nice chatting with you but I gotta go pick my character for the match. See ya nice fella!” - She goes back to her locker.
+    She winces.
     
-    It’s time to choose a character you’ll be playing during the arena. You go to your locker and open the menu with the randomly provided options.`,
+    “My oh my, that’s one mess of a place. Arena was kinda cool though. Has a strange “local” name which I didn’t fully get, most of the peeps there call it !Wegun. Considering what happens to those who don’t make it to the finish line, quite a picturesque term. If you know what I mean.”
+    
+    Arika giggles again.
+    
+    “First-levelers have an interesting sense of humor.”
+    
+    While the two of you are talking, other participants start entering the lockers area. The space looks small, but its developers made a system of layers, so everyone can fit in and still be able to communicate with the rest. Actually, they called it shards, not layers, but frankly nobody really understood the difference.
+    
+    Arika glances at the crowd pouring into the room.
+    
+    “Was nice chatting with you, but I gotta prepare my character for the match. See ya, nice fella!”
+    
+    She turns back to her locker.
+    
+    It’s time to choose a character you’ll be playing during the arena. You go to your locker and open the menu with the provided options.`,
+    image: shrikeLockersAreaImage,
+    additionalImage: kassadAndMasteenImage,
+    alt: "Shrike lockers area",
+    additionalImageAlt: "Kassad and Masteen portrait",
     options: [
       {
-        text: `Kassad. A romantic soldier with a love for the past. Have a special ability of moving backwards and using weapons from any period of history. Can be stunned by flashbacks randomly at any moment. With very little chance can disappear from the battle with a suddenly appearing woman (some say that may happen, but so far there is no real proof, so it’s quite unlikely to happen during the arena).`,
+        text: `Kassad. A romantic soldier, loving his past. Special ability of moving backwards and using weapons from any period of history. Can be stunned by random flashbacks. With very little chance can disappear from the battle after seeing a strange woman.`,
         nextText: 20,
       },
       {
-        text: `Masteen. A mysterious templar. Always carries a strange cube with himself. Says there’s a space tree there that he can ride. Can randomly lose conscience. Some also say that he can disappear at any moment without a warning. Though nobody could provide any evidence for now.`,
+        text: `Masteen. A mysterious templar. Carries a strange cube. Rumor has it he hides a space tree there that he can ride. May randomly lose conscience. Some also say he might disappear at any moment without a warning. Though nobody could provide any evidence so far.`,
         nextText: 66,
       },
     ],
   },
   {
     id: 20,
-    text: `You decide to stick with Kassad for this match. Initially your character is like a blank template with some basic traits. It’s up to you to program it during the arena. What and how it’ll be doing is your job. The match is about to start and you walk out of the locker area to finally enter the arena.
-    Today’s route goes through the rabbit hole. The first checkpoint will be initiated once you go through the massive portal designed as an old PC monitor. You see green lines running on it and forming a phrase “Wake up Soai”. Last word glitches a bit, and you have a strange feeling about it, but it’s most likely just a delay, as rendering a name for each participant may take a bit of time, given the fact that lower levels tech is outdated.
+    text: `You pick Kassad.
+
+    Initially your character is like a blank template with some basic traits. It’s up to you to program it. The match is about to start, and you walk out of the lockers area to enter the arena.
     
-    You and other participants are gathering right in front of the screen. Arika is standing not far from you. Once the race starts the participants stay in the current position and get control over the chosen characters that will appear right on the start line. Green lines disappear from the giant monitor and now it has a countdown running from -1 to 8. On 8 the race begins.
+    Today’s route goes through the rabbit hole. The first checkpoint will be initiated once you enter the massive portal looking like an ancient PC monitor. You see green lines of symbols running on it, forming a phrase “Wake up, Soai”. The last word glitches and flickers, but it’s most likely just a delay, as rendering a name for each poet may take a bit of time, given the fact that lower levels’ tech is outdated.
     
-    Suddenly you see that timer jumped to 8 straight away and the moment you got control over Kassad a player to your right, a gnome with a giant mechanical arm, hit you in the head with a steam-hummer. Your character gets stunned for 10 seconds and its HP reduces for 99 points. Then, a moment later, the visual changes and you realize that Event Horizon just showed you the near future prediction. The race is still about to start and the countdown just went to 7.
+    You and other participants gather in front of the monitor. Arika is standing not far from you. Once the race starts, you’ll get control over the chosen character that will appear on the track.
     
-    8. The race starts.`,
+    The green lines disappear from the giant screen, and now there is a countdown running from -1 to 8. On 8 the race starts.
+    
+    Suddenly you notice that the timer jumped straight to 8. The moment you get control over Kassad, a player to your right, a gnome with a giant mechanical arm, hits you in the head with a steam-hummer. Your character gets stunned for 10 seconds and its HP reduces for 99 points.
+    
+    A second later the visual changes and you realize that Event Horizon just showed you its prediction. The race is about to begin and the countdown just went to 7.
+    
+    … 8 …`,
+    image: shrikeArenaImage,
+    additionalImage: gnomeImage,
+    alt: "Shrike arena image",
+    additionalImageAlt: "Futuristic gnome portrait",
     options: [
       {
-        text: `You program Kassad to evade gnome’s strike, ignore him and jump into the screen.`,
+        text: `Evade gnome’s strike, ignore him and jump into the screen.`,
         nextText: 21,
       },
       {
-        text: `Program Kassad to shoot a few rounds to the gnome’s mechanical arm, then rush forward.`,
+        text: `Shoot a few rounds in the gnome’s arm, then enter the screen.`,
         nextText: 67,
       },
     ],
@@ -2044,5 +2074,9 @@ import dixiesShopStorageRoomImage from "../assets/dixiesShopStorageRoomImage.jpg
 import orcImage from "../assets/orcImage.jpg";
 import shrikeEntranceImage from "../assets/shrikeEntranceImage.jpg";
 import arikaImage from "../assets/arikaImage.jpg";
+import shrikeLockersAreaImage from "../assets/shrikeLockersAreaImage.jpg";
+import kassadAndMasteenImage from "../assets/kassadAndMasteenImage.jpg";
+import shrikeArenaImage from "../assets/shrikeArenaImage.jpg";
+import gnomeImage from "../assets/gnomeImage.jpg";
 
 export default texts;
