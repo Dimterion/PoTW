@@ -549,15 +549,26 @@ const texts = [
   },
   {
     id: 21,
-    text: `Your character moves to the side and the mechanical arm doesn’t reach him. Gnome didn’t expect that and the arm keeps moving by inertia making him hit the ground and get stunned instead. You keep moving and enter the race area.
-    Arika appears near you on the red futuristic bike. She winks. - “Cheers, Soai-boy!” - Then she drives forward and disappears behind the corner of the track.
+    text: `Your character dashes to the side and the steam-hummer doesn’t reach him. The gnome’s arm keeps moving by inertia, sending him to the ground stunned. Kassad enters the race track.
+
+    Arika appears nearby, riding a shiny red bike.
     
-    You saw a labyrinth-like route ahead of you with many turns and unknown areas. It’s high time to move quickly as other participants start appearing behind you.
+    “Cheers, Soai-boy!”
     
-    Right before the corner you notice a graffiti with the text: if(currentPlace === 2) {useShortcut()}.`,
+    She winks at you and in an instant disappears behind the track’s corner.
+    
+    You see a labyrinth-like route ahead. Other participants start appearing behind you.
+    
+    At the next turn you notice a graffiti on the wall:
+    
+    if (currentPlace === 2) {
+      useShortcut();
+    }`,
+    image: shortcutImage,
+    alt: "If-statement with a useShortcut function inside.",
     options: [
       {
-        text: `You open the console and call the function useShortcut().`,
+        text: `Open the console and call the function useShortcut().`,
         nextText: 22,
       },
       {
@@ -568,34 +579,46 @@ const texts = [
   },
   {
     id: 22,
-    text: `A wall with the graffiti slides to the side and you see a path there. As there’s not a lot of time to think, you quickly go inside and realize that you’ve just stepped on the glider that starts moving forward.
-    You’re balancing on the glider quickly flying through the tunnel with transparent walls. There you see the main race track and other participants. The tunnel goes forward without any obstacles on the way and you realize that its exit will lead you to the first place ahead of Arika.
+    text: `The wall with the graffiti slides to the side, and you see a path there. Not thinking twice, you jump right in and realize that you’ve just stepped on the glider that starts moving forward.
+
+    You’re balancing on the small deck that is quickly flying through the tunnel with transparent walls. Through them you see the main race track and other participants. The tunnel goes further without any obstacles on the way, and you notice that its exit will lead you to the first place ahead of Arika.
     
-    All of a sudden a cyborg-looking chrome rabbit appears at the right side of you. Its red eyes are looking directly at you. You see that these are two cameras focusing while the rabbit shakes its head in a strange way. Then it turns around and knocks its head on the tunnel wall. A portal appears and the rabbit jumps into it. You notice that the portal starts shrinking.`,
+    All of a sudden, a cyborg-looking chrome rabbit appears nearby. Its bright red eyes are staring at you while the lenses in them are constantly turning around. The rabbit shakes its head like a twitching puppet, turns to the tunnel wall and bangs its head against it. An orange portal appears there and the rabbit jumps into it. The glowing oval starts shrinking.`,
+    image: orangePortalImage,
+    additionalImage: cyborgRabbitImage,
+    alt: "Orange portal",
+    additionalImageAlt: "Cyborg rabbit",
     options: [
       {
-        text: `You go right into the portal while it’s still open.`,
+        text: `Enter the portal while it’s still open.`,
         nextText: 23,
       },
       {
-        text: `You are here to win the race. Next time, sir rabbit. Keep moving through the tunnel to its exit.`,
+        text: `You are here to win the race. Next time, sir rabbit.`,
         nextText: 69,
       },
     ],
   },
   {
     id: 23,
-    text: `A bright light shines all around you and for a while you don’t see anything. Then it starts slowly fading away, flowing down like milk and revealing the place you are in. It has the shape of a sphere and you are levitating on your glider right in the center of it. Its walls look like one huge spherical screen that surrounds you. For a while it remains black but then various glitchy pictures begin to appear on it. You can’t understand what that is as the picture is always tearing. Finally, like a mosaic from hundreds of pieces an image of a chrome rabbit appears in front of you. It stares into you and its red eyes with cameras once again keep focusing.
-    All of a sudden the rabbit starts smiling and his smile grows bigger and bigger. It then becomes larger than the animal itself and now all you can see around you is a giant smiling mouth.
+    text: `A bright light shines all over the place, and for a while you don’t see anything. Then it starts slowly fading away, flowing down like milk, revealing the place you are in. It has the shape of a sphere, and you are levitating on your glider right in the center of it. Its walls look like one huge spherical screen that surrounds you. At first it stays black, but then various glitchy images begin appearing on it. Finally, like a mosaic from hundreds of pieces, an image of the chrome rabbit appears in front of you. A pair of red lenses in its eyes keep turning around.
+
+    The rabbit starts smiling wider and wider. In a few seconds the smile gets bigger than the animal itself. All you can see now is a giant smiling mouth around you. Two green eyes are opening above it.
     
-    “Hello, dear boy. I am glad that you’ve decided to choose this path. I’ve been waiting for quite some time till you do that.” - You hear the voice of an old man you’ve met earlier today. Deo was his name.`,
+    “Hello, dear child. Glad that you’ve decided to choose this path. I’ve been waiting for quite some time for this moment.”
+    
+    It’s the voice of the old man you’ve met earlier. Deo was his name.`,
+    image: sphereImage,
+    additionalImage: smilingRabbit,
+    alt: "Sphere with a figure inside of it",
+    additionalImageAlt: "Smiling cat's face",
     options: [
       {
-        text: `“Old man!? How did you manage to get here? And what is happening? Have you been waiting for me to come?” - Questions keep pouring out of you like water from the bottle turned upside down. You have more but need a moment to catch your breath.`,
+        text: `“Old man? How did you manage to get here? What’s happening? What do you mean you’ve been waiting for me?”`,
         nextText: 24,
       },
       {
-        text: `“White rabbit and Cheshire cat? Seriously? Couldn’t come up with something more creative? What am I, Soai in boredomland?”`,
+        text: `“Chrome rabbit and Cheshire cat’s grin? Seriously? Couldn’t come up with something more creative? What am I, Soai in boredomland?”`,
         nextText: 73,
       },
     ],
@@ -2078,5 +2101,10 @@ import shrikeLockersAreaImage from "../assets/shrikeLockersAreaImage.jpg";
 import kassadAndMasteenImage from "../assets/kassadAndMasteenImage.jpg";
 import shrikeArenaImage from "../assets/shrikeArenaImage.jpg";
 import gnomeImage from "../assets/gnomeImage.jpg";
+import shortcutImage from "../assets/shortcutImage.jpg";
+import orangePortalImage from "../assets/orangePortalImage.jpg";
+import cyborgRabbitImage from "../assets/cyborgRabbit.jpg";
+import sphereImage from "../assets/sphereImage.jpg";
+import smilingRabbit from "../assets/smilingRabbit.jpg";
 
 export default texts;
