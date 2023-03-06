@@ -663,114 +663,160 @@ const texts = [
   },
   {
     id: 26,
-    text: `Deo laughs and squints at you. - “Oh do you, dear boy? Do you know that for sure? What were you doing yesterday I wonder? Enlighten the old man please. Allow me to have this tiny bit of curiosity and then I will stop being a mysterious old man and finally give you some clarity.”`,
+    text: `“Oh do you, dear child? Do you know that for sure? What were you doing yesterday I wonder? Can you recall it? Enlighten the old man, please. Allow me to have this tiny bit of curiosity, and then I’ll stop with all the theatrics.”`,
+    image: sphereImage,
+    additionalImage: youngDeoImage,
+    alt: "Sphere with a figure inside of it",
+    additionalImageAlt: "Young Deo picture",
     options: [
       {
-        text: `You look puzzled. - “I was at my capsule as usual and then logged into ZerOne and went to… Wait. That was today. I did that today… but also yesterday. What day was it? I don’t understand… It looked all the same.”`,
+        text: `“Seriously? Fine. I woke up at my capsule as always, logged into zerOne and went to… Wait. That was today. I did that today… but also yesterday. What day was it? Looked all the same.”`,
         nextText: 27,
       },
       {
-        text: `You’re getting angry. - “Yesterday I was doing this arena-stuff and the day before! And the one before that! I need to win it, and finally get first place. I MUST do it, otherwise it will be all for nothing…”`,
+        text: `“Yesterday I was doing this same arena-stuff! And the day before! And the one before that as well! I need to win it, and finally get first place. I MUST do it, otherwise it will be all for nothing…”`,
         nextText: 77,
       },
     ],
   },
   {
     id: 27,
-    text: `Deo has a sad smile on his face. - “Because it was the same, young one. Same beginning for your every day. I had to make it look real up until the point when you enter ZerOne. For that part I have to apologize. But in ZerOne itself your life was quite real, at least no less real then for the rest of us there.”`,
+    text: `A sad smile appears on Deo’s face.
+
+    “Because it was the same, young one. Same beginning for your every day. I had to make it look real enough up until the point when you enter zerOne. For that part I have to apologize. I hope you forgive me for putting you inside that loop of mundane imitation of life. But once logged in, your existence is quite real, at least no less real than for the rest of us here.”`,
+    image: sphereImage,
+    additionalImage: youngDeoImage,
+    alt: "Sphere with a figure inside of it",
+    additionalImageAlt: "Young Deo picture",
     options: [
       {
-        text: `You start to understand something, but don’t want to believe it. - “What?! Why are you telling me this? Does it mean that…”`,
+        text: `“What are you saying? Does it mean that…”`,
         nextText: 28,
       },
       {
-        text: `“Am I the arena character you’re coding?”`,
+        text: `“Am I the arena character you’re writing?”`,
         nextText: 78,
       },
     ],
   },
   {
     id: 28,
-    text: `Now you see Deo as he looked back then when you met him at the Mnemonic bar. Old fellow in a blue robe. - “Yes it does. Let’s just face it. I’ve written you a long time ago as a character for one of my Writers Fights. I was quite an ambitious young man, or it’s better to say, an arrogant one. I was so proud of myself that after the arena I kept the code and started working on it. Adjusting it, trying to create a sentient being that can take decisions on its own and eventually will start considering itself a human. A human with a soul of AI… or Soai as I liked to call you.”`,
+    text: `Now you see Deo as he looked when you met him at the Mnemonic bar. Old fellow in a blue robe.
+
+    “Yes, it does. Face it, dear child. I’ve written you a long time ago as a character for one of my Writers Fights. I was quite an ambitious young man, or better say, an arrogant one. Was so proud of myself for making such a creation that after the arena I kept the code and started working on it further. Adjusting it, trying to turn it into a sentient being that can make decisions on its own and eventually will start considering itself a human. A human with a soul of AI… or Soai as I liked to call you.”`,
+    image: sphereImage,
+    additionalImage: deoImage,
+    alt: "Sphere with a figure inside of it",
+    additionalImageAlt: "Deo picture",
     options: [
       {
-        text: `“I don’t believe you! I am not some artificial creature made by an old madman like you. I KNOW that I am real.”`,
+        text: `“I don’t believe you! I am not some artificial creature made by a madman. I KNOW I’m real.”`,
         nextText: 29,
       },
       {
-        text: `“Okie, so you’re not actually a grandpa but… just pa?”`,
+        text: `“Okie, so, given all those facts, you are not actually a grandpa but… just pa?”`,
         nextText: 79,
       },
     ],
   },
   {
     id: 29,
-    text: `Deo looks at you approvingly. - “That only means that I’ve succeeded Soai. The very goal of my work was to make you feel as real as you could be. Not just a pile of code with comments that only you know what they mean but an actual artificial personality that can act on its own without the need of fixing or debugging. The thinking creature wandering around millions of humans in virtual space.”`,
+    text: `“Your words are the proof of my success, Soai. The very goal of my work was to make you feel as real as you could ever be. Not just a pile of code with comments that only you can understand, but an actual coded, yet living, personality acting by its own will without any need of fixing or debugging. A sentient being, wandering around millions of artificial humans in virtual space.”`,
+    image: sphereImage,
+    additionalImage: deoImage,
+    alt: "Sphere with a figure inside of it",
+    additionalImageAlt: "Deo picture",
     options: [
       {
-        text: `“It is not possible to do! I am self-aware. I act by my own will, not like a puppet made for the arena! No, just no.” - You realize that it’s all true and there’s no point in arguing. - “For how long that all lasts, old man?”`,
+        text: `“Not possible, can’t be! No... If what you are saying is true… If I am this… For how long has it all been going on?”`,
         nextText: 30,
       },
       {
-        text: `“Oh well, honestly, that was… expected. Sort of. I’ve started feeling loopish recently. At least now I have an explanation. How long are we in this business dad?”`,
+        text: `“Oh well, at least that explains why I’ve been feeling loopy recently. How long are we in this business, dad?”`,
         nextText: 80,
       },
     ],
   },
   {
     id: 30,
-    text: `“Does it really matter? We’ve arrived at this point, that’s what is important. You must continue on your own from now on. My task is finally complete and you can venture forward and explore this artificial world of ours. I do hope that you’ll be able to change it as well as the real one out there. It’s on its last breath, Soai. People there either live in ignorance, not willing to accept the obvious, or simply don’t understand it. I did try to do something about it, but sadly my time had come to an end.”`,
+    text: `“Does it matter? What’s important is that we’ve arrived at this point. You must continue on your own from now on. My task is finally complete, and you can venture forward, exploring this artificial world of ours. I do have a spark of hope now that you’ll be able to change it as well as the real one out there. It’s on its last breath, Soai. People there either live in ignorance, not willing to accept the obvious, or simply don’t understand it. I did try to do something about it, but sadly my time had come to an end.”`,
+    image: sphereImage,
+    additionalImage: deoImage,
+    alt: "Sphere with a figure inside of it",
+    additionalImageAlt: "Deo picture",
     options: [
       {
-        text: `“Wait a second. What do you mean by that? Are you going to leave me NOW? After explaining all that?"`,
+        text: `“Wait. What do you mean by that? Are you going to leave me NOW? After explaining all this? What could possibly be a reason for it?”`,
         nextText: 31,
       },
       {
-        text: `“Typical mad scientist. Oh, I’m so great, I will create an artificial life and everyone will remember me when it saves the world. And you will be just sitting there and watching?”`,
+        text: `“Typical mad scientist. I’m so great, I will create an artificial life and everyone will praise me once it saves the world! Going to just sit there and watch?”`,
         nextText: 81,
       },
     ],
   },
   {
     id: 31,
-    text: `“You already know the answer to that, my boy. I am another virtual being. Not as advanced as you are. Deo passed away several years ago and shortly before that created me, so that I can track your evolution. And once you reach this step, my task is complete. I am sorry but there’s not much left to say. The rest is up to you. Go win this race and claim your victory. I wish you luck and hope that you become something great. Go on now.”
-    Deo (or his virtual projection) waves at you, then images on the sphere’s walls start blinking like going in the reverse order: old Deo, younger one, smiling mouth, rabbit, sphere disappears and you fly backwards into the shortcut. There you see the exit and Arika not far from you, at the same spot as before. You realize that Event Horizon worked again, and showed you all this before it actually happened.`,
+    text: `“You already know the answer, dear child. I am another virtual being. Not as advanced as you are. Deo passed away several years ago. Shortly before that he created me to watch over you. And with you reaching this point my task is complete. I am sorry, but there is not much left to say. The rest is up to you. Go win this race and claim your victory. Or do whatever else you desire. I wish you luck and hope you become something great. Or someone. Your fate is in your hands from now on. Farewell, Soai.”
+
+    Deo (or his virtual projection) waves at you, then the sphere’s walls start blinking, shuffling in the reverse order: old Deo, younger one, smiling mouth, rabbit… The sphere disappears, and you fly backwards into the shortcut. There you see the exit and Arika not far from you, at the same place as before. You realize that Event Horizon worked again and showed you all this before it actually happened.`,
+    image: sphereExitImage,
+    alt: "Sphere with a figure in front of it",
     options: [
       {
-        text: `You jump out of the shortcut in front of Arika and continue the race up to the finish line.`,
+        text: `Jump out of the shortcut in front of Arika and continue the race up to the finish line.`,
         nextText: 32,
       },
       {
-        text: `Stay inside the shortcut, meditate and think about the inevitability of the events, destiny and the meaning of life.`,
+        text: `Stay inside the shortcut, meditate, and think about destiny and the meaning of life.`,
         nextText: 82,
       },
     ],
   },
   {
     id: 32,
-    text: `Arika’s character, you just noticed it, looks exactly the same as you saw her before the arena. Seems that she’s using the same appearance for her character. For those who want to spend some extra money on cosmetics it is possible to buy a skin and then your arena character will look like your character in ZerOne (but you still need to play with one of the suggested characters, only the appearance will be different). It’s strange though, as lower levels people rarely spend their money on such things.
-    What is also strange is the look on Arika’s face. Seems like she’s glad that you managed to be in the first place. She smiles and winks at you (sliding off her eyes implants for a second).`,
+    text: `Flying on your glider, you get ahead of Arika's bike, taking a brief glimpse at her.
+
+    Her arena character looks exactly like her zerOne appearance which is not typical for the poets. Using a skin for the randomly chosen options during the Writers Fights has an extra cost, and participants rarely spend their credits on such things. Especially when it comes to lower levels’ arenas.
+    
+    What is also strange is the look on Arika’s face. She seems to be quite happy and cheerful despite giving up the first place. Although, perhaps she’s always like that.
+    
+    For a second her yellow lenses slide to the sides and she winks at you, smiling.
+    
+    You see the finish line ahead of you.`,
+    image: shrikeTrackImage,
+    alt: "Futuristic race track",
     options: [
       {
-        text: `You see the finish line, charge forward and cross it, winning the race.`,
+        text: `Charge forward and cross the finish line, winning the race.`,
         nextText: 33,
       },
       {
-        text: `Slow down and walk towards the finish line, letting every other participant outrun you.`,
+        text: `Slow down, letting every other participant outrun you.`,
         nextText: 83,
       },
     ],
   },
   {
     id: 33,
-    text: `And that’s what you’ve come up to so far. A free spirit of AI living in the artificial world where humans escape while their real one is on the brink of extinction. Your creator is gone and your friends don’t know that you are not real in their real world. Some strings were cut off, others got attached. Can you do something about it? Only time will tell. As long as there will be any time left for everyone.`,
+    text: `And that is the outcome of your story so far.
+
+    Free spirit of AI, living in the artificial world where humans seek hopeless refuge while their real life hangs on the brink of extinction.
+    
+    Your creator is gone and others have no idea of what you are.
+    
+    Some strings have been cut off, others got attached instead. Can you do something about it? Only time will tell. As long as there is time left.`,
+    image: mainCharacterFinalImage,
+    additionalImage: theEndImage,
+    alt: "Character looking away",
+    additionalImageAlt: "The End",
     options: [
       {
-        text: `The end (unless you want to rerun your path)`,
+        text: `Need a new run?`,
         nextText: 1,
       },
       {
-        text: `The end (unless you want to visit the rabbit hole again)`,
+        text: `Check on the rabbit?`,
         nextText: 23,
       },
     ],
@@ -2116,5 +2162,9 @@ import cyborgRabbitImage from "../assets/cyborgRabbit.jpg";
 import sphereImage from "../assets/sphereImage.jpg";
 import smilingRabbit from "../assets/smilingRabbit.jpg";
 import youngDeoImage from "../assets/youngDeoImage.jpg";
+import sphereExitImage from "../assets/sphereExitImage.jpg";
+import shrikeTrackImage from "../assets/shrikeTrackImage.jpg";
+import mainCharacterFinalImage from "../assets/mainCharacterFinalImage.jpg";
+import theEndImage from "../assets/theEndImage.jpg";
 
 export default texts;
