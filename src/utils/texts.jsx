@@ -625,29 +625,38 @@ const texts = [
   },
   {
     id: 24,
-    text: `Deo smiles. - “Not so fast young one, we have some time to spend here. As for the questions you asked so far: I’ve been here since you started taking part in the Writers Fights. What is happening? Well, you’ve entered the rabbit hole that I built a very long time ago. It is my secret place to hide from the virtuality of ZerOne in… let’s say another layer of the virtual space. And, yes, I have been waiting for you till this moment.”
-    The image of the smiling mouth finally disappeared and after a brief moment of showing thousands 404 errors the sphere walls in front of you showed Deo. He looks different now. Younger, without strange eyes-implants and robe. Instead he wears a stylish costume (of the same blue color though) and vintage glasses. He looks at you as if waiting for a very important question to come.`,
+    text: `“Not so fast, young one, we have a bit of time to talk. As for your questions… I’ve been here since you started taking part in the Writers Fights. Call it a rabbit hole, a place I had built a very long time ago. A secret little corner to hide from the virtuality of ZerOne in… let’s say, another layer of it. I have been waiting for you as there’s something we need to discuss, if you choose so.”
+
+    The smiling mouth finally disappears, and, after a brief moment of displaying thousands of 404 errors, the sphere walls in front of you show Deo. He looks different now. Younger, without his eyes-implants and dragon-head cane. Instead he wears a stylish costume and vintage glasses. He looks at you, waiting for another question.`,
+    image: sphereImage,
+    additionalImage: youngDeoImage,
+    alt: "Sphere with a figure inside of it",
+    additionalImageAlt: "Young Deo picture",
     options: [
       {
-        text: `“Are you real, old man? Or is it a part of the arena challenge, an easter egg or some kind of a secret level? I’ve never seen you on our level or during the previous arenas.”`,
+        text: `“Are you real, old man? Or is it a part of the arena challenge, an easter egg or some kind of a secret level?”`,
         nextText: 25,
       },
       {
-        text: `“Honestly, I just want to win this race. Any chance you can port me to the finish line?”`,
+        text: `“Honestly, I just want to win this race. Nice talking to you and all. Any chance you can port me to the finish line?”`,
         nextText: 74,
       },
     ],
   },
   {
     id: 25,
-    text: `Deo chuckles. - “Oh, that depends on what you think is real in this artificial world of ours. Though I did participate in a fair share of Writers Fights back in my days. But currently you can consider me a most-of-the-time silent and invisible observer of them. Let me ask you something instead. Do you feel real yourself my dear boy?”`,
+    text: `“Oh, that depends on what you think is real in this artificial world of ours. Though I did participate in a fair share of Writers Fights back in my days. But currently you can consider me a most-of-the-time silent and invisible observer of them. Let me ask you something now. Do you feel real yourself, dear child?”`,
+    image: sphereImage,
+    additionalImage: youngDeoImage,
+    alt: "Sphere with a figure inside of it",
+    additionalImageAlt: "Young Deo picture",
     options: [
       {
-        text: `“What do you mean real? We are both here in this loophole of the arena which is located in ZerOne. So I guess we are on some kind of a sub-level of the arena which is a sub-level of ZerOne which is a virtual space that stores all this. Outside of it I am quite real, old man, that I know.”`,
+        text: `“What do you mean real? We are both here in this loophole inside the Shrike. My guess this is some kind of a sub-level of the arena, which is a sub-level of ZerOne, which is a virtual space that stores all this. Outside of it I am quite real, that I know.”`,
         nextText: 26,
       },
       {
-        text: `“Ok, that’s enough weirdness for today. Order your rabbit-pet to show me the exit, please."`,
+        text: `“Ok, that’s enough weirdness for today. Real or not, I am getting out. This is my chance to finally win this race and prove that I can do it! You aren’t getting in my head. Order your rabbit-pet to show me the exit right now.”`,
         nextText: 75,
       },
     ],
@@ -2106,5 +2115,6 @@ import orangePortalImage from "../assets/orangePortalImage.jpg";
 import cyborgRabbitImage from "../assets/cyborgRabbit.jpg";
 import sphereImage from "../assets/sphereImage.jpg";
 import smilingRabbit from "../assets/smilingRabbit.jpg";
+import youngDeoImage from "../assets/youngDeoImage.jpg";
 
 export default texts;
