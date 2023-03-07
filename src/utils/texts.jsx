@@ -1400,32 +1400,68 @@ const texts = [
   },
   {
     id: 53,
-    text: `Una starts laughing. - “Nnif with a grandpa!? Ha! Can you imagine that? Oh boy, do tell her about it. I’m sure she’ll be happy to hear it and will show you some cute pics from her childhood. Hah!” - He keeps laughing. - “Sometimes I think that girl just appeared in this world without any prerequisites if you know what I mean. So tough she is. But who am I to tell you what to do?” - Still giggling he just waves at you. - “All right, get outta here already, I have some clients to serve.”
+    text: `Una starts laughing.
+
+    “Nnif has a grandpa? Hah! Can you imagine that? Oh boy, do tell her about it. I’m sure she’ll be happy to hear this and will show you some cute pics from her childhood. Hehe!”
     
-    You just grin at Una, go out and head over to Dixie, an upgrades shop located one tier below. A good friend of yours, Nnif, owns it. She’s quite tech-savvy and, though it’s not a top-class shop, she always manages to get some quite unique stuff. Her regular customers are poets who try to get any advantage during the Writers Fights. Modifications are limited during the arena match, but still can be used to some extent.
-    Near the entrance to the shop you see a writing on the wall - “You can’t flatline the Flatline!”. Your vision slightly glitches when you pass by it. Happens every time though. It’s like a greeting to the shop. You go inside and see a tall woman wearing huge goggles with half a skull shaved and the other half’s hair painted bright green. The shaven part also has a tattoo of an ice ax. She notices you but makes a gesture to wait while she is dealing with another customer (who is not present, she’s talking to him through her implant).
-    Nnif seems quite pissed. - “I’ve told you a mil times buddy. It’s not THAT doll, ok? Now it’s not covered by warranty anymore, so I’m not going to provide another one, got it? And don’t you dare bring it here, I won’t touch it… No, you listen, pal, it’s the wrong shop for you, and I advise you not to come here anymore or a good friend of mine, by the name of Ice Breaker, will do some serious damage to your VR-implant.” - She angrily disconnects and turns to you like nothing happened. That’s Nnif, quite a character but gets cooled off rather quickly. - “Sup Soai. How’s life?”`,
+    He keeps giggling.
+    
+    “Sometimes I think that girl just appeared in this world without any prerequisites, out of nowhere, so tough she is. But who am I to judge? You can decide yourself what to tell her.”
+    
+    Una waves at you.
+    
+    “All right, get outta here already. Good talks, but I have some clients to serve.”
+    
+    You just shrug and grin at Una, then go out and head over to Dixie, an upgrades shop located one tier below. A good friend of yours, Nnif, owns it. She’s quite tech-savvy and, though it’s not a top-class shop, always manages to get some rather unique stuff. Her regular customers are poets trying to get any advantage during the Writers Fights. Modifications in the arena are limited, but still can be used to some extent.
+    
+    Near the entrance to the shop you see a writing on its wall.
+        
+    YOU CAN’T FLATLINE THE fLATLINE!
+    
+    Your vision slightly glitches when you pass by it. Happens every time, like a client greeting. You go inside and see a tall woman wearing huge goggles. Half of her skull is shaved and the other half’s hair is painted in bright purple color (she keeps saying that it’s supposed to be green). There is also a tattoo of an ice ax on the shaven part.
+    
+    She notices you and makes a gesture to wait while she is talking to a customer through her VR-implant.
+    
+    Nnif seems quite pissed.
+    
+    “I’ve told you a mil times, buddy. It’s not THAT doll, ok? Now, it’s not covered by the warranty anymore, so I’m not going to provide another one, got it? And don’t you dare bring it here, I won’t touch it… No, you listen, pal, this is a respectable establishment, and I advise you not to come back anymore or a good friend of mine, called Icebreaker, will do some serious damage to your VR-neurons.”
+    
+    She angrily disconnects and turns to you like nothing happened. That’s Nnif, quite a character but gets cooled off rather quickly.
+    
+    “Sup, Soai. How are things in that poetic life of yours?”`,
+    image: dixiesShopImage,
+    additionalImage: nnifImage,
+    alt: "Dixie's shop entrance image",
+    additionalImageAlt: "Nnif image",
     options: [
       {
-        text: `“Hola Nnif. The usual, not too much, not too little. Got some clientele issues, huh?” - You look at her with a knowing smile.`,
+        text: `“Hola, Nnif. The usual, nothing too much, anything too little. I see you’re getting some special requests, huh?”`,
         nextText: 11,
       },
       {
-        text: `“Salut Nnif. Life’s kicking and ticking. What’s new with you?”`,
+        text: `“Salut, Nnif! Life’s kicking and ticking, pouring over the top. How are things on your techy end of the flat line?”`,
         nextText: 54,
       },
     ],
   },
   {
     id: 54,
-    text: `Nnif chuckles. - “Same, though I’m trying to be on the kicking and ticking side myself when it comes to customers.” - She taps herself on the ice ax tattoo.`,
+    text: `Nnif chuckles.
+
+    “Still trying to make me talk about that writing on the wall? Gotta figure it out yourself, my dear friend. No flatline explanations for ya. As for the things and how they are going, the same, though I’m trying to be on the kicking and ticking side myself. When it comes to customer support, I can be one hell of a surprise and delight.”
+    
+    She taps herself on the ice ax tattoo.`,
+    image: dixiesShopInteriorImage,
+    additionalImage: nnifImage,
+    alt: "Dixie's shop interior image",
+    additionalImageAlt: "Nnif image",
     options: [
       {
-        text: `“Nice tattoo btw. Always wanted to ask you where did you get it?”`,
+        text: `“Nice tattoo by the way. Makes you think about breaking the ice, heh. Always wanted to ask where do you get such cool stuff?”`,
         nextText: 12,
       },
       {
-        text: `You decide to go straight to the point. - “Listen Nnif, I’ve bumped into a strange old man today. Wearing chic blue robe and steampunk goggles. Apparently he asked me to tell you Deo says hi if that means something to you.”`,
+        text: `“Listen Nnif, I’ve bumped into a strange old man. Chic blue robe, steampunk goggles. Asked me to tell you Deo says hi, if that means anything to you.”`,
         nextText: 13,
       },
     ],
@@ -1464,14 +1500,28 @@ const texts = [
   },
   {
     id: 56,
-    text: `Nnif frowns. - “I get it dude, but cheap and effective are the words from two different worlds. Sadly they don’t get along. I mean, I could sell you some garbage tech, but let me save you some money and just refuse doing that. You’re better off without them. Otherwise it’ll look like doing some mining with a piece of tech instead of a pick. In theory you could do that but people who really need it won't appreciate that. And let me tell you a secret. For low-levels arenas upgrades don’t really matter. Just use your brains.”`,
+    text: `Nnif frowns.
+
+    “Listen, dude, I get it, but in our life cheap and effective are words from two different worlds. Sadly, they don’t get along. I mean, I could sell you some garbage tech, but let me save you some creds and just refuse doing that. You’re better off without it. Otherwise it’ll look like doing some mining with a piece of hardware instead of a pick. In theory, you could do that, but peeps who really need it won't appreciate this.”
+    
+    She leans closer and lowers her voice.
+    
+    “Let me tell you a secret. For low-levels’ arenas upgrades don’t really matter. Just use your brains. Best tip I can give.”
+    
+    Nnif spreads her arms, showing that there’s not much else she could do.
+    
+    “So, if my sales pitch didn’t make you wish to buy something, good luck, have fun, buddy.”`,
+    image: dixiesShopInteriorImage,
+    additionalImage: nnifImage,
+    alt: "Dixie's shop interior image",
+    additionalImageAlt: "Nnif image",
     options: [
       {
-        text: `“I understand. Thanks for the advice Nnif. Always appreciated your straightforwardness.” - You decide to go directly to the arena and wait for it to start there.`,
+        text: `“Got it. Thanks for the advice, Nnif. Always appreciated your straightforwardness. Anyhow, time for me to go. Poetry awaits. You have fun with your customers, and I will go to the arena.”`,
         nextText: 47,
       },
       {
-        text: `“Roger that chief. Oh, by the way, almost forgot, I’ve bumped into a strange old man today. Wearing chic blue robe and steampunk goggles. Apparently he asked me to tell you Deo says hi if that means something to you.”`,
+        text: `“Roger that, chief. Muchas gracias. Oh, by the way, almost forgot. I’ve bumped into a strange old man earlier. Chic blue robe, steampunk goggles. Asked me to tell you Deo says hi, if that means anything to you.”`,
         nextText: 13,
       },
     ],
@@ -1935,7 +1985,7 @@ const texts = [
     additionalImageAlt: "Nnif image",
     options: [
       {
-        text: `Nice tattoo by the way. Makes you think about breaking the ice, heh. Always wanted to ask where do you get such cool stuff?`,
+        text: `“Nice tattoo by the way. Makes you think about breaking the ice, heh. Always wanted to ask where do you get such cool stuff?”`,
         nextText: 36,
       },
       {
