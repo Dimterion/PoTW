@@ -846,8 +846,7 @@ const texts = [
     
     When the guy leaves, Nnif looks irritated. But then she turns to you like nothing happened. That’s Nnif, quite a character but gets cooled off rather quickly.
     
-    “Sup, Soai. How are things in that poetic life of yours?”
-    `,
+    “Sup, Soai. How are things in that poetic life of yours?”`,
     image: dixiesShopImage,
     additionalImage: nnifImage,
     alt: "Dixie's shop entrance image",
@@ -1129,157 +1128,272 @@ const texts = [
   // Big choice without Event Horizon.
   {
     id: 44,
-    text: `Old man looks at you for a couple more seconds, then turns and walks away. - “Another time or place then. An interesting observation that was but sadly too soon.” - He continues murmuring something incomprehensible and you stop paying attention to him.
-    You look at the window admiring the view. It’s started to rain and you see the toxic drops drumming on the windows glass. Accompanied by that calming sound you open your UI-interface and start observing the information about today’s arena.
+    text: `The old man looks at you for a couple more seconds, then turns around and walks away slowly.
+
+    “Another time or place then. An interesting observation nonetheless.”
     
-    Bridge arena is called Shrike. Its main elements are spikes and sharp edges. Everything there can kill you pretty easily and this one specializes in running through obstacles till the finish line. You can do whatever you like with your opponents, and your main goal is to be the first one. Your second goal is to at least finish the race.`,
+    He mutters something incomprehensible and you pay no further attention to him.
+    
+    You glance at the window, admiring the view. It’s started to rain and you see toxic drops drumming on the glass. Accompanied by that calming sound, you open the VR-interface and read through the information about today’s Writers Fight.
+    
+    Bridge arena is called Shrike. Its main elements are spikes and blades. Everything there can kill you pretty easily while you’re racing to the finish line. You can do whatever you like with your opponents, and the main goal is to be the first one. Your second goal is to at least finish the race.`,
+    image: toxicRainImage,
+    alt: "Toxic rain image",
     options: [
       {
-        text: `Check the list of participants for the arena.`,
+        text: `Check the participants list.`,
         nextText: 45,
       },
       {
-        text: `Check the details about today's arena.`,
+        text: `Check the arena details.`,
         nextText: 93,
       },
     ],
   },
   {
     id: 45,
-    text: `You see many familiar names: Goose Ra Doubt, annoyingly loud dude with a strange attraction to cats, not really an opponent as he keeps using the same gameplay for years and promising to create something new in due time; Nani O Maiev-A, a strong lady that once loved a very old guy who betrayed her and then wasn’t prepared for her revenge, a worthy opponent but since she stops wearing her old armor (for some honor principles), mostly represents a no-threat participant; Citiesdzen Stored, that was once upon a time everyone favorite participant but then went into overpromising and underdelivering mode, rumor has it, the man has lots of money and is ready to show everyone something fantastic but each time cancels and reschedules it, you don’t really expect to see anything new from him.
+    text: `You see many familiar names.
+
+    > Goose Ra Doubt
+    Annoyingly loud dude with a strange attraction to cats. Not really a threat. Keeps using the same gameplay for years and promising to come up with something new in due time.
+    
+    > Nani Omaieva
+    Strong lady that once loved a very old guy who betrayed her but wasn’t prepared for her revenge. A worthy opponent, but, since she gave up on her old armor (per some principles of honor), steps out of the danger zone.
+    
+    > Citiesdzen Stored.
+    Once upon a time he was everyone’s favorite, but then went into overpromising and underdelivering mode. Rumor has it, he’s ready to show something fantastic, but each time cancels and reschedules it. You don’t really expect to get anything new from him.
+    
     You then notice a couple of names you haven’t seen before.
     
-    Moor Cow and Arika. Strange. It’s the first time you see these two. Newcomers are usually a rare thing on the arena of any level. Those coming up from the lower ones at first have some chances to find a job and the ones coming down from the higher ones are at first too depressed to take part in pretty much anything. Due to this you know almost every poet on your level. But these two seem to be an exception.
+    > Moor Cow
     
-    Moor Cow dude seems suspicious to you. You’re pretty sure this one won’t be playing fair. Won’t be a surprise if he’ll choose a gnome character.`,
+    > Arika
+    
+    Strange. Newcomers are usually rare guests in the arena of any level. Those who were able to come up from the lower ones have some chances to find a job, at least at the beginning. Fresh blood costs less and has a better motivation. And those who are going down from the levels above are too depressed to take part in pretty much anything at first. Thus, you know almost every poet on your level. But these two seem to be an exception.
+    
+    The name Moor Cow seems suspicious. You’re pretty sure this one will do something nasty. Won’t be a surprise if that’s a gnome.`,
+    image: toxicRainImage,
+    alt: "Toxic rain image",
     options: [
       {
-        text: `Check the details about today's arena.`,
+        text: `Check the arena details.`,
         nextText: 46,
       },
       {
-        text: `You decide to go to the arena now and wait for it to start there.`,
+        text: `Go directly to the arena.`,
         nextText: 47,
       },
     ],
   },
   {
     id: 46,
-    text: `Shrike’s always changing. Each time you enter it, you don’t know where the race will start and end and what challenges are waiting for you on the way. Today’s route goes through the rabbit hole. That probably means some hidden traps and weird-looking animals that are trying to kill you. Not much to learn here. It’s supposed to be unknown up until the moment when the race begins.`,
+    text: `Shrike’s always changing. Each time you enter it, you don’t know where the race will start or end and what challenges are waiting for you on the way. Today’s route goes through the rabbit hole. That probably means some hidden traps and weird-looking beasts. Not much to learn here. It’s supposed to be unknown up until the moment when the match begins`,
+    image: toxicRainImage,
+    alt: "Toxic rain image",
     options: [
       {
-        text: `You decide to go to the arena now and wait for it to start there.`,
+        text: `Go directly to the arena.`,
         nextText: 47,
       },
       {
-        text: `You think that you have a bit of time to check your virtual apartment.`,
+        text: `Check your VR-apartment.`,
         nextText: 95,
       },
     ],
   },
   {
     id: 47,
-    text: `You go up to the next tier and enter the arena. While in the real world it doesn’t exist, in the virtual one it’s built like an actual sports stadium. Each tower level has an arena of a unique design, the higher the level, the cooler the arena.
-    You enter the arena through the back door for the participants, it’s displayed only for those who are eligible to take part in the current match. You’ve registered in advance, so all good on that side. You go to the lockers area, where you prepare for the race and choose your character. As you arrived quite early, there’s nobody there except for one girl that you haven’t seen before. She wears a red bike suite, her hair is of bright yellow color that matches her implanted lenses that fully cover her eyes. She turns back and notices you. Then the lenses slided to the sides of her eyes and you see that her pupils are also yellow.
+    text: `You go to the tier where the arena is located and enter it. While in the real world it doesn’t exist, in the virtual one it is made like an actual sports stadium. Every level of the towers has its own arena with a unique design, the higher the level, the more advanced its arena is.
+
+    You enter the arena through the back door which is visible only to those who are eligible to take part in the current match. You’ve registered in advance and go to the lockers area where you can prepare for the race and choose your character.
     
-    She smiles awkwardly. - “Oh, hey there. I’ve thought I’m the only one coming here early. First time you know.” - She giggles. - “I’m Arika.” - She gives you her hand to shake.`,
+    You’ve arrived quite early and nobody is there except for one girl that you haven’t seen before. She wears a red bike suit, her hair is of bright yellow color, same as the implanted lenses that fully cover her eyes. She turns around and notices you. The lenses slide to the sides of her eyes, and you see that her pupils are also yellow.
+    
+    She smiles awkwardly.
+    
+    “Oh, hey there! I’ve thought I’m the only one coming here early. First time in this arena, you know.”
+    
+    She giggles.
+    
+    “I’m Arika.”`,
+    image: shrikeEntranceImage,
+    additionalImage: arikaImage,
+    alt: "Shrike entrance image",
+    additionalImageAlt: "Arika image",
     options: [
       {
-        text: `You shake hands with Arika. - “Hey-hey. Welcome. I’m Soai. Kind of a regular here, lol. I guess one can even say stuck. But we can all hope for a better tomorrow. Where did you come from if you don’t mind me asking?`,
+        text: `“Hey-hey! Welcome. I’m Soai. Kind of a regular here. Or just stuck, heh. But we can all hope for a better tomorrow. Where did you come from if you don’t mind me asking?”`,
         nextText: 48,
       },
       {
-        text: `Cross your hands on the chest and play a cool-boy. - “So, we’ve got a newbie here, haven’t we? Call me Soai. I'm a veteran here, know all the ins and outs of this arena.”`,
+        text: `“So, we’ve got ourselves a newbie here, haven’t we? You can call me Soai. I'm a veteran here, a real pro, and know all the ins and outs of the place better than anyone.”`,
         nextText: 96,
       },
     ],
   },
   {
     id: 48,
-    text: `Arika frowns and hesitates a bit. - “Ah, you know, I’d say I was traveling for some time. Long story, been here and there, and currently came from the first level.” - She winced. - “My oh my, that’s one mess of a place. Arena was kinda cool though. It has a strange “local” name which I didn’t really get but most of the peeps there called it !Wegun. Considering what happens to those who don’t make it till its end, quite a picturesque name. If you know what I mean.” - She giggles again. - “First-levelers have an interesting sense of humor.”
-    While you speak with Arika other participants start entering the lockers area. While the space looks small, developers made a system of layers, so everyone can fit in and still be able to communicate with the rest. Actually, they called it shards, not layers, but frankly nobody really understood the difference. Long story short, a small lockers area could fit lots of poets without the need to extend its physical space.
+    text: `Arika frowns and hesitates for a second.
+
+    “Ah, you know, I’d say I was mostly traveling lately. Long story, been here and there, ended up coming from the first level.”
     
-    Due to this you don’t see all of the participants but you can check the list in your UI interface and target those you want to talk to. Arika was the first one to come, so she automatically got into the same shard as you. She looks at the crowd pouring into the room. - “Was nice chatting with you but I gotta go pick my character for the match. See ya nice fella!” - She goes back to her locker.
+    She winces.
     
-    It’s time to choose a character you’ll be playing during the arena. You go to your locker and open the menu with the randomly provided options.`,
+    “My oh my, that’s one mess of a place. Arena was kinda cool though. Has a strange “local” name which I didn’t fully get, most of the peeps there call it !Wegun. Considering what happens to those who don’t make it to the finish line, quite a picturesque term. If you know what I mean.”
+    
+    Arika giggles again.
+    
+    “First-levelers have an interesting sense of humor.”
+    
+    While the two of you are talking, other participants start entering the lockers area. The space looks small, but its developers made a system of layers, so everyone can fit in and still be able to communicate with the rest. Actually, they called it shards, not layers, but frankly nobody really understood the difference.
+    
+    Arika glances at the crowd pouring into the room.
+    
+    “Was nice chatting with you, but I gotta prepare my character for the match. See ya, nice fella!”
+    
+    She turns back to her locker.
+    
+    It’s time to choose a character you’ll be playing during the arena. You go to your locker and open the menu with the provided options.`,
+    image: shrikeLockersAreaImage,
+    additionalImage: kassadAndMasteenImage,
+    alt: "Shrike lockers area image",
+    additionalImageAlt: "Kassad and Masteen portrait",
     options: [
       {
-        text: `Kassad. A romantic soldier with a love for the past. Have a special ability of moving backwards and using weapons from any period of history. Can be stunned by flashbacks randomly at any moment. With very little chance can flee from the battle with a suddenly appearing woman (some say that may happen, but so far there is no real proof, so it’s quite unlikely to happen during the arena).`,
+        text: `Kassad. A romantic soldier, loving his past. Special ability of moving backwards and using weapons from any period of history. Can be stunned by random flashbacks. With very little chance can disappear from the battle after seeing a strange woman.`,
         nextText: 49,
       },
       {
-        text: `Masteen. A mysterious templar. Always carries a strange cube with himself. Says there’s a space tree there that he can ride. Can randomly lose conscience. Some also say that he can disappear at any moment without a warning. Though nobody could provide any evidence for now.`,
+        text: `Masteen. A mysterious templar. Carries a strange cube. Rumor has it he hides a space tree there that he can ride. May randomly lose conscience. Some also say he might disappear at any moment without a warning. Though nobody could provide any evidence so far.`,
         nextText: 98,
       },
     ],
   },
   {
     id: 49,
-    text: `You decide to stick with Kassad for this match. Initially your character is like a blank template with some basic traits. It’s up to you to program it during the arena. What and how it’ll be doing is your job. The match is about to start and you walk out of the locker area to finally enter the arena.
+    text: `You pick Kassad.
+
+    Initially your character is like a blank template with some basic traits. It’s up to you to program it. The match is about to start, and you walk out of the lockers area to enter the arena.
     
-    The race begins once you go through the massive portal designed as an old PC monitor. You see green lines running on it and forming a phrase “What do we say to waking up?”. The letters glitch a bit, and you have a strange feeling about it, but it’s most likely just a delay, given the fact that lower levels tech is outdated.
-    You and other participants are gathering right in front of the screen. Arika is standing not far from you. Once the race starts the participants stay in the current position and get control over the chosen characters that will appear right on the start line. Green lines disappear from the giant monitor and now it has a countdown running from -1 to 8. On 8 the race begins.
+    The race will begin once you enter the massive portal looking like an ancient PC monitor. You see green lines of symbols running on it, forming a phrase “What do we say to waking up?”. The words glitch and flicker, but it’s most likely just a delay, given the fact that lower levels’ tech is outdated.
     
-    You turn right and see Moor Cow. He’s chosen a gnome character with a giant mechanic arm.
+    You and other participants gather in front of the monitor. Arika is standing not far from you. Once the race starts, you’ll get control over the chosen character that will appear on the track.
+    
+    The green lines disappear from the giant screen, and now there is a countdown running from -1 to 8. On 8 the race starts.
+    
+    You glance to the side and see a gnome character with a giant mechanical arm.
+
+    … 8 …
     
     The race begins.`,
+    image: shrikeArenaImage,
+    additionalImage: gnomeImage,
+    alt: "Shrike arena image",
+    additionalImageAlt: "Futuristic gnome portrait",
     options: [
       {
-        text: `Program Kassad to shoot a few rounds to the gnome’s mechanical arm, then rush forward.`,
+        text: `Shoot a few rounds in the gnome’s arm, then enter the screen.`,
         nextText: 50,
       },
       {
-        text: `Ignore the gnome and begin the race.`,
+        text: `Ignore the gnome, jump into the screen and begin the race.`,
         nextText: 100,
       },
     ],
   },
   {
     id: 50,
-    text: `Kassad starts moving, takes out his futuristic rifle with a small logo of a girl trapped inside of a pyramid. He turns around and while still moving shoots at the gnome’s arm. It’s being destroyed and Moor Cow is stunned for a few seconds. Kassad’s moves didn’t slow you down and he keeps running forward.
-    You see that Arika is the only participant ahead of you. She coded herself a bright red bike and now has a huge advantage. The rest of the race seems strangely mundane to you. All the obstacles are already well-known and nothing new happens. You easily avoid traps and Shrike’s blades and finish second.
-    Arika is waiting for you at the finish line.`,
+    text: `Kassad starts moving, takes out his futuristic rifle with a small picture of a girl trapped inside a pyramid. He turns around and, without slowing down, shoots in the gnome’s arm. It’s being shred to pieces, and Moor Cow is stunned for a few seconds.
+
+    Kassad keeps running forward and enters the screen.
+    
+    You see that Arika is the only participant ahead of you. She coded herself a bright red bike and now has a huge advantage. No chance to outrun her.
+    
+    The rest of the race seems strangely mundane to you. All the obstacles are already well-known and nothing new happens. It feels like you’ve been doing this over and over again without any progress or changes. You easily avoid traps and Shrike’s blades and razors on the way and finish second.
+    
+    Arika is standing at the finish line, smiling.`,
+    image: arikaAtFinishLineImage,
+    additionalImage: arikaImage,
+    alt: "A girl looking away",
+    additionalImageAlt: "Arika portrait",
     options: [
       {
-        text: `“Congrats. Nice bike you’ve made there.”`,
+        text: `“Congrats! Nice bike you’ve made yourself there.”`,
         nextText: 51,
       },
       {
-        text: `“Not bad. Do you always use the same appearance during the arena?”`,
+        text: `“Not bad. You use your VR-skin in the arena?”`,
         nextText: 72,
       },
     ],
   },
   {
     id: 51,
-    text: `Arika smiles. - “Thanks! I call her Choochoo. My favorite ride. You’ve done a good job as well! Don’t worry, I’m sure you’ll be the first one soon. Just try again. You know, maybe some different choices along the way may lead to a different outcome.” - She winks at you, then to your surprise gives you a hug. - “Bye-bye, Soai-boy, I’ll see you when I see you.” - With that her character falls into pixels and disappears.
-    And that was another day in the Bridge for you. Not too much, not too little. Well, at least you got your second place today. And maybe tomorrow is a better day.`,
+    text: `Arika laughs happily.
+
+    “Thanks! I call her Choo-Choo. My favorite type of ride. You’ve done a good job as well! Don’t worry, I’m sure you’ll be the first one soon… Well, if that is really what you want. Just try again. You know, maybe some different choices along the way may lead to a different outcome.”
+    
+    She winks at you, then, to your surprise, gives you a hug.
+    
+    “Bye-bye, Soai-boy, I’ll see you when I see you.”
+    
+    With that her character falls into hundreds of yellow pixels and disappears.
+    
+    And that was another day in the Bridge for you. Not too much, not too little.
+    
+    Today you’ve got your second place. And maybe tomorrow is a better day.`,
     options: [
       {
-        text: `Wanna rerun your story?`,
-        nextText: 1,
+        text: `A rerun with a unicorny start perchance?`,
+        nextText: 55,
       },
       {
-        text: `Common, one more time!`,
-        nextText: 1,
+        text: `Common, one more dark beginning!`,
+        nextText: 2,
       },
     ],
   },
   // More choices.
   {
     id: 52,
-    text: `Una makes big eyes. - “Never! The world can fall apart and be destroyed by the AI that turns all humans into charging blocks, but even then I’ll find a way to get some juicy meat for my Ckiw!” - He laughs. - “Cheers my friend, do make me proud today!” - With these words he goes to the other part of the bar to chat with customers that start coming.
+    text: `Una makes big eyes.
+
+    “Never! The world can fall apart and be destroyed by the AI that turns all humans into charging blocks, but even then I’ll find a way to get some juicy meat for my Ckiw!”
     
-    You go out and head over to Dixie, an upgrades shop located one tier below. A good friend of yours, Nnif, owns it. She’s quite tech-savvy and, though it’s not a top-class shop, she always manages to get some quite unique stuff. Her regular customers are poets who try to get any advantage during the Writers Fights. Modifications are limited during the arena match, but still can be used to some extent.
-    Near the entrance to the shop you see a writing on the wall - “You can’t flatline the Flatline!”. Your vision slightly glitches when you pass by it. Happens every time though. It’s like a greeting to the shop. You go inside and see a tall woman wearing huge goggles with half a skull shaved and the other half’s hair painted bright green. The shaven part also has a tattoo of an ice ax. She notices you but makes a gesture to wait while she is dealing with another customer (who is not present, she’s talking to him through her implant).
-    Nnif seems quite pissed. - “I’ve told you a mil times buddy. It’s not THAT doll, ok? Now it’s not covered by warranty anymore, so I’m not going to provide another one, got it? And don’t you dare bring it here, I won’t touch it… No, you listen, pal, it’s the wrong shop for you, and I advise you not to come here anymore or a good friend of mine, by the name of Ice Breaker, will do some serious damage to your VR-implant.” - She angrily disconnects and turns to you like nothing happened. That’s Nnif, quite a character but gets cooled off rather quickly. - “Sup Soai. How’s life?”`,
+    He laughs and waves you off.
+    
+    “Cheers, my friend, now get outta here. Do make me proud today!”
+    
+    With these words he goes to the other part of the bar to chat with customers that start coming in.
+    
+    You head over to Dixie which is located one tier below. A good friend of yours, Nnif, owns it. She’s quite tech-savvy and, though it’s not a top-class shop, always manages to get some rather unique stuff. Her regular customers are poets trying to get any advantage during the Writers Fights. Modifications in the arena are limited, but still can be used to some extent.
+    
+    Near the entrance to the shop you see a writing on its wall.
+    
+    YOU CAN’T FLATLINE THE fLATLINE!
+    
+    Your vision slightly glitches when you pass by it. Happens every time, like a client greeting. You go inside and see a tall woman wearing huge goggles. Half of her skull is shaved and the other half’s hair is painted in bright purple color (she keeps saying that it’s supposed to be green). There is also a tattoo of an ice ax on the shaven part.
+    
+    She notices you and makes a gesture to wait while she is talking to a customer through her VR-implant.
+    
+    Nnif seems quite pissed.
+    
+    “I’ve told you a mil times, buddy. It’s not THAT doll, ok? Now, it’s not covered by the warranty anymore, so I’m not going to provide another one, got it? And don’t you dare bring it here, I won’t touch it… No, you listen, pal, this is a respectable establishment, and I advise you not to come back anymore or a good friend of mine, called Icebreaker, will do some serious damage to your VR-neurons.”
+    
+    She angrily disconnects and turns to you like nothing happened. That’s Nnif, quite a character but gets cooled off rather quickly.
+    
+    “Sup, Soai. How are things in that poetic life of yours?”`,
+    image: dixiesShopImage,
+    additionalImage: nnifImage,
+    alt: "Dixie's shop entrance image",
+    additionalImageAlt: "Nnif image",
     options: [
       {
-        text: `“Hola Nnif. The usual, not too much, not too little. Got some clientele issues, huh?” - You look at her with a knowing smile.`,
+        text: `“Hola, Nnif. The usual, nothing too much, anything too little. I see you’re getting some special requests, huh?”`,
         nextText: 11,
       },
       {
-        text: `“Salut Nnif. Life’s kicking and ticking. What’s new with you?”`,
+        text: `“Salut, Nnif! Life’s kicking and ticking, pouring over the top. How are things on your techy end of the flat line?”`,
         nextText: 54,
       },
     ],
@@ -2166,5 +2280,6 @@ import sphereExitImage from "../assets/sphereExitImage.jpg";
 import shrikeTrackImage from "../assets/shrikeTrackImage.jpg";
 import mainCharacterFinalImage from "../assets/mainCharacterFinalImage.jpg";
 import theEndImage from "../assets/theEndImage.jpg";
+import arikaAtFinishLineImage from "../assets/arikaAtFinishLineImage.jpg";
 
 export default texts;
