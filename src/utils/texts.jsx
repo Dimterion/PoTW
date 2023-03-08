@@ -1634,59 +1634,106 @@ const texts = [
   },
   {
     id: 61,
-    text: `You go to the next level, but halfway to your place bump into your old buddy - Sane Snacks. A very big fellow, always wearing some strange clothes, consisted of plastic plates, worn off rugs and some metal pieces of unknown origin. His voice roars. - “Soai! My favorite friend! Come here!” - Two giant arms hug you. - “What’s new with you? I haven’t seen you for quite some time. Thought you went down to the first level.”
+    text: `Halfway to your place you bump into your old buddy - Sane Snacks. A very big fellow, always wearing strange clothes made of plastic plates, worn off rugs and metal pieces of unknown origin. His voice roars.
+
+    “Soai! My favorite friend! Come here!”
     
-    This seems strange to you, you’ve a feeling that quite recently you meet with Sane but you can’t remember why and when exactly.`,
+    Two giant arms hug you.
+    
+    “What’s been happening with you? I haven’t seen you for ages. Thought you went down to the firstie.”
+    
+    This seems strange. You’ve a feeling that quite recently you met with Sane but can’t remember why and when exactly.`,
+    image: bridgeLivingAreaImage,
+    additionalImage: saneImage,
+    alt: "Bridge living area image",
+    additionalImageAlt: "Sane image",
     options: [
       {
-        text: `Not really the best moment to talk. - “Ah well, been here and there. Just busy I guess. Listen, sorry for being harsh, but I’m a bit in a hurry, so catch up with you later, ok?” - Quickly go away and ignore Sane’s attempts to continue the conversation.`,
+        text: `“Ah well, been here and there. Listen, sorry for being harsh, but I’ve a Writers’ Fight to attend. Wanted to check on my apart, but there’s not much time. Catch up with you later, big guy.”`,
         nextText: 18,
       },
       {
-        text: `“Hm, I thought we'd seen each other a couple of days ago, no? Man, these Writers Fights really start taking all my time. Maybe it wasn’t just a couple of days.”`,
+        text: `“But we'd seen each other a few days ago, no? Man, these Writers Fights really start taking all my time. Feels like I’m having the same legs day in an infinite wheel of time. Got it all mixed up.”`,
         nextText: 62,
       },
     ],
   },
   {
     id: 62,
-    text: `Sane has a worried expression on his face. - “No, Soai, last time we met, I invited you to play some “There and back again”. You decided to be a Mediocre boy and I was Valhalla’s chosen one. Then Una came and looked at us like we were two kids doing silly things. We then went to his favorite band’s show - Soundcore of mirror. Oh boy, I’ve spent too much there buying those useless cheers… But at least we had some fun, right?” - Sane notices that you don’t remember any of it. - “My friend, I advise you to stop spending so much time in the arena. All grind and no play makes you just a free-to-play, you know?”`,
+    text: `Sane looks concerned.
+
+    “No, Soai, it’s been quite some time since we had a bit of hanging out, don’t you remember? I invited you to play “There and Back Again”. You decided to be a Mediocre boy and I was Valhalla’s chosen one. Then Una came and looked at us as if we were two kids doing silly things. We then went to his favorite band’s show - Soundcore of Mirror. Oh boy, I’ve spent too much there buying those useless cheers… But at least we had some fun, right?”
+    
+    Sane notices that you don’t remember any of it.
+    
+    “My friend, I advise you to stop spending so much time in the arena. All grind and no play makes you just a free-to-play, you know?”`,
+    image: bridgeLivingAreaImage,
+    additionalImage: saneImage,
+    alt: "Bridge living area image",
+    additionalImageAlt: "Sane image",
     options: [
       {
-        text: `“Yeah, right.” - You feel like wasting your time and decide to go to the arena finally. - “Afraid, I need to go now, pal. I feel ya, but today might be the day, so let’s talk again during the next board game encounter. Take care my wasteland friend.” - You wave to Sane and go away.`,
+        text: `“Yeah, right... Afraid, I need to go now. Need to pay Shrike a visit. Today might be the day. Take care, my wasteland friend.”`,
         nextText: 18,
       },
       {
-        text: `“I’m kind of in a hurry, but we can keep talking if you wanna come along. What’s been up with you recently?”`,
+        text: `“I’m kinda in a hurry, but we can keep talking if you wanna come along. What’s been up with you recently?”`,
         nextText: 63,
       },
     ],
   },
   {
     id: 63,
-    text: `Sane sighs while walking with you. - “Ah, you know, not much. Always feel like I need some space, some desert to drive into, some engine screams and metal sounds in my ears. But here we are, sitting in our capsules and exiting them only to find ourselves in a virtual projection of the same tower. A more spacious one, yes, but still… a tower. Ever wanna see what the real Earth looks like down there? Sometimes I wonder how long I could hold there. We see only some distant sparks of light from here, coming from beneath the chemical clouds. Guess machines are doing some work down below. To keep towers running. But one day it will end, Soai. I see it… in the raindrops.”
-    This life-reassuring monologue lasts while you walk with Sane. Strange dude he is, Sane. A big bull with a roaring voice but very sensitive inside. He suddenly turns to you and his voice changes a bit, like it’s someone else talking through him. - “Would you make a different choice if you could, Soai? Are you happy with the path chosen? What if I can offer you this option? Would you accept it?”`,
+    text: `Sane accompanies you. He produces a thunderous sigh.
+
+    “Frankly, not much. Always feel like I need some space, some desert to drive through, some engine screams and metal sound in my ears. But here we are, sitting in our capsules, crawling out of ‘em only to find ourselves in a virtual projection of the same tower we live in. A more spacious one, yes, but still… well, just a needle piercing the sky in a desperate attempt to live on. Ever wanted to see what the real world looks like down there?”
+    
+    He gets quiet for a moment, thinking.
+    
+    “Sometimes I wonder how long I could last there. We see only some distant sparks of light from here, coming from beneath the chemical clouds. Guess machines are doing all the work down below. To keep the towers running. But one day it will end, Soai. I can see it… in the raindrops.”
+    
+    This life-reassuring monologue lasts while you keep walking with Sane. Strange dude he is, Sane. A huge bull with a roaring voice but very sensitive inside.
+    
+    He suddenly turns to you and his voice changes, like someone else is talking through him.
+    
+    “Would you make a different choice if you could, Soai? Are you happy with the path chosen? What if I could offer you the way to do it all again? Would you accept it?”`,
+    image: bridgeLivingAreaImage,
+    additionalImage: saneImage,
+    alt: "Bridge living area image",
+    additionalImageAlt: "Sane image",
     options: [
       {
-        text: `“Nah, man, I’m good. The choice I’ve made is the path to take. I aim at finishing it.” - Pat Sane on the shoulder. - “One day I will meet you in Valhalla, but you know what we say to it, right? Not today.”`,
+        text: `“Nah, man, I’m good. The choice I’ve made is the path to take. I aim to finish it. One day we’ll meet in Valhalla, but you know what we say to it, right? Not today. Be seeing you, bud, here’s my stop for the arena.”`,
         nextText: 18,
       },
       {
-        text: `Maybe he is right and it’s possible to start again. What would you choose then? - “Ok, Sane Snacks, I accept.”`,
+        text: `“Hmm. It’s kinda been on my mind recently. Have this itchy feeling, like I could say other things, go to different places. I guess you got your grand hands on some rewinding soft? Ok, Sane Snacks, I accept.”`,
         nextText: 2,
       },
     ],
   },
   {
     id: 64,
-    text: `Arika can’t hold herself and starts laughing. - “I like your sense of humor! Veteran! He-he-he. I’m something of a veteran myself.” - She keeps giggling. - “So, what can you tell me about this place? Should I go all defense or offense to get… not the first place?” - She winks.`,
+    text: `Arika tries to keep a serious face but instantly bursts out laughing.
+
+    “I like your sense of humor! Veteran! Hehehe. If you’re a veteran, then I’m a major wearing a cyborg body!”
+    
+    She keeps giggling.
+    
+    “So, veteran-san, what can you tell me about this place? A smidge of advice for such a useless shell as me to get anything but the first place today?”
+    
+    Despite the mocking tone, Arika keeps smiling happily as if you were best friends.`,
+    image: shrikeLockersAreaImage,
+    additionalImage: arikaImage,
+    alt: "Shrike lockers area",
+    additionalImageAlt: "Arika image",
     options: [
       {
-        text: `You understand that you look like a child now. - “Yeah, sorry about that. I guess I’m not good at meeting new people. I’m by no means a pro here. Just keep trying and hope one day to become good enough to win. Where did you come from if you don’t mind me asking?”`,
+        text: `“Sorry about that. I’m not good at meeting new people. Not a pro, you’ve guessed it right. Just keep trying and hope to become good enough to win one day. What about you?”`,
         nextText: 19,
       },
       {
-        text: `Pfff, what do you know! I’m not in the mood to talk with noobs. So, figure it out yourself.” - You decide to walk away.`,
+        text: `“Pfff, what do you know! Tell your shell to ghost away. Advice I am giving only to those who are worth my time. As for the rest of my entourage, I’m not in the mood to talk with noobs.”`,
         nextText: 65,
       },
     ],
@@ -2380,5 +2427,7 @@ import shrikeTrackImage from "../assets/shrikeTrackImage.jpg";
 import mainCharacterFinalImage from "../assets/mainCharacterFinalImage.jpg";
 import theEndImage from "../assets/theEndImage.jpg";
 import arikaAtFinishLineImage from "../assets/arikaAtFinishLineImage.jpg";
+import bridgeLivingAreaImage from "../assets/bridgeLivingAreaImage.jpg";
+import saneImage from "../assets/saneImage.jpg";
 
 export default texts;
