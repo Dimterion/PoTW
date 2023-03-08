@@ -1528,57 +1528,106 @@ const texts = [
   },
   {
     id: 57,
-    text: `Nnif chuckles. - “Your choice man. But that’s some interesting piece of tech, I’m telling you. Old man was sort of a magician. Can’t promise you that everything will go as you expect, but, well, at least you could have some fun along the way… or not. Anywho, take it or leave it, I have some work to do, so either this or good luck with writing your new poem tonight.”`,
+    text: `Nnif frowns, looking somewhat disapproving.
+
+    “Your choice, man. But I’m telling you, that’s quite a piece of tech. Old man was one of those who can make something so advanced that everyone else would think it’s magic. You know, if you don’t understand how it works, you think it’s supernatural. See what I’m trying to tell ya?”
+    
+    Nnif shrugs, pursing her lips.
+    
+    “Can’t promise everything will go as you’d expect, but, well, at least you could have some fun along the way… or not. Anywho, take it or leave it. I have work to do, so either this or good luck with writing poems on your own.”`,
+    image: dixiesShopInteriorImage,
+    additionalImage: nnifImage,
+    alt: "Dixie's shop interior image",
+    additionalImageAlt: "Nnif image",
     options: [
       {
-        text: `“Oh fine, mademoiselle persuasion. You’ve got my attention now. Let’s talk about this cheating device of yours!”`,
+        text: `“Oh fine, mademoiselle persuasion. You’ve got my attention now. Let’s talk about this mighty cheating mode of yours!”`,
         nextText: 14,
       },
       {
-        text: `“Aye-aye, captain, I’m sailing off. To the world of poetry and beyond!” - You decide to go directly to the arena and wait for it to start there.`,
+        text: `“Aye-aye, captain, I’m sailing off. No modes this time. Gonna go do this arena myself. To the world of poetry and beyond!”`,
         nextText: 47,
       },
     ],
   },
   {
     id: 58,
-    text: `Nnif seems disappointed. - “Oh well, I thought I could finally get rid of this thing, but seems today is not that day. Though, I’m telling you, that’s the most unique thingy you could find for the arena… and not only on our level, believe me. Let me give you some final chunk of advertising: Deo was able to live on all levels of the bridge, imagine that. Not only that, he initially came here from another tower. I didn’t know him that well, dude was always a… closed type, but somehow I managed to make him talkative a couple of times.”`,
+    text: `Nnif seems a bit disappointed, but then just waves it off.
+
+    “Oh well, thought I could finally get rid of this thingy, but seems today is not that day. Though, I’m telling you, that’s the most unique tricksy you could get for the arena… and not only on our level, believe me.”
+    
+    Nnif places her hands on the counter and leans closer.
+    
+    “Let me give you a final chunk of advertising: throughout his life Deo managed to visit every level of the Bridge. Not only that, he came here from another tower. I don’t know him too well, the old dude is one hell of a… closed type. But I managed to make him talkative a couple of times. So, he told me a thing or two about himself.”
+    
+    She folds her arms and glances at you.
+    
+    “But, if that’s not what you want, then wishing you a happy race I am.”`,
+    image: dixiesShopInteriorImage,
+    additionalImage: nnifImage,
+    alt: "Dixie's shop interior image",
+    additionalImageAlt: "Nnif image",
     options: [
       {
-        text: `“Wow, consider me impressed, to say it mildly. Ok, fine, load me with that future seeing cookie. My brainy is ready to taste this Deo…dorant. Should I sign something?”`,
+        text: `“Wow, consider me impressed. Fine, load me with that future seeing cookie. My brainsy is ready to taste this Deo…dorant. Should I sign something?”`,
         nextText: 15,
       },
       {
-        text: `“Ok, now I’m really worried, so no, thanks Nnif. I’ve never been an enthusiast to test things coming from that sort of strangers. I better go. Thanks anyway.” - You go to the arena to wait for its start.`,
+        text: `“Now I’m really worried. Thanks, but no thanks, Nnif. Never been an enthusiast to test things coming from strangers. I better go to the arena. Hasta luego.”`,
         nextText: 47,
       },
     ],
   },
   {
     id: 59,
-    text: `Nnif frowns and seems a bit irritated. - “Dude, show some respect. I’m in this biz for quite some time. Soft is installed as smoothly as you could imagine. Have you seen the words while entering? Well, it’s not just words, the previous shop owner, upon his last days, scanned and uploaded his memories right into here.” - She taps herself on the tattoo again. - “So, I’m kinda the voice of a great man…” - You suddenly realize that the projection on the wall now shows exactly the same events that you’ve just seen. Ripboy beats an orc abusing the time catching tactics. You interrupt Nnif's monologue and explain to her that.
-    She laughs. - “Ha! I’ve told you it’s working. Pretty cool, ain’t it? It shows you some sort of the most possible events in the near future. Works only in the arena. So, don’t get too excited about it. But if you find some new functionalities, be a darling and do let me know. I’ll probably need to replicate it and become super rich. Also, I’ve added an on/off switch, you’ll be able to see it in your UI now. No other options really. You either use it or keep it turned off.”`,
+    text: `Nnif wrinkles her nose, looking irritated.
+
+    “Dude, show some respect. I’m in this biz for quite some time. Soft is installed as smoothly as you could ever imagine. Have you seen the words while entering the shop? Well, these are not just words. The previous owner, upon his last days, scanned and uploaded all his memories right into them.”
+    
+    She points at her tattoo.
+    
+    “What’s more, he let me make a direct link. So, I’m kinda the voice of a great person…”
+    
+    You stop listening to Nnif’s story and suddenly realize that the projection on the wall now shows exactly the same events that you’ve just seen. Ripboy beats an orc by abusing the time catching tactics. You interrupt Nnif's monologue, telling her that.
+    
+    She laughs.
+    
+    “Hah! Told ya it’s working. Pretty cool, ain’t it? It sort of shows you the most possible chain of events for the near future. To my knowledge, it works only in the arena. So, don’t get too excited about it. But if you find some new functionalities, be a darling and do let me know. I’ll probably need to replicate it and become super rich. Also, I’ve added an on/off switch, you’ll be able to see it in your UI now. No other options really. You either use it or keep it turned off.”`,
+    image: dixiesShopInteriorImage,
+    additionalImage: nnifImage,
+    alt: "Dixie's shop interior image",
+    additionalImageAlt: "Nnif image",
     options: [
       {
-        text: `“Some practice needed, but looks great. Thanks Nnif, you rock. As always. Appreciate it.” - You realize that your arena will start soon. - “Ok, I better go now, looking forward to testing this thingy regardless of the match results. Thanks again. See you on the other level… one day.”`,
+        text: `“Some practice needed, but looks great. Thanks Nnif, you rock. As always. Appreciate it. I better go now, looking forward to testing this thingy. See you on the other level… one day.”`,
         nextText: 17,
       },
       {
-        text: `“Whoa, this thing scares me Nnif. Can you uninstall it? I think I’ve changed my mind. Feels like old pal is messing with my brain. I’d prefer just some regular upgrades.”`,
+        text: `“Whoa, this thing scares the chips out of me, Nnif. Can you uninstall it? I think I’ve changed my mind. Feels like your old pal is messing with my brain. I’d prefer just some regular upgrades.”`,
         nextText: 60,
       },
     ],
   },
   {
     id: 60,
-    text: `Nnif is starting to get angry. - “Man, grow up a little. You think or you’ve changed your mind? It’s one or zero. What are you: a coder or some philosopher who stared too long into the abyss until it ate him?” - She sighs. - “Ok, one last time, just me being a good and kind person. Wanna remove it or not?”`,
+    text: `Nnif is getting angry.
+
+    “Child, grow up a little, will ya? You think or you’ve changed your mind? It’s either one or zero. A binary situation. What are you, a coder or some philosopher who stared too long into the abyss until it swallowed him?”
+    
+    She sighs.
+    
+    “Ok, one last time, just me being a good and kind individual, caring about friends. Wanna remove it or not?”`,
+    image: dixiesShopInteriorImage,
+    additionalImage: nnifImage,
+    alt: "Dixie's shop interior image",
+    additionalImageAlt: "Nnif image",
     options: [
       {
-        text: `“Yes please. Sorry for bothering you. And then I’ll just go and do my arena thingy.” - Nnif uninstalls the Event Horizon angrily typing something on her wrist and you then go directly to the arena.`,
+        text: `“Yes please. Sorry for being a bother. Let’s uninstall it and I’ll just go do my arena thingy as I always do.”`,
         nextText: 47,
       },
       {
-        text: `Make a peaceful gesture. - “Accept my humblest apologies, oh almighty tech expert. I’ve decided and will keep this unique technology deep in my brain. And I will see you at the very last floor of our beautiful tower. Cheers!”`,
+        text: `“Accept my humblest apologies, almighty hackerino. I’ll keep the mode. See you at the very last level. Cheers!”`,
         nextText: 17,
       },
     ],
