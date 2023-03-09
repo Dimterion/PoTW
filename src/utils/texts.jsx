@@ -1342,6 +1342,8 @@ const texts = [
     And that was another day in the Bridge for you. Not too much, not too little.
     
     Today you’ve got your second place. And maybe tomorrow is a better day.`,
+    image: finalSecondPlaceImage,
+    alt: "A man looking away",
     options: [
       {
         text: `A rerun with a unicorny start perchance?`,
@@ -1798,15 +1800,28 @@ const texts = [
   },
   {
     id: 67,
-    text: `Kassad starts moving, takes out his futuristic rifle with a small logo of a girl trapped inside of a pyramid. He turns around and while still moving shoots at the gnome’s arm. It’s being destroyed and he is stunned for a few seconds. Kassad’s moves didn’t slow you down and he keeps running forward.
-    Arika appears near you on the red futuristic bike. She mocks you. - “Cruel you are sir. Shooting at the arms of cute little gnomes!” - Then she drives forward and disappears behind the corner of the track.
+    text: `Kassad starts moving, takes out his futuristic rifle with a small picture of a girl trapped inside a pyramid. He turns around and, without slowing down, shoots in the gnome’s arm. It’s being shred to pieces, and Moor Cow is stunned for a few seconds.
+
+    Kassad keeps running forward and enters the screen.
     
-    You saw a labyrinth-like route ahead of you with many turns and unknown areas. It’s high time to move quickly as other participants start appearing behind you.
+    Arika appears nearby, riding a shiny red bike.
     
-    Right before the corner you notice a graffiti with the text: if(currentPlace === 2) {useShortcut()}.`,
+    “Brutal you are, sir. Shooting cute gnomes’ arms!”
+    
+    She rushes forward and disappears behind the track’s corner.
+    
+    You see a labyrinth-like route ahead. Other participants start appearing behind you.
+    
+    At the next turn you notice a graffiti on the wall:
+    
+    if (currentPlace === 2) {
+    useShortcut();
+    }`,
+    image: shortcutImage,
+    alt: "If-statement with a useShortcut function inside.",
     options: [
       {
-        text: `You open the console and call the function useShortcut().`,
+        text: `Open the console and call the function useShortcut().`,
         nextText: 22,
       },
       {
@@ -1817,69 +1832,116 @@ const texts = [
   },
   {
     id: 68,
-    text: `You see that Arika is the only participant ahead of you and now has a huge advantage. The rest of the race seems strangely mundane to you. All the obstacles are already well-known and nothing new happens. You easily avoid traps and Shrike’s blades and finish second.
-    For a moment, just before the finish line you see some glitching to the side of you which looks like Deo’s face and words “Next time maybe”. But it quickly disappears and looks like your UI has malware. Could it be the old man’s hack?
-    You stop thinking about it and see that Arika is waiting for you at the finish line.`,
+    text: `You see that Arika is the only participant ahead of you and now has a huge advantage.
+
+    The rest of the race seems strangely mundane to you. All the obstacles are already well-known and nothing new happens. It feels like you’ve been doing this over and over again without any progress or changes.
+    
+    For a moment, right before the finish line, you see a shimmering on the track under you. It looks like an image of Deo’s face and the words “Next time maybe”. Once you’ve noticed it, the track flashes briefly and nothing else is on it anymore. Perhaps your VR-implant got some kind of malware. Could it be the old man’s hack?
+    
+    You stop thinking about it and see Arika standing at the finish line, smiling.`,
+    image: arikaAtFinishLineImage,
+    additionalImage: arikaImage,
+    alt: "A girl looking away",
+    additionalImageAlt: "Arika portrait",
     options: [
       {
-        text: `“Congrats. Nice bike you’ve made there.”`,
+        text: `“Congrats! Nice bike you’ve made yourself there.”`,
         nextText: 51,
       },
       {
-        text: `“Not bad. Do you always use the same appearance during the arena?”`,
+        text: `“Not bad. You use your VR-skin in the arena?”`,
         nextText: 72,
       },
     ],
   },
   {
     id: 69,
-    text: `You jump out of the shortcut in front of Arika and continue the race up to the finish line.
-    Arika’s character, you just noticed it, looks exactly the same as you saw her before the arena. Seems that she’s using the same appearance for her character. For those who want to spend some extra money on cosmetics it is possible to buy a skin and then your arena character will look like your character in ZerOne (but you still need to play with one of the suggested characters, only the appearance will be different). It’s strange though, as lower levels people rarely spend their money on such things.
+    text: `Flying on your glider, you jump out of the shortcut in front of Arika's bike, taking a brief glimpse at her.
+
+    Her arena character looks exactly like her zerOne appearance which is not typical for the poets. Using a skin for the randomly chosen options during the Writers Fights has an extra cost, and participants rarely spend their credits on such things. Especially when it comes to lower levels’ arenas.
     
-    What is also strange is the look on Arika’s face. Seems like she’s disappointed.
+    What is also strange is the look on Arika’s face. She seems to be half-sad, half-disappointed.
     
-    You wait for her at the finish line. Arika drives to you. - “Listen, I know what you did there and it’s ok, but didn’t you get at least a bit curious?” - She sighs. - “Deo would’ve hated me for doing that, but who cares now.” - She sees your questioning expression and adds. - “Yeah, I knew him as well. In fact, we used to work together. But it’s a long story for another time. For now let me give you one last chance to replay the race. Well, if you want it of course.”
+    You win the race and decide to wait at the finish line. Arika drives towards you.
     
-    She gives you an old video cassette with a yellow sticker that shows a rewind sign.`,
+    “Good job… I guess.”
+    
+    She hesitates for a second, like trying to make a decision.
+    
+    “Listen, I know what you did back there to win… It’s ok, I understand. But didn’t you get at least a tiny bit curious?”
+    
+    Arika sighs.
+    
+    “Deo would’ve hated me for what I’m gonna do, but who cares now.”
+    
+    She notices your puzzled look.
+    
+    “Yeah, I knew him as well. In fact, we used to work together. But it’s a long story for another time. For now let me give you a chance to replay the race. Consider it my special ability. Well, if you want it of course.”
+    
+    Arika takes out an old video cassette with a yellow sticker that shows a rewind sign. She hands it over to you.
+    
+    “What do you say?”`,
+    image: shrikeTrackImage,
+    additionalImage: arikaImage,
+    alt: "Shrike track image",
+    additionalImageAlt: "Arika portrait",
     options: [
       {
-        text: `Take the cassette.`,
+        text: `“You have a Virtual Holographic Slider? Sure! Let me watch it!”`,
         nextText: 22,
       },
       {
-        text: `“Nah, I’ll pass. First place is all I need!”`,
+        text: `“Nah, I’ll pass on that one, thanks. First place is all I need!”`,
         nextText: 70,
       },
     ],
   },
   {
     id: 70,
-    text: `Arika frowns, shrugs and then her character starts melting and disappearing. When she’s almost gone you hear her saying. - “I still hope Deo was right about you.”
-    You think about these words for a little but then decide to ignore them. After all, you’ve finally won the Writers Fight. The day has come and it is yours.
+    text: `Arika frowns, shrugs, and then her character starts quickly dispersing in the air. A mix of red and yellow colors whirls around you. When she’s almost gone, you hear her voice.
+
+    “I still hope Deo was right about you.”
     
+    You think about these words for a little, but then decide to ignore them. After all, you’ve finally won the Writers Fight. The day has come and it is yours to take.
+
     Is it though? Is it truly a victory or just some cheating? Aren’t you curious to find out?`,
+    image: whiteRabbitImage,
+    alt: "White rabbit in a futuristic suit",
     options: [
       {
-        text: `Be kind, rewind.`,
-        nextText: 1,
+        text: `Be kind, dark rewind.`,
+        nextText: 2,
       },
       {
-        text: `Let's do it again.`,
-        nextText: 1,
+        text: `Unicorndabra.`,
+        nextText: 55,
       },
     ],
   },
   {
     id: 71,
-    text: `Masteen takes out the cube, makes some strange manipulations with it, then, the moment the gnome tries to hit you, it suddenly opens and the mechanical arm goes right into it. The cube closes, cuts the whole arm and stuns the gnome for a few seconds. Masteen rushes forward.
-    Arika appears near you on the red futuristic bike. She mocks you. - “Wow, some brutality you show us today mister. Or was it… cubality?” - Then she drives forward and disappears behind the corner of the track.
-        
-    You saw a labyrinth-like route ahead of you with many turns and unknown areas. It’s high time to move quickly as other participants start appearing behind you.
-        
-    Right before the corner you notice a graffiti with the text: if(currentPlace === 2) {useShortcut()}.`,
+    text: `Masteen takes out his cube and performs some strange manipulations with it. Once the gnome tries to hit you, it suddenly opens and his mechanical arm goes right into it. The cube closes, cuts the whole arm and stuns the gnome for a few seconds.
+
+    Masteen jumps forward and enters the screen.
+    
+    Arika appears nearby, riding a shiny red bike.
+    
+    “Soai wins. Cubality!”
+    
+    She rushes forward and disappears behind the track’s corner.
+    
+    You see a labyrinth-like route ahead. Other participants start appearing behind you.
+    
+    At the next turn you notice a graffiti on the wall:
+    
+    if (currentPlace === 2) {
+    useShortcut();
+    }`,
+    image: shortcutImage,
+    alt: "If-statement with a useShortcut function inside.",
     options: [
       {
-        text: `You open the console and call the function useShortcut().`,
+        text: `Open the console and call the function useShortcut().`,
         nextText: 22,
       },
       {
@@ -1890,16 +1952,33 @@ const texts = [
   },
   {
     id: 72,
-    text: `Arika moves closer and whispers. - “Wanna know a secret? That’s how I look outside zerOne! Ok, fine, I don’t have yellow implants and pupils but the rest is identical. I’m one of those purists that are always the same in both worlds.” - She thinks about something for a second. - “Sorry, gotta go. But I’m sure we’ll meet again. You’ve done a good job today! I’m sure you’ll be the first one soon. Just try again. You know, maybe some different choices along the way may lead to a different outcome.” - She winks at you and pats you on the shoulder. - “Bye-bye, Soai-boy, I’ll see you when I see you.” - With that her character falls into pixels and disappears.
-    And that was another day in the Bridge for you. Not too much, not too little. Well, at least you got your second place today. And maybe tomorrow is a better day.”`,
+    text: `Arika moves closer and whispers.
+
+    “Wanna know a secret? That’s how I look outside zerOne! Ok, fine, I don’t have yellow eyes, but the rest is identical. I’m one of those purists that want to be the same in both worlds.”
+    
+    She thinks about something for a second.
+    
+    “Sorry, gotta go. But perhaps we’ll meet once more at some point. You’ve done a good job today! Don’t worry, I’m sure you’ll be the first one soon… Well, if that is really what you want. Just try again. You know, maybe some different choices along the way may lead to a different outcome.”
+    
+    She winks at you and pats you on the shoulder.
+    
+    “Bye-bye, Soai-boy, I’ll see you when I see you.”
+    
+    With that her character falls into hundreds of yellow pixels and disappears.
+    
+    And that was another day in the Bridge for you. Not too much, not too little.
+    
+    Today you’ve got your second place. And maybe tomorrow is a better day.`,
+    image: finalSecondPlaceImage,
+    alt: "A man looking away",
     options: [
       {
         text: `Check if tomorrow is a better day.`,
-        nextText: 1,
+        nextText: 55,
       },
       {
-        text: `Let's reroll!`,
-        nextText: 1,
+        text: `Check if tomorrow is a realistic day.`,
+        nextText: 2,
       },
     ],
   },
@@ -2446,5 +2525,7 @@ import theEndImage from "../assets/theEndImage.jpg";
 import arikaAtFinishLineImage from "../assets/arikaAtFinishLineImage.jpg";
 import bridgeLivingAreaImage from "../assets/bridgeLivingAreaImage.jpg";
 import saneImage from "../assets/saneImage.jpg";
+import whiteRabbitImage from "../assets/whiteRabbitImage.jpg";
+import finalSecondPlaceImage from "../assets/finalSecondPlaceImage.jpg";
 
 export default texts;
