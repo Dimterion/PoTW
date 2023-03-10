@@ -1984,15 +1984,26 @@ const texts = [
   },
   {
     id: 73,
-    text: `Deo laughs. - “Says the boy who added himself a six pack and gorgeous haircut, looking straight out of the barber shop. You do realize that nutrition and lack of physical activities in the real world are not two things that correspond to that?” - He sighs. - “But youth may have dreams and hopes, I don’t judge you. So, let’s just consider this our little passion.
-    The image of the smiling mouth finally disappeared and after a brief moment of showing thousands 404 errors the sphere walls in front of you showed Deo. He looks different now. Younger, without strange eyes-implants and robe. Instead he wears a stylish costume (of the same blue color though) and vintage glasses. He looks at you as if waiting for a very important question to come.`,
+    text: `The mouth starts grinning slyly.
+
+    “Says the youngster who’s added to his virtual appearance a six pack and a gorgeous haircut, looking straight out of the barber shop. You do realize that current nutrition quality and lack of physical activities in the real world are not among things that help with such characteristics out there?”
+    
+    He sighs.
+    
+    “But youth may have its dreams and flaws. I, for one, should not be judging you. Especially you, I’d say. So, let’s just consider my cats and rabbits and your… ahem… exceptional physique to be our little passions.”
+    
+    The smiling mouth finally disappears, and, after a brief moment of displaying thousands of 404 errors, the sphere walls in front of you show Deo. He looks different now. Younger, without his eyes-implants and dragon-head cane. Instead he wears a stylish costume and vintage glasses. He looks at you, waiting for another question.`,
+    image: sphereImage,
+    additionalImage: youngDeoImage,
+    alt: "Sphere with a figure inside of it",
+    additionalImageAlt: "Young Deo picture",
     options: [
       {
-        text: `“Are you real, old man? Or is it a part of the arena challenge, an easter egg or some kind of a secret level? I’ve never seen you on our level or during the previous arenas.”`,
+        text: `“Are you real, old man? Or is it a part of the arena challenge, an easter egg or some kind of a secret level?”`,
         nextText: 25,
       },
       {
-        text: `“Honestly, I just want to win this race. Any chance you can port me to the finish line?”`,
+        text: `“Honestly, I just want to win this race. Nice talking to you and all. Any chance you can port me to the finish line?”`,
         nextText: 74,
       },
     ],
