@@ -2010,29 +2010,48 @@ const texts = [
   },
   {
     id: 74,
-    text: `Deo was silent for a moment. - “Is that all that you want Soai? All that keeps you going is the desire to win? Aren’t you curious to figure out what’s behind it? What if I told you that you could become something more than you are right now? Would you still decline and continue your endless Writers Fights? Fine, let me give you a choice.” - Image on the walls changes and you see a door leading back to the arena. If you jump there you’ll be right in front of Arika and take the first place.`,
+    text: `Deo remains silent for some time, then starts talking slowly.
+
+    “Is that all you want, Soai? The only thing that keeps you going is the desire to win? Aren’t you curious to figure out what’s behind these countless arenas and towers climbing? What if I told you that you could become something more than what you are right now? Would you still decline and continue your endless Writers Fights? Let me give you a choice.”
+    
+    The image on the walls changes, and you see a door leading back to the arena. If you jump in there you’ll be right ahead of Arika and win the race.`,
+    image: sphereImage,
+    additionalImage: youngDeoImage,
+    alt: "Sphere with a figure inside of it",
+    additionalImageAlt: "Young Deo picture",
     options: [
       {
-        text: `Go through the door. - “Cheers, old one! You’ve finally made yourself useful. Appreciate your support and blah-blah-blah…”`,
+        text: `“Oh, that’s grand! Cheers, old one! Finally you’ve made yourself useful. Appreciate your support and blah-blah-blah. To victory I go!”`,
         nextText: 69,
       },
       {
-        text: `Refuse to use the door. - “Ok, I’ll play along. Who are you? Just part of Shrike's code or a real human being?”`,
+        text: `“Alrighty, I’ll play along, monsieur mystery. Enlighten me, who are you? Just a part of Shrike's code or a real human being?”`,
         nextText: 25,
       },
     ],
   },
   {
     id: 75,
-    text: `Deo mocks you. - “Giving up already? I thought you’re better than this. But who am I to judge? Back in my days I also wanted only one thing. To win. And I did, many times. Did you know that before the Shrike this place was called the Tree of Pain? Fun fact, during one of the fights poets managed to bypass its security and turned it into a walking giant. They needed to shut it down for several months to rewrite the code and make it functional again. And as an homage to this event (and because devs were lazy to create something new and preferred to use copy pasting technique) the Shrike was made.”
-    Deo notices your puzzled face. - “Ok-ok. Here’s a hammer for you. You can break through this wall and continue your race or stay and answer my question.” - A huge black hammer appears in front of you. You see the words “let wayOut” on its handle.`,
+    text: `You notice slight mockery in Deo’s voice.
+
+    “Giving up already? I thought you’re better than this. But I understand. Back in my days I also wanted only one thing. To win. And I did, many times. Did you know that Shrike’s previous iteration of this place was called the Tree of Pain? Fun fact, during one of the fights poets managed to bypass its security and turned the whole arena into a giant creature, tearing down all the VR-space around it. It was necessary to shut it down for several months to rewrite all the code and make it functional again. Shrike has been created as an homage to this event. Well, also because devs were too lazy to create something new and preferred to use copy-pasting technique.”
+    
+    Deo notices your puzzled face.
+    
+    “Ok-ok. Here’s a tool for you. You can break through this wall and continue your race or stay and answer my question.”
+    
+    A huge black hammer appears in front of you. You see the words “let wayOut” on its handle.`,
+    image: sphereImage,
+    additionalImage: youngDeoImage,
+    alt: "Sphere with a figure inside of it",
+    additionalImageAlt: "Young Deo picture",
     options: [
       {
-        text: `You change your mind and don’t take the hammer. - “Fine. Let’s play this million questions game. I feel completely real. Probably more real than you ever will be.”`,
+        text: `“Fine. Let’s play this million questions game. I feel completely real. Probably more real than you will ever be.”`,
         nextText: 26,
       },
       {
-        text: `Take the hammer and smash the wall to pieces. - “Be seeing you grandpa.”`,
+        text: `“Perfecto patronum. Blunt instrument is what I need right now. I want to break through. Be seeing you, grandpa.”`,
         nextText: 76,
       },
     ],
