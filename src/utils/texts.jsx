@@ -2058,20 +2058,27 @@ const texts = [
   },
   {
     id: 76,
-    text: `Deo squints. - “Oh, that you will…”
-    The moment the wall is destroyed you realize that you are surrounded by darkness and falling somewhere. It happens for a long time and you almost stop feeling it. The sense of helplessness consumes you. Nothing you can do, only keep flying into the abyss.
+    text: `Deo squints, still smiling.
+
+    “Oh, that you will…”
     
-    Then it suddenly stops. You don’t see anything but there’s no more movement.
+    The moment you smash the wall you get surrounded by darkness and begin falling somewhere. It continues for quite a long time, and you stop feeling anything. The sense of helplessness and despair consumes you completely, freezing your body and mind. There is nothing you can do, only to keep flying into the abyss, ruminating about the endless possibilities you had and choices you’ve made throughout your relatively short span of life. Were they worth it? Does it really matter? Who is putting these thoughts into you?
     
-    A weak light starts glowing in front of you. You look closer and see that it’s two buttons.`,
+    Then, as abruptly as it started, it suddenly stops. You don’t see anything, but there’s no more falling, as if you were inside an elevator that had been going down with a lightspeed and then instantly got motionless and still.
+    
+    A bleak light glows in front of you. You look closer and see that these are two buttons.
+    
+    You wipe the digital sweat off your virtual forehead, trying to figure out what they do.`,
+    image: sphereImage,
+    alt: "Sphere with a figure inside of it",
     options: [
       {
         text: `wayOut === false`,
-        nextText: 1,
+        nextText: 55,
       },
       {
         text: `wayOut === 0`,
-        nextText: 1,
+        nextText: 2,
       },
     ],
   },
