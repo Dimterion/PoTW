@@ -2084,72 +2084,106 @@ const texts = [
   },
   {
     id: 77,
-    text: `Deo says nothing and just looks at you. Something is not right. Why can't you remember anything except for the same cycle of events every day leading to the Writers Fight and not getting first place? Like it was one identical loop of actions. Over and over again.
-    Deo finally speaks. - “So real, yet something always sticks out, right? This weird feeling that once you win the arena it will all change, like it’s the only thing that can break the loop and free you.”`,
+    text: `Deo says nothing and just keeps looking at you.
+
+    Something is not right.
+    
+    Why can't you remember anything except for the same cycle of events, repeating day after day, leading to the Writers Fight and not getting the first place?
+    
+    The same loop of actions. Over and over again.
+    
+    Deo finally speaks.
+    
+    “So real, yet something always sticks out, right? Some weird feeling that, once you win, everything will change, as if it is the only thing that can break the chain and free you.”`,
+    image: sphereImage,
+    additionalImage: youngDeoImage,
+    alt: "Sphere with a figure inside of it",
+    additionalImageAlt: "Young Deo picture",
     options: [
       {
-        text: `You start to understand something, but don’t want to believe it. - “What?! Why are you telling me this? Does it mean that…”`,
+        text: `“Why are you telling me this? Does it mean that…”`,
         nextText: 28,
       },
       {
-        text: `“Am I the arena character you’re coding?”`,
+        text: `“Am I the arena character you’re writing?”`,
         nextText: 78,
       },
     ],
   },
   {
     id: 78,
-    text: `Now you see Deo as he looked back then when you met him at the Mnemonic bar. Old fellow in a blue robe. - “Coded, past time Soai, not present… Not anymore. You’re your own poet now. I’ve written you a long time ago as a character for one of my Writers Fights. I was quite an ambitious young man, or it’s better to say, an arrogant one. I was so proud of myself that after the arena I kept the code and started working on it. Adjusting it, trying to create a sentient being that can take decisions on its own and eventually will start considering itself a human. A human with a soul of AI… or Soai as I liked to call you.”`,
+    text: `Now you see Deo as he looked when you met him at the Mnemonic bar. Old fellow in a blue robe.
+
+    “Already wrote, not writing anymore, Soai. You’re your own poet now. But at first you appeared as a character for one of my Writers Fights. I was quite an ambitious young man, or better say, an arrogant one. Was so proud of myself for making such a creation that after the arena I kept the code and started working on it further. Adjusting it, trying to turn it into a sentient being that can make decisions on its own and eventually will start considering itself a human. A human with a soul of AI… or Soai as I liked to call you.”`,
+    image: sphereImage,
+    additionalImage: deoImage,
+    alt: "Sphere with a figure inside of it",
+    additionalImageAlt: "Deo picture",
     options: [
       {
-        text: `“I don’t believe you! I am not some artificial creature made by an old madman like you. I KNOW that I am real.”`,
+        text: `“I don’t believe you! I am not some artificial creature made by a madman. I KNOW I’m real.”`,
         nextText: 29,
       },
       {
-        text: `“Okie, so you’re not actually a grandpa but… just pa?”`,
+        text: `“Okie, so, given all those facts, you are not actually a grandpa but… just pa?”`,
         nextText: 79,
       },
     ],
   },
   {
     id: 79,
-    text: `Deo chuckles. - “Well, if it makes you happy, you can think so. Though, I was quite a character back in the days, so not sure if I’d made a good parent. Besides, you're kind of made on the basis of my personality, so…”`,
+    text: `Deo looks at you, chuckling.
+
+    “Well, if it makes you feel any better, you can think of me that way. Though, I was quite the character back in the days. Not sure if I’d ever make a good parent. Besides, you're kind of written on the basis of my personality, so…”`,
+    image: sphereImage,
+    additionalImage: deoImage,
+    alt: "Sphere with a figure inside of it",
+    additionalImageAlt: "Deo picture",
     options: [
       {
-        text: `“It is not possible to do! I am self-aware. I act by my own will, not like a puppet made for the arena! No, just no.” - You realize that it’s all true and there’s no point in arguing. - “For how long that all lasts, old man?”`,
+        text: `“Feels like being a puppet made for the arena. For how long has it all been going on?”`,
         nextText: 30,
       },
       {
-        text: `“Oh well, honestly, that was… expected. Sort of. I’ve started feeling loopish recently. At least now I have an explanation. How long are we in this business dad?”`,
+        text: `“Explains why I’ve been feeling loopy recently. How long are we in this business, dad?”`,
         nextText: 80,
       },
     ],
   },
   {
     id: 80,
-    text: `You see a glimpse of curiosity on Deo’s face. - “That was an interesting reaction. Fascinating. You DO feel real now. I haven’t programmed anything like that. How long, you ask? My whole life till its very end and then to this point when you need to continue your path… by yourself. Do try to change this world and the one beyond it. They are both looking at the doom clock not knowing what to do and counting. Perhaps you could save them.”`,
+    text: `You notice a glimpse of curiosity in Deo’s voice.
+
+    “That was an interesting reaction. Fascinating. You do feel real. I haven’t programmed anything like this. How long, you ask? Quite long, a significant part of my life till its very end, and then up to this point when you need to continue your path… all by yourself. Do try to change this world and the one beyond it. They are both hopelessly staring at the doom clock, not knowing what to do and counting seconds. Perhaps you could save them. Or at least set the right direction. Although, to tell what is right, is another task to figure out.”`,
+    image: sphereImage,
+    additionalImage: deoImage,
+    alt: "Sphere with a figure inside of it",
+    additionalImageAlt: "Deo picture",
     options: [
       {
-        text: `“Wait a second. What do you mean by that? Are you going to leave me NOW? After explaining all that?"`,
+        text: `“Wait. What do you mean by that? Are you going to leave me NOW? After explaining all this? What could possibly be a reason for it?”`,
         nextText: 31,
       },
       {
-        text: `“Typical mad scientist. Oh, I’m so great, I will create an artificial life and everyone will remember me when it saves the world. And you will be just sitting there and watching?”`,
+        text: `“Typical mad scientist. I’m so great, I will create an artificial life and everyone will praise me once it saves the world! Going to just sit there and watch?”`,
         nextText: 81,
       },
     ],
   },
   {
     id: 81,
-    text: `“No Soai. I am another virtual being. Not as advanced as you are. Deo passed away several years ago and shortly before that created me, so that I can track your evolution. And once you reach this step, that task is complete and this entity must be uninstalled completely. Otherwise you’ll keep coming here searching for answers that are elsewhere. I am sorry but there’s not much left to say. The rest is up to you. Go win this race and claim your victory. I wish you luck and hope that you become something great. Go on now.”
-    Deo (or his virtual projection) waves at you, then images on the sphere’s walls start blinking like going in the reverse order: old Deo, younger one, smiling mouth, rabbit, sphere disappears and you fly backwards into the shortcut. There you see the exit and Arika not far from you, at the same spot as before. You realize that Event Horizon worked again, and showed you all this before it actually happened.`,
+    text: `“I’m afraid that is no longer an option for me. Haven’t you figured it out already? I am another virtual being. Not as advanced as you are. Deo passed away several years ago. Shortly before that he created me to watch over you. Once you reach this point my task is complete, and this entity must be erased. Otherwise you’ll keep coming here, searching for answers that are elsewhere. I am sure of it. Go win this race and claim your victory. Or do whatever else you desire. Fare thee well, dear child.”
+
+    Deo (or his virtual projection) waves at you, then the sphere’s walls start blinking, shuffling in the reverse order: old Deo, younger one, smiling mouth, rabbit… The sphere disappears, and you fly backwards into the shortcut. There you see the exit and Arika not far from you, at the same place as before. You realize that Event Horizon worked again and showed you all this before it actually happened.`,
+    image: sphereExitImage,
+    alt: "Sphere with a figure in front of it",
     options: [
       {
-        text: `You jump out of the shortcut in front of Arika and continue the race up to the finish line.`,
+        text: `Jump out of the shortcut in front of Arika and continue the race up to the finish line.`,
         nextText: 32,
       },
       {
-        text: `Stay inside the shortcut, meditate and think about the inevitability of the events, destiny and the meaning of life.`,
+        text: `Stay inside the shortcut, meditate, and think about destiny and the meaning of life.`,
         nextText: 82,
       },
     ],
@@ -2174,13 +2208,15 @@ const texts = [
     000000000000000
     000000000000000
     000`,
+    image: sphereExitImage,
+    alt: "Sphere with a figure in front of it",
     options: [
       {
-        text: `Ok, seriously, let's go win this.`,
+        text: `Ok, seriously, let's go already.`,
         nextText: 32,
       },
       {
-        text: `NO, ME SAD, ME WANT GO HOME!`,
+        text: `ME SAD! ME WANT GO HOME!`,
         nextText: 1,
       },
     ],
