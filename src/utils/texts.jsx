@@ -1130,7 +1130,7 @@ const texts = [
 
     “Another time or place then. An interesting observation nonetheless.”
     
-    He mutters something incomprehensible and you pay no further attention to him.
+    He mutters something incomprehensible, and you pay no further attention to him.
     
     You glance at the window, admiring the view. It’s started to rain and you see toxic drops drumming on the glass. Accompanied by that calming sound, you open the VR-interface and read through the information about today’s Writers Fight.
     
@@ -2330,47 +2330,100 @@ const texts = [
   },
   {
     id: 87,
-    text: `Old man looks at you for a couple more seconds, then turns and walks away. - “Another time or place then. An interesting observation that was but sadly too soon.” - He continues murmuring something incomprehensible and you stop paying attention to him.
+    text: `The old man looks at you for a couple more seconds, then turns around and walks away slowly.
+
+    “Another time or place then. An interesting observation nonetheless.”
     
-    Nnif comes back and looks disappointed. - “Listen, to be honest, I seem to be out of useful stuff. I could sell you some garbage tech, but let me save you some money and just refuse doing that. You’re better off without them. Otherwise it’ll look like doing some mining with a piece of tech instead of a pick. In theory you could do that but people who really need it won't appreciate that. And let me tell you a secret. For low-levels arenas upgrades don’t really matter. Just use your brains.” - She thinks about it for a second. - “I do know a couple of new poets and pretty sure you haven’t seen them before…”
-    She continues after a pause. - “There’s a fella with the name Moor Cow. Most likely will be playing something gnomish. Just go ahead and do a preventive strike on him. My gut tells me a dude like this will want to do something shady from the start.
-    And there’s a new girl, Arika, I think her name. Looks strangely familiar but whatever. This one I don’t know well, but I heard that some of the rich folk have another crazy new trend - paying lots of creds to travel between towers and levels. My bet, she’s one of them. Ignore stopping that one, she’ll be using the most advanced tech I guarantee. Just try to outrun her. Maybe you’ll manage, but sadly I doubt that.
-    That’s all I’ve got.”`,
+    He mutters something incomprehensible, and you pay no further attention to him.
+    
+    Nnif comes back, looking somewhat puzzled.
+    
+    “Listen, to be honest, I seem to be all outta useful stuff. Could sell you some garbage tech, but let me save you some creds and just refuse doing that. You’re better off without it. Otherwise it’ll look like doing some mining with a piece of hardware instead of a pick. In theory, you could do that, but peeps who really need it won't appreciate this.”
+    
+    She leans closer and lowers her voice.
+    
+    “Let me tell you a secret. For low-levels’ arenas upgrades don’t really matter. Just use your brains. Best tip I can give.”
+    
+    Nnif thinks about something for a second.
+    
+    “I kinda don’t want to leave you empty-handed though. Here’s some due diligence for ya. There’ll be a couple of new poets tonight. Pretty sure you haven’t seen them before.”
+    
+    She continues after a pause.
+    
+    “There’s this fella called Moor Cow. I sense some gnomish trickery afoot. If you happen to be near the article just go ahead and strike first and don’t ask questions later. My gut tells me such a type prefers to do something naughty right away.”
+    
+    Seeing that you get her idea, Nnif continues.
+    
+    “Newcomer number two is a girl. I think her name is Ari-something. She looks strangely familiar, as if I met her before, but whatever… Dunno much, but I heard some of the rich folk have a new fashion: paying lots of creds to travel between towers and levels. My bet, she’s one of them. Thus, the princess will be covered in top notch tech, so forget about trying to stop that one. You can try to outrun her, but skill versus creds is a topic for a whole new debate. Maybe you’ll manage, but sadly I doubt that. Unless some miracle brightens your path to glory.”
+    
+    Nnif puffs out her cheeks, shrugging.
+    
+    “Ok, speed racer, that’s all I’ve got. Run fast and don’t get toasted.”`,
+    image: dixiesShopInteriorImage,
+    additionalImage: nnifImage,
+    alt: "Dixie's shop interior image",
+    additionalImageAlt: "Nnif image",
     options: [
       {
-        text: `“I understand. Thanks for the advice Nnif. Always appreciated your straightforwardness.” - You decide to go directly to the arena and wait for it to start there.`,
+        text: `“Thanks for the advice, Nnif. Always appreciated your straightforwardness. Time for me to go. Poetry awaits. You have fun with your customers, and I will go to the arena.”`,
         nextText: 47,
       },
       {
-        text: `“Cheers Nnif. You rock, as always. Guess I have some time, gonna hang out at my place. Wish you a pleasant customer-relationships.”`,
+        text: `“Cheers, Nnif. You rock, as always. Guess I have some time to spare. Gonna hang out at my place. Wish you a pleasant day filled with unforgettable customer relationships.”`,
         nextText: 88,
       },
     ],
   },
   {
     id: 88,
-    text: `Nnif chuckles. - “Yeah, right, one thing that’s never gonna happen. Be seeing you buddy.”
+    text: `Nnif produces a heavy sigh.
+
+    “I prefer them to be on the forgettable side sometimes.”
     
-    You go to your virtual apartment, but halfway to it bump into your old buddy - Sane Snacks. A very big fellow, always wearing some strange clothes, consisted of plastic plates, worn off rugs and some metal pieces of unknown origin. His voice roars. - “Soai! My favorite friend! Come here!” - Two giant arms hug you. - “What’s new with you? I haven’t seen you for quite some time. Thought you went down to the first level.”
+    She waves you off.
     
-    This seems strange to you, you’ve a feeling that quite recently you meet with Sane but you can’t remember why and when exactly.`,
+    “Be seeing you, monsieur poet.”
+    
+    You go to your virtual apartment, but halfway there bump into your old buddy - Sane Snacks. A very big fellow, always wearing strange clothes made of plastic plates, worn off rugs and metal pieces of unknown origin. His voice roars.
+    
+    “Soai! My favorite friend! Come here!”
+    
+    Two giant arms hug you.
+
+    “What’s been happening with you? I haven’t seen you for ages. Thought you went down to the firstie.”
+    
+    This seems strange. You’ve a feeling that quite recently you met with Sane but can’t remember why and when exactly.`,
+    image: bridgeLivingAreaImage,
+    additionalImage: saneImage,
+    alt: "Bridge living area image",
+    additionalImageAlt: "Sane image",
     options: [
       {
-        text: `Not really the best moment to talk. - “Ah well, been here and there. Just busy I guess. Listen, sorry for being harsh, but I’m a bit in a hurry, so catch up with you later, ok?” - Quickly go away and ignore Sane’s attempts to continue the conversation. Too much human relations for you for today. Go to the arena.`,
+        text: `“Ah well, been here and there. Listen, sorry for being harsh, but I’ve a Writers’ Fight to attend. Wanted to check on my apart, but there’s not much time. Catch up with you later, big guy.”`,
         nextText: 47,
       },
       {
-        text: `“Hm, I thought we'd seen each other a couple of days ago, no? Man, these Writers Fights really start taking all my time. Maybe it wasn’t just a couple of days.”`,
+        text: `“But we'd seen each other a few days ago, no? Man, these Writers Fights really start taking all my time. Feels like I’m having the same legs day in an infinite wheel of time. Got it all mixed up.”`,
         nextText: 89,
       },
     ],
   },
   {
     id: 89,
-    text: `Sane has a worried expression on his face. - “No, Soai, last time we met, I invited you to play some “There and back again”. You decided to be a Mediocre boy and I was Valhalla’s chosen one. Then Una came and looked at us like we were two kids doing silly things. We then went to his favorite band’s show - Soundcore of mirror. Oh boy, I’ve spent too much there buying those useless cheers… But at least we had some fun, right?” - Sane notices that you don’t remember any of it. - “My friend, I advise you to stop spending so much time in the arena. All grind and no play makes you just a free-to-play, you know?”`,
+    text: `Sane looks concerned.
+
+    “No, Soai, it’s been quite some time since we had a bit of hanging out, don’t you remember? I invited you to play “There and Back Again”. You decided to be a Mediocre boy and I was Valhalla’s chosen one. Then Una came and looked at us as if we were two kids doing silly things. We then went to his favorite band’s show - Soundcore of Mirror. Oh boy, I’ve spent too much there buying those useless cheers… But at least we had some fun, right?”
+    
+    Sane notices that you don’t remember any of it.
+    
+    “My friend, I advise you to stop spending so much time in the arena. All grind and no play makes you just a free-to-play, you know?”`,
+    image: bridgeLivingAreaImage,
+    additionalImage: saneImage,
+    alt: "Bridge living area image",
+    additionalImageAlt: "Sane image",
     options: [
       {
-        text: `“Yeah, right.” - You feel like wasting your time and decide to go to the arena finally. - “Afraid, I need to go now, pal. I feel ya, but today might be the day, so let’s talk again during the next board game encounter. Take care my wasteland friend.” - You wave to Sane and go away.`,
+        text: `“Yeah, right... Afraid, I need to go now. Need to pay Shrike a visit. Today might be the day. Take care, my wasteland friend.”`,
         nextText: 47,
       },
       {
@@ -2381,48 +2434,94 @@ const texts = [
   },
   {
     id: 90,
-    text: `Sane sighs while walking with you. - “Ah, you know, not much. Always feel like I need some space, some desert to drive into, some engine screams and metal sounds in my ears. But here we are, sitting in our capsules and exiting them only to find ourselves in a virtual projection of the same tower. A more spacious one, yes, but still… a tower. Ever wanna see what the real Earth looks like down there? Sometimes I wonder how long I could hold there. We see only some distant sparks of light from here, coming from beneath the chemical clouds. Guess machines are doing some work down below. To keep towers running. But one day it will end, Soai. I see it… in the raindrops.”
-    This life-reassuring monologue lasts while you walk with Sane. Strange dude he is, Sane. A big bull with a roaring voice but very sensitive inside. He suddenly turns to you and his voice changes a bit, like it’s someone else talking through him. - “Would you make a different choice if you could, Soai? Are you happy with the path chosen? What if I can offer you this option? Would you accept it?”`,
+    text: `Sane accompanies you. He produces a thunderous sigh.
+
+    “Frankly, not much. Always feel like I need some space, some desert to drive through, some engine screams and metal sound in my ears. But here we are, sitting in our capsules, crawling out of ‘em only to find ourselves in a virtual projection of the same tower we live in. A more spacious one, yes, but still… well, just a needle piercing the sky in a desperate attempt to live on. Ever wanted to see what the real world looks like down there?”
+    
+    He gets quiet for a moment, thinking.
+    
+    “Sometimes I wonder how long I could last there. We see only some distant sparks of light from here, coming from beneath the chemical clouds. Guess machines are doing all the work down below. To keep the towers running. But one day it will end, Soai. I can see it… in the raindrops.”
+    
+    This life-reassuring monologue lasts while you keep walking with Sane. Strange dude he is, Sane. A huge bull with a roaring voice but very sensitive inside.
+    
+    He suddenly turns to you and his voice changes, like someone else is talking through him.
+    
+    “Would you make a different choice if you could, Soai? Are you happy with the path chosen? What if I could offer you the way to do it all again? Would you accept it?”`,
+    image: bridgeLivingAreaImage,
+    additionalImage: saneImage,
+    alt: "Bridge living area image",
+    additionalImageAlt: "Sane image",
     options: [
       {
-        text: `“Nah, man, I’m good. The choice I’ve made is the path to take. I aim at finishing it.” - Pat Sane on the shoulder. - “One day I will meet you in Valhalla, but you know what we say to it, right? Not today.”`,
+        text: `“Nah, man, I’m good. The choice I’ve made is the path to take. I aim to finish it. One day we’ll meet in Valhalla, but you know what we say to it, right? Not today. Be seeing you, bud, here’s my stop for the arena.”`,
         nextText: 47,
       },
       {
-        text: `Maybe he is right and it’s possible to start again. What would you choose then? - “Ok, Sane Snacks, I accept.”`,
+        text: `“Hmm. It’s kinda been on my mind recently. Have this itchy feeling, like I could say other things, go to different places. I guess you got your grand hands on some rewinding soft? Ok, Sane Snacks, I accept.”`,
         nextText: 2,
       },
     ],
   },
   {
     id: 91,
-    text: `Nnif looks disappointed. - “Listen, to be honest, I seem to be out of useful stuff. I could sell you some garbage tech, but let me save you some money and just refuse doing that. You’re better off without them. Otherwise it’ll look like doing some mining with a piece of tech instead of a pick. In theory you could do that but people who really need it won't appreciate that. And let me tell you a secret. For low-levels arenas upgrades don’t really matter. Just use your brains.” - She thinks about it for a second. - “I do know a couple of new poets and pretty sure you haven’t seen them before…”
-    She continues after a pause. - “There’s a fella with the name Moor Cow. Most likely will be playing something gnomish. Just go ahead and do a preventive strike on him. My gut tells me a dude like this will want to do something shady from the start.
+    text: `Nnif scratches her head, wincing.
+
+    “Listen, to be honest, I seem to be all outta useful stuff. Could sell you some garbage tech, but let me save you some creds and just refuse doing that. You’re better off without it. Otherwise it’ll look like doing some mining with a piece of hardware instead of a pick. In theory, you could do that, but peeps who really need it won't appreciate this.”
     
-    And there’s a new girl, Arika, I think her name. Looks strangely familiar but whatever. This one I don’t know well, but I heard that some of the rich folk have another crazy new trend - paying lots of creds to travel between towers and levels. My bet, she’s one of them. Ignore stopping that one, she’ll be using the most advanced tech I guarantee. Just try to outrun her. Maybe you’ll manage, but sadly I doubt that.
+    She leans closer and lowers her voice.
     
-    That’s all I’ve got.”`,
+    “Let me tell you a secret. For low-levels’ arenas upgrades don’t really matter. Just use your brains. Best tip I can give.”
+    
+    Nnif thinks about something for a second.
+    
+    “I kinda don’t want to leave you empty-handed though. Here’s some due diligence for ya. There’ll be a couple of new poets tonight. Pretty sure you haven’t seen them before.”
+    
+    She continues after a pause.
+    
+    “There’s this fella called Moor Cow. I sense some gnomish trickery afoot. If you happen to be near the article just go ahead and strike first and don’t ask questions later. My gut tells me such a type prefers to do something naughty right away.”
+    
+    Seeing that you get her idea, Nnif continues.
+    
+    “Newcomer number two is a girl. I think her name is Ari-something. She looks strangely familiar, as if I met her before, but whatever… Dunno much, but I heard some of the rich folk have a new fashion: paying lots of creds to travel between towers and levels. My bet, she’s one of them. Thus, the princess will be covered in top notch tech, so forget about trying to stop that one. You can try to outrun her, but skill versus creds is a topic for a whole new debate. Maybe you’ll manage, but sadly I doubt that. Unless some miracle brightens your path to glory.”
+    
+    Nnif puffs out her cheeks, shrugging.
+    
+    “Ok, speed racer, that’s all I’ve got. Run fast and don’t get toasted.”`,
+    image: dixiesShopInteriorImage,
+    additionalImage: nnifImage,
+    alt: "Dixie's shop interior image",
+    additionalImageAlt: "Nnif image",
     options: [
       {
-        text: `“I understand. Thanks for the advice Nnif. Always appreciated your straightforwardness.” - You decide to go directly to the arena and wait for it to start there.`,
+        text: `“Thanks for the advice, Nnif. Always appreciated your straightforwardness. Time for me to go. Poetry awaits. You have fun with your customers, and I will go to the arena.”`,
         nextText: 47,
       },
       {
-        text: `“Erm… There was a strange-looking old fellow here. He’s just left but before that asked me to tell you Deo says Hi.” - You described the man to Nnif.`,
+        text: `“Right you are, chief. Some valuable intel. By the way, there was a strange-looking old fellow here. He’s just left but before that asked me to tell you Deo says hi.”`,
         nextText: 40,
       },
     ],
   },
   {
     id: 92,
-    text: `Nnif chuckles. - “Your choice man. But that’s some interesting piece of tech, I’m telling you. Old man was sort of a magician. Can’t promise you that everything will go as you expect, but, well, at least you could have some fun along the way… or not. Anywho, take it or leave it, I have some work to do, so either this or good luck with writing your new poem tonight.”`,
+    text: `Nnif frowns, looking somewhat disapproving.
+
+    “Your choice, man. But I’m telling you, that’s quite a piece of tech. Old man was one of those who can make something so advanced that everyone else would think it’s magic. You know, if you don’t understand how it works, you think it’s supernatural. See what I’m trying to tell ya?”
+    
+    Nnif shrugs, pursing her lips.
+    
+    “Can’t promise everything will go as you’d expect, but, well, at least you could have some fun along the way… or not. Anywho, take it or leave it. I have work to do, so either this or good luck with writing poems on your own.”`,
+    image: dixiesShopInteriorImage,
+    additionalImage: nnifImage,
+    alt: "Dixie's shop interior image",
+    additionalImageAlt: "Nnif image",
     options: [
       {
-        text: `“Oh fine, mademoiselle persuasion. You’ve got my attention now. Let’s talk about this cheating device of yours!”`,
+        text: `“Oh fine, mademoiselle persuasion. You’ve got my attention now. Let’s talk about this mighty cheating mode of yours!”`,
         nextText: 14,
       },
       {
-        text: `“Aye-aye, captain, I’m sailing off. To the world of poetry and beyond!” - You decide to go directly to the arena and wait for it to start there.`,
+        text: `“Aye-aye, captain, I’m sailing off. No modes this time. Gonna go do this arena myself. To the world of poetry and beyond!”`,
         nextText: 47,
       },
     ],
