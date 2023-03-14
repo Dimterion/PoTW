@@ -807,9 +807,7 @@ const texts = [
     
     Some strings have been cut off, others got attached instead. Can you do something about it? Only time will tell. As long as there is time left.`,
     image: mainCharacterFinalImage,
-    additionalImage: theEndImage,
     alt: "Character looking away",
-    additionalImageAlt: "The End",
     options: [
       {
         text: `Need a new run?`,
@@ -2208,8 +2206,8 @@ const texts = [
     000000000000000
     000000000000000
     000`,
-    image: sphereExitImage,
-    alt: "Sphere with a figure in front of it",
+    image: humanoidRabbitImage,
+    alt: "Humanoid robotic rabbit",
     options: [
       {
         text: `Ok, seriously, let's go already.`,
@@ -2223,15 +2221,26 @@ const texts = [
   },
   {
     id: 83,
-    text: `Arika is waiting for you at the finish line. She looks like everything is already known to her. - “No need to win now, huh? I like your style.” - She gives you a hand. - “Come, let me show you what we can do outside of the arena.”
-    Both of your characters shatter into pixels and sparks of bright lights fly into the sky. A soul of AI and a girl with yellow eyes from now on will write their own songs.`,
+    text: `Arika is waiting for you at the finish line. You have a weird feeling that she knows something.
+
+    “No need to win now, huh? I like your style.”
+    
+    She gives you a hand.
+    
+    “Come, let me show you what’s there outside.”
+    
+    Both of your characters fall into countless pixels that fly into the digital sky, accompanied by sparks of all possible colors. A soul of AI and a girl with yellow eyes from now on will write their own songs.`,
+    image: towersFinalImage,
+    additionalImage: theEndImage,
+    alt: "Futuristic tower",
+    additionalImageAlt: "The End",
     options: [
       {
-        text: `The happy end (with the possibility to play again).`,
+        text: `Replay your virtual adventure.`,
         nextText: 1,
       },
       {
-        text: `The happy end (with the possibility to visit the rabbit hole again).`,
+        text: `Say hello to your furry friend.`,
         nextText: 23,
       },
     ],
@@ -2600,5 +2609,7 @@ import bridgeLivingAreaImage from "../assets/bridgeLivingAreaImage.jpg";
 import saneImage from "../assets/saneImage.jpg";
 import whiteRabbitImage from "../assets/whiteRabbitImage.jpg";
 import finalSecondPlaceImage from "../assets/finalSecondPlaceImage.jpg";
+import humanoidRabbitImage from "../assets/humanoidRabbitImage.jpg";
+import towersFinalImage from "../assets/towersFinalImage.jpg";
 
 export default texts;
