@@ -10,9 +10,7 @@ Work In Progress
 
 ## Current state
 
-- General structure is done (subject to updates)
-- Game can be completed (in a rough state)
-- Texts and dialogues will be edited / adjusted / remade
-- Work with the images has just been started, thus only some of them were added currently
-- With a small chance the styling may change
-- Main focus for the moment: editing texts, adding images, styling adjustment
+- General structure has been done (subject to updates)
+- Game can be completed (some visuals might change in the future)
+- Texts and dialogues have been finished (occasional edits may occur)
+- With a small chance the styling and images may change

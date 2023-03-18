@@ -5,9 +5,9 @@ import "./aboutScreen.css";
 function AboutScreen() {
   return (
     <div className="aboutScreen-container">
-      <h1 className="aboutScreen-title">Interactive Text-Adventure Game</h1>
-      <h2>... Under Construction ...</h2>
-      <h3>Stay tuned!</h3>
+      <h1 className="aboutScreen-title">Poets of Tomorrow’s World</h1>
+      <h2>Interactive Text-Adventure Game</h2>
+      <h3>Version 2.0</h3>
       <div className="aboutScreen-linksContainer">
         <a
           className="aboutScreen-link"
