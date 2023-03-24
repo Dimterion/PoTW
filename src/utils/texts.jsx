@@ -100,11 +100,11 @@ const texts = [
     additionalImageAlt: "Una Ek image",
     options: [
       {
-        text: `“Thanks, Una! You’re the best. I’ll go upstairs then.`,
+        text: `“Thanks, Una! You’re the best. I’ll go upstairs then.”`,
         nextText: 6,
       },
       {
-        text: `Good boy, Ckiw-y! Keep an eye on Una, ok?`,
+        text: `“Good boy, Ckiw-y! Keep an eye on Una, ok?”`,
         nextText: 43,
       },
     ],
