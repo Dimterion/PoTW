@@ -5,6 +5,11 @@ import "./startScreen.css";
 function StartScreen() {
   return (
     <div className="startScreen-container">
+      <div className="startScreen-cover">
+        <div className="startScreen-image"></div>
+        <div className="startScreen-image"></div>
+        <div className="startScreen-image"></div>
+      </div>
       <h1 className="startScreen-title">Poets of Tomorrow’s World</h1>
       <div className="startScreen-menu">
         <Link className="startScreen-btn" to="/story">

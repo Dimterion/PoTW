@@ -5,11 +5,78 @@
   flex-flow: column nowrap;
   align-items: center;
   text-align: center;
-  margin-top: 30vh;
   animation: mainComponent-load 400ms ease-in 200ms;
   animation-fill-mode: forwards;
   transform: translateY(-50px);
   opacity: 0;
+}
+
+.startScreen-cover {
+  height: 40vh;
+  width: 95vw;
+  margin-bottom: 2vh;
+  max-width: 992px;
+  overflow: hidden;
+  position: relative;
+  border: 5px solid var(--tertiaryColor);
+}
+
+.startScreen-image {
+  animation: imageMove 30s linear infinite;
+  background-size: cover;
+  background-position: 50%;
+  max-height: 1024px;
+  inset: 0;
+  opacity: 0;
+  position: absolute;
+  scale: 1.2;
+  max-width: 992px;
+  margin: auto;
+}
+
+.startScreen-image:nth-child(1) {
+  background-image: url(../../assets/coverRealWordImage.jpg);
+}
+
+.startScreen-image:nth-child(2) {
+  animation-delay: 10s;
+  background-image: url(../../assets/coverZerOneImage.jpg);
+}
+
+.startScreen-image:nth-child(3) {
+  animation-delay: 20s;
+  background-image: url(../../assets/coverSubLevelImage.jpg);
+}
+
+@media screen and (min-height: 768px) {
+  .startScreen-container {
+    margin-top: 10vh;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .startScreen-container {
+    margin-top: 3vh;
+  }
+
+  .startScreen-cover {
+    height: 50vh;
+  }
+}
+
+@keyframes imageMove {
+  25% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.8;
+    scale: 1;
+  }
+
+  60% {
+    opacity: 0;
+  }
 }
 
 .startScreen-title {
@@ -21,7 +88,7 @@
 .startScreen-menu {
   display: flex;
   flex-flow: column nowrap;
-  margin: 2rem;
+  margin: 1.5rem;
 }
 
 .startScreen-btn {
@@ -30,7 +97,7 @@
   border: 1px solid var(--primaryColor);
   text-decoration: none;
   padding: 0.5rem 2.5rem;
-  margin: 1rem;
+  margin: 0.5rem;
   transition: color 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
   animation: btn-load 1s ease-in;
 }
@@ -69,5 +136,11 @@
 
   100% {
     transform: scale(1);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .startScreen-title {
+    font-size: 2rem;
   }
 }
