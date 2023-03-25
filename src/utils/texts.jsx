@@ -7,7 +7,7 @@ const texts = [
     
     You’ve managed to stay on the current level for a while and haven’t been able to move any higher. Your performance during the Writers Fights is mediocre, but you don’t lose hope to get good.`,
     image: mainCharacterImage,
-    alt: "Main character image",
+    alt: "A guy looking at the futuristic skyscrapers",
     options: [
       {
         text: `Begin (dark and realistic)`,
@@ -25,7 +25,7 @@ const texts = [
     
     Once being loaded into the virtual Bridge, you left your capsule and looked around, thinking where to go. In the evening you take part in the local Writers Fight.`,
     image: apartmentImage,
-    alt: "Futuristic apartment image",
+    alt: "Futuristic apartment",
     options: [
       {
         text: `Go to the Mnemonic bar nearby, your favorite place to hang out.`,
@@ -46,8 +46,8 @@ const texts = [
     “Hey, Soai! Nice to see you, buddy. How’s life? Wanna drink?”`,
     image: mnemonicBarEntranceImage,
     additionalImage: unaEkImage,
-    alt: "Mnemonic bar entrance image",
-    additionalImageAlt: "Una Ek image",
+    alt: "Futuristic bar entrance",
+    additionalImageAlt: "Man with beard and glasses behind the counter",
     options: [
       {
         text: `“Life goes by. I’ll pass on the drinks. Gonna do some writing in the arena tonight, came to kill time and maybe practice a bit. Prefer having a clear head. What’s new with you?”`,
@@ -67,17 +67,17 @@ const texts = [
     
     He starts cleaning the counter and keeps talking.
     
-    “It’s quiet today. Peeps will come later, to watch the fight and all. I heard there’ll be a new poet. Recently came from the first level, imagine that. Rumor has it she’s good. Though I wonder what she was doing on the first level then."
+    “It’s quiet today. Peeps will come later, to watch the fight and all. I heard there’ll be a new poet. Recently came from the first level, imagine that. Rumor has it she’s good. Though I wonder what she was doing on the first level then.”
         
     A cute little doggy came from the room behind the counter and Una rubs it behind the ear.
     
-    "Who’s my boy, who’s my good Ckiw?"
+    “Who’s my boy, who’s my good Ckiw?”
     
     The dog jumps towards you like a tiny happy ball of fur.`,
     image: mnemonicBarInteriorImage,
     additionalImage: unaEkImage,
-    alt: "Mnemonic bar interior image",
-    additionalImageAlt: "Una Ek image",
+    alt: "Futuristic bar interior",
+    additionalImageAlt: "Man with beard and glasses behind the counter",
     options: [
       {
         text: `“Hey, little buddy! A weird name you have. I’d call you Johnny.”`,
@@ -97,7 +97,7 @@ const texts = [
     image: ckiwImage,
     additionalImage: unaEkImage,
     alt: "A dog in a futuristic bar",
-    additionalImageAlt: "Una Ek image",
+    additionalImageAlt: "Man with beard and glasses behind the counter",
     options: [
       {
         text: `“Thanks, Una! You’re the best. I’ll go upstairs then.”`,
@@ -127,7 +127,7 @@ const texts = [
     image: toxicCloudsImage,
     additionalImage: deoImage,
     alt: "Toxic green and yellow clouds",
-    additionalImageAlt: "Deo image",
+    additionalImageAlt: "Old man in a blue robe",
     options: [
       {
         text: `“Erm, hello. May I help  you… sir? I don't think I know you. Have we met before?”`,
@@ -162,11 +162,11 @@ const texts = [
     “Allow me to give you a piece of advice. What do you say?”`,
     image: mnemonicBarUpperFloorInteriorImage,
     additionalImage: deoImage,
-    alt: "Mnemonic bar upper floor interior",
-    additionalImageAlt: "Deo image",
+    alt: "Futuristic bar upper floor interior",
+    additionalImageAlt: "Old man in a blue robe",
     options: [
       {
-        text: `“All right, grandpa, let’s hear this advice of yours. You’ve got my undivided attention. Lay it on me and make it count.” `,
+        text: `“All right, grandpa, let’s hear this advice of yours. You’ve got my undivided attention. Lay it on me and make it count.”`,
         nextText: 8,
       },
       {
@@ -196,8 +196,8 @@ const texts = [
     You see Una at his usual place.`,
     image: toxicRainImage,
     additionalImage: unaEkImage,
-    alt: "Toxic rain image",
-    additionalImageAlt: "Una Ek image",
+    alt: "Toxic rain behind the glass",
+    additionalImageAlt: "Man with beard and glasses behind the counter",
     options: [
       {
         text: `“Em-m, Una, do you know the oldie that just left? The blue robe one, with retro implants.”`,
@@ -220,8 +220,8 @@ const texts = [
     “And now you’re getting some targeted ads directly into your brain. In any case, sorry not sorry, pal. Have to keep your soft and hardware in order, you know.”`,
     image: mnemonicBarInteriorImage,
     additionalImage: unaEkImage,
-    alt: "Mnemonic bar interior image",
-    additionalImageAlt: "Una Ek image",
+    alt: "Futuristic bar interior",
+    additionalImageAlt: "Man with beard and glasses behind the counter",
     options: [
       {
         text: `“Aye, Una, you’re probably right. I’ll go visit Dixie. Need to see if there’s something interesting in stock. Might come in handy during the writing in the arena.”`,
@@ -258,8 +258,8 @@ const texts = [
     “Sup, Soai. How are things in that poetic life of yours?”`,
     image: dixiesShopImage,
     additionalImage: nnifImage,
-    alt: "Dixie's shop entrance image",
-    additionalImageAlt: "Nnif image",
+    alt: "Futuristic shop entrance",
+    additionalImageAlt: "Girl with futuristic glasses",
     options: [
       {
         text: `“Hola, Nnif. The usual, nothing too much, anything too little. I see you’re getting some clientele issues, huh?”`,
