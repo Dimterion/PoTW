@@ -282,8 +282,8 @@ const texts = [
     “But if he dares come here, I’ll use some persuasion technique to get rid of the smarty. Will be an educated customer next time.”`,
     image: dixiesShopInteriorImage,
     additionalImage: nnifImage,
-    alt: "Dixie's shop interior image",
-    additionalImageAlt: "Nnif image",
+    alt: "Futuristic shop interior",
+    additionalImageAlt: "Girl with futuristic glasses",
     options: [
       {
         text: `“Nice tattoo by the way. Makes you think about breaking the ice, heh. Always wanted to ask where do you get such cool stuff?”`,
@@ -302,8 +302,8 @@ const texts = [
     “It’s not a tattoo, dude. It’s an implant. I couldn’t resist and ordered a sort of an RGB-extension for it, just less colorful and more vintage-looking. Use it to save some funds on the shop guard, you know. It’s a hacking module. Can dive into your target’s implants and make them a bit… warm. Nothing lethal of course. Consider it a brain taser. Stands somewhere on the thin red borderline of legality, meaning it’s kinda ok-not-ok to have one, so nobody really cares. Besides, it’s hard to get anyway. That kind of gadget. Oh, yeah, it also records your conversations and visuals, in case you’ll need them, like in my case. If you want something similar, I can dig a bit, though can’t promise anything as it’s not cheap. But I’ll see what I can do for a friend.”`,
     image: dixiesShopInteriorImage,
     additionalImage: nnifImage,
-    alt: "Dixie's shop interior image",
-    additionalImageAlt: "Nnif image",
+    alt: "Futuristic shop interior",
+    additionalImageAlt: "Girl with futuristic glasses",
     options: [
       {
         text: `“Thanks Nnif, but I’m more interested in arena-related tech. That said, bumped into a strange old man. Chic blue robe, steampunk goggles. Asked me to tell you Deo says hi. Mean anything to you?”`,
@@ -326,8 +326,8 @@ const texts = [
     “Okie-dokie, mister genius usually doesn’t come just for a conversation. Fine. As you mentioned this grumpy old kitten, I can provide you with something else… Anyway it was made by him back in the days. An interesting mode for the arena. Call it Event Horizon or simply EH. In some eyes it may look like cheating, but peeps mostly don’t know about it or don’t understand how it works, so it won’t get you banhammered, if that worries you. Wanna know more?”`,
     image: dixiesShopInteriorImage,
     additionalImage: nnifImage,
-    alt: "Dixie's shop interior image",
-    additionalImageAlt: "Nnif image",
+    alt: "Futuristic shop interior",
+    additionalImageAlt: "Girl with futuristic glasses",
     options: [
       {
         text: `“Sure, I’m always up to some borderline cheating usage. Tell me what it does.”`,
@@ -350,8 +350,8 @@ const texts = [
     “Everyone will think that it’s kinda UI enhancement, so I suggest not go into too many details and explain the rest. Just confirm that it is an enhancement and keep using it. And, in case you are wondering, the old dog insisted on not showing it to anyone unless his name is mentioned, so you’ll be entering the brave new world of first guinea pigs, congrats buddy. That’s pretty much it. Green light to proceed with the installation?”`,
     image: dixiesShopInteriorImage,
     additionalImage: nnifImage,
-    alt: "Dixie's shop interior",
-    additionalImageAlt: "Nnif image",
+    alt: "Futuristic shop interior",
+    additionalImageAlt: "Girl with futuristic glasses",
     options: [
       {
         text: `“Yeah, let’s do this. Wrap it up, plug it in. Where do I sign to see the future with the old man’s gift?”`,
@@ -382,8 +382,8 @@ const texts = [
     You turn to Nnif unimpressed.`,
     image: orcImage,
     additionalImage: nnifImage,
-    alt: "Orc with a stick",
-    additionalImageAlt: "Nnif image",
+    alt: "Orc with a stick looking like a gun",
+    additionalImageAlt: "Girl with futuristic glasses",
     options: [
       {
         text: `“A typical low-level arena game. Ripboy abuses the time catching tactics, while greenie just counts on rush which is always a 50/50 situation. What’s so special about it?”`,
@@ -410,8 +410,8 @@ const texts = [
     “I know, right? Pretty cool. I’ve added an on/off switch, so you’ll be able to see it in your UI now. No other options really. You either use it or not.”`,
     image: dixiesShopInteriorImage,
     additionalImage: nnifImage,
-    alt: "Dixie's shop interior",
-    additionalImageAlt: "Nnif image",
+    alt: "Futuristic shop interior",
+    additionalImageAlt: "Girl with futuristic glasses",
     options: [
       {
         text: `“Some practice needed, but looks great. Thanks Nnif, you rock. As always. Appreciate it. I better go now, looking forward to testing this thingy. See you on the other level… one day.”`,
@@ -433,7 +433,7 @@ const texts = [
     
     Leaving the shop accompanied by this charming discussion, you realize that it’s time to go to the arena now.`,
     image: dixiesShopInteriorImage,
-    alt: "Dixie's shop interior",
+    alt: "Futuristic shop interior",
     options: [
       {
         text: `Go directly to the arena and wait for it to start.`,
@@ -464,8 +464,8 @@ const texts = [
     “I’m Arika.”`,
     image: shrikeEntranceImage,
     additionalImage: arikaImage,
-    alt: "Shrike Entrance",
-    additionalImageAlt: "Arika image",
+    alt: "Futuristic Arena Entrance",
+    additionalImageAlt: "Futuristic girl with yellow hair",
     options: [
       {
         text: `“Hey-hey! Welcome. I’m Soai. Kind of a regular here. Or just stuck, heh. But we can all hope for a better tomorrow. Where did you come from if you don’t mind me asking?”`,
@@ -502,8 +502,8 @@ const texts = [
     It’s time to choose a character you’ll be playing during the arena. You go to your locker and open the menu with the provided options.`,
     image: shrikeLockersAreaImage,
     additionalImage: kassadAndMasteenImage,
-    alt: "Shrike lockers area",
-    additionalImageAlt: "Kassad and Masteen portrait",
+    alt: "Arena lockers area",
+    additionalImageAlt: "Two characters faces next to each other",
     options: [
       {
         text: `Kassad. A romantic soldier, loving his past. Special ability of moving backwards and using weapons from any period of history. Can be stunned by random flashbacks. With very little chance can disappear from the battle after seeing a strange woman.`,
@@ -534,8 +534,8 @@ const texts = [
     … 8 …`,
     image: shrikeArenaImage,
     additionalImage: gnomeImage,
-    alt: "Shrike arena image",
-    additionalImageAlt: "Futuristic gnome portrait",
+    alt: "Futuristic arena",
+    additionalImageAlt: "Futuristic gnome",
     options: [
       {
         text: `Evade gnome’s strike, ignore him and jump into the screen.`,
@@ -631,7 +631,7 @@ const texts = [
     image: sphereImage,
     additionalImage: youngDeoImage,
     alt: "Sphere with a figure inside of it",
-    additionalImageAlt: "Young Deo picture",
+    additionalImageAlt: "Bearded man with glasses and futuristic headphones",
     options: [
       {
         text: `“Are you real, old man? Or is it a part of the arena challenge, an easter egg or some kind of a secret level?”`,
@@ -649,7 +649,7 @@ const texts = [
     image: sphereImage,
     additionalImage: youngDeoImage,
     alt: "Sphere with a figure inside of it",
-    additionalImageAlt: "Young Deo picture",
+    additionalImageAlt: "Bearded man with glasses and futuristic headphones",
     options: [
       {
         text: `“What do you mean real? We are both here in this loophole inside the Shrike. My guess this is some kind of a sub-level of the arena, which is a sub-level of ZerOne, which is a virtual space that stores all this. Outside of it I am quite real, that I know.”`,
@@ -667,7 +667,7 @@ const texts = [
     image: sphereImage,
     additionalImage: youngDeoImage,
     alt: "Sphere with a figure inside of it",
-    additionalImageAlt: "Young Deo picture",
+    additionalImageAlt: "Bearded man with glasses and futuristic headphones",
     options: [
       {
         text: `“Seriously? Fine. I woke up at my capsule as always, logged into zerOne and went to… Wait. That was today. I did that today… but also yesterday. What day was it? Looked all the same.”`,
@@ -687,7 +687,7 @@ const texts = [
     image: sphereImage,
     additionalImage: youngDeoImage,
     alt: "Sphere with a figure inside of it",
-    additionalImageAlt: "Young Deo picture",
+    additionalImageAlt: "Bearded man with glasses and futuristic headphones",
     options: [
       {
         text: `“What are you saying? Does it mean that…”`,
@@ -707,7 +707,7 @@ const texts = [
     image: sphereImage,
     additionalImage: deoImage,
     alt: "Sphere with a figure inside of it",
-    additionalImageAlt: "Deo picture",
+    additionalImageAlt: "Old man in a blue robe",
     options: [
       {
         text: `“I don’t believe you! I am not some artificial creature made by a madman. I KNOW I’m real.”`,
@@ -725,7 +725,7 @@ const texts = [
     image: sphereImage,
     additionalImage: deoImage,
     alt: "Sphere with a figure inside of it",
-    additionalImageAlt: "Deo picture",
+    additionalImageAlt: "Old man in a blue robe",
     options: [
       {
         text: `“Not possible, can’t be! No... If what you are saying is true… If I am this… For how long has it all been going on?”`,
@@ -743,7 +743,7 @@ const texts = [
     image: sphereImage,
     additionalImage: deoImage,
     alt: "Sphere with a figure inside of it",
-    additionalImageAlt: "Deo picture",
+    additionalImageAlt: "Old man in a blue robe",
     options: [
       {
         text: `“Wait. What do you mean by that? Are you going to leave me NOW? After explaining all this? What could possibly be a reason for it?”`,
@@ -819,7 +819,7 @@ const texts = [
       },
     ],
   },
-  // Other initial path (Dixie).
+  // Other initial path (Dixie shop).
   {
     id: 34,
     text: `You head over to Dixie which is located one tier below. A good friend of yours, Nnif, owns it. She’s quite tech-savvy and, though it’s not a top-class shop, always manages to get some rather unique stuff. Her regular customers are poets trying to get any advantage during the Writers Fights. Modifications in the arena are limited, but still can be used to some extent.
@@ -847,8 +847,8 @@ const texts = [
     “Sup, Soai. How are things in that poetic life of yours?”`,
     image: dixiesShopImage,
     additionalImage: nnifImage,
-    alt: "Dixie's shop entrance image",
-    additionalImageAlt: "Nnif image",
+    alt: "Futuristic shop entrance",
+    additionalImageAlt: "Girl with futuristic glasses",
     options: [
       {
         text: `“Hola, Nnif. The usual, nothing too much, anything too little. I see you’re getting some special requests, huh?”`,
@@ -871,8 +871,8 @@ const texts = [
     “And once he comes back, I’ll have some proofs to place on the table.”`,
     image: dixiesShopInteriorImage,
     additionalImage: nnifImage,
-    alt: "Dixie's shop interior",
-    additionalImageAlt: "Nnif image",
+    alt: "Futuristic shop interior",
+    additionalImageAlt: "Girl with futuristic glasses",
     options: [
       {
         text: `“Nice tattoo by the way. Makes you think about breaking the ice, heh. Always wanted to ask where do you get such cool stuff?”`,
@@ -891,8 +891,8 @@ const texts = [
     “It’s not a tattoo, dude. It’s an implant. I couldn’t resist and ordered a sort of an RGB-extension for it, just less colorful and more vintage-looking. Use it to save some funds on the shop guard, you know. It’s a hacking module. Can dive into your target’s implants and make them a bit… warm. Nothing lethal of course. Consider it a brain taser. Stands somewhere on the thin red borderline of legality, meaning it’s kinda ok-not-ok to have one, so nobody really cares. Besides, it’s hard to get anyway. That kind of gadget. Oh, yeah, it also records your conversations and visuals, in case you’ll need them, like in my case. If you want something similar, I can dig a bit, though can’t promise anything as it’s not cheap. But I’ll see what I can do for a friend.”`,
     image: dixiesShopInteriorImage,
     additionalImage: nnifImage,
-    alt: "Dixie's shop interior",
-    additionalImageAlt: "Nnif image",
+    alt: "Futuristic shop interior",
+    additionalImageAlt: "Girl with futuristic glasses",
     options: [
       {
         text: `“Thanks Nnif, appreciate it, but I’m currently more interested in arena-related tech.”`,
@@ -921,8 +921,8 @@ const texts = [
     You’ve never seen that article and are a bit confused.`,
     image: dixiesShopStorageRoomImage,
     additionalImage: deoImage,
-    alt: "Dixie's shop storage room image",
-    additionalImageAlt: "Deo image",
+    alt: "Futuristic shop storage room",
+    additionalImageAlt: "Old man in a blue robe",
     options: [
       {
         text: `“Erm, hello. May I help  you… sir? I don't think I know you. Have we met before?”`,
@@ -957,8 +957,8 @@ const texts = [
     “Allow me to give you a piece of advice. What do you say?”`,
     image: dixiesShopStorageRoomImage,
     additionalImage: deoImage,
-    alt: "Dixie's shop storage room image",
-    additionalImageAlt: "Deo image",
+    alt: "Futuristic shop storage room",
+    additionalImageAlt: "Old man in a blue robe",
     options: [
       {
         text: `“All right, grandpa, let’s hear this advice of yours. You’ve got my undivided attention. Lay it on me and make it count.”`,
@@ -991,8 +991,8 @@ const texts = [
     “What’s the matter? You’ve seen a ghost?”`,
     image: dixiesShopInteriorImage,
     additionalImage: nnifImage,
-    alt: "Dixie's shop interior",
-    additionalImageAlt: "Nnif image",
+    alt: "Futuristic shop interior",
+    additionalImageAlt: "Girl with futuristic glasses",
     options: [
       {
         text: `“That question remains open. A strange-looking old fellow came by. Asked me to tell you Deo says hi.”`,
@@ -1015,8 +1015,8 @@ const texts = [
     “Okie-dokie, mister genius usually doesn’t come just for a conversation. Fine. As you mentioned this grumpy old kitten, I can provide you with something else… Anyway it was made by him back in the days. An interesting mode for the arena. Call it Event Horizon or simply EH. In some eyes it may look like cheating, but peeps mostly don’t know about it or don’t understand how it works, so it won’t get you banhammered, if that worries you. Wanna know more?”`,
     image: dixiesShopInteriorImage,
     additionalImage: nnifImage,
-    alt: "Dixie's shop interior",
-    additionalImageAlt: "Nnif image",
+    alt: "Futuristic shop interior",
+    additionalImageAlt: "Girl with futuristic glasses",
     options: [
       {
         text: `“Why not? Hit me with all you’ve got, almighty tech expert. Cheating or no-cheating has always been a foggy borderline for me.”`,
