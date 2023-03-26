@@ -29,6 +29,14 @@ function AboutScreen() {
           {">"} Start Screen
         </Link>
       </div>
+      <a
+        className="aboutScreen-personalLink"
+        href="https://dimterion.github.io/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        {">"} Made by Dimterion {"<"}
+      </a>
       <Footer />
     </div>
   );

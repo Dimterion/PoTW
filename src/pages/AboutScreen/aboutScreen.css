@@ -19,10 +19,10 @@
 .aboutScreen-linksContainer {
   display: flex;
   flex-flow: column nowrap;
-  align-items: start;
   margin: 5vh auto;
   padding: 2vh 0;
-  border: 1px solid var(--primaryColor);
+  border-top: 1px solid var(--secondaryColor);
+  border-bottom: 1px solid var(--secondaryColor);
 }
 
 .aboutScreen-link {
@@ -30,13 +30,41 @@
   text-decoration: none;
   color: var(--primaryColor);
   margin: 2vh 3vw;
-  transition: 0.5s;
+  padding: 1vh 0;
+  width: 250px;
+  max-width: 90vw;
+  text-align: start;
+  background: linear-gradient(var(--tertiaryColor) 0 0) no-repeat
+    calc(200% - var(--i, 0) * 100%) 100% / 200%
+    calc(100% * var(--i, 0) + 0.08em);
+  transition: 0.3s calc(var(--i, 0) * 0.3s),
+    background-position 0.3s calc(0.3s - calc(var(--i, 0) * 0.3s));
 }
 
 .aboutScreen-link:hover {
-  text-decoration: underline;
-  color: var(--tertiaryColor);
-  transition: 0.5s;
+  color: var(--secondaryColor);
+  --i: 1;
+}
+
+.aboutScreen-personalLink {
+  width: 250px;
+  max-width: 80vw;
+  color: var(--primaryColor);
+  text-decoration: none;
+  margin: auto;
+  --c: var(--tertiaryColor);
+  line-height: 1.2em;
+  background: conic-gradient(from -135deg at 100% 50%, var(--c) 90deg, #0000 0)
+      0 var(--p, 0%) / var(--s, 0%) 200% no-repeat,
+    conic-gradient(from -135deg at 1.2em 50%, #0000 90deg, var(--c) 0) 100%
+      var(--p, 0%) / var(--s, 0%) 200% no-repeat;
+  transition: 0.4s ease-in, background-position 0s;
+}
+
+.aboutScreen-personalLink:hover {
+  color: var(--secondaryColor);
+  --p: 100%;
+  --s: calc(50% + 0.61em);
 }
 
 @keyframes aboutScreen-load {
