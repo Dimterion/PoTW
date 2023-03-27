@@ -436,11 +436,11 @@ const texts = [
     alt: "Futuristic shop interior",
     options: [
       {
-        text: `Go directly to the arena and wait for it to start.`,
+        text: `Go directly to the arena.`,
         nextText: 18,
       },
       {
-        text: `Quickly check your virtual apartment.`,
+        text: `Check your VR-apartment.`,
         nextText: 61,
       },
     ],
@@ -1052,8 +1052,8 @@ const texts = [
     The dog jumps towards you like a tiny happy ball of fur.`,
     image: mnemonicBarInteriorImage,
     additionalImage: unaEkImage,
-    alt: "Mnemonic bar interior image",
-    additionalImageAlt: "Una Ek image",
+    alt: "Futuristic bar interior",
+    additionalImageAlt: "Man with beard and glasses behind the counter",
     options: [
       {
         text: `“Hey, little buddy! A weird name you have. I’d call you Johnny.”`,
@@ -1075,7 +1075,7 @@ const texts = [
     
     Let’s be honest, you should not harm cute little animals that did nothing to you, ok? Even if they live in the virtual world.`,
     image: gameOverImage,
-    alt: "Game over image",
+    alt: "Black screen with red words You Died",
     options: [
       {
         text: `Start from the beginning and be ashamed of yourself, always remembering this valuable life lesson.`,
@@ -1111,7 +1111,7 @@ const texts = [
     image: toxicCloudsImage,
     additionalImage: deoImage,
     alt: "Toxic green and yellow clouds",
-    additionalImageAlt: "Deo image",
+    additionalImageAlt: "Old man in a blue robe",
     options: [
       {
         text: `“Erm, hello. May I help  you… sir? I don't think I know you. Have we met before?”`,
@@ -1136,7 +1136,7 @@ const texts = [
     
     Bridge arena is called Shrike. Its main elements are spikes and blades. Everything there can kill you pretty easily while you’re racing to the finish line. You can do whatever you like with your opponents, and the main goal is to be the first one. Your second goal is to at least finish the race.`,
     image: toxicRainImage,
-    alt: "Toxic rain image",
+    alt: "Toxic rain behind the glass",
     options: [
       {
         text: `Check the participants list.`,
@@ -1171,7 +1171,7 @@ const texts = [
     
     The name Moor Cow seems suspicious. You’re pretty sure this one will do something nasty. Won’t be a surprise if that’s a gnome.`,
     image: toxicRainImage,
-    alt: "Toxic rain image",
+    alt: "Toxic rain behind the glass",
     options: [
       {
         text: `Check the arena details.`,
@@ -1187,7 +1187,7 @@ const texts = [
     id: 46,
     text: `Shrike’s always changing. Each time you enter it, you don’t know where the race will start or end and what challenges are waiting for you on the way. Today’s route goes through the rabbit hole. That probably means some hidden traps and weird-looking beasts. Not much to learn here. It’s supposed to be unknown up until the moment when the match begins.`,
     image: toxicRainImage,
-    alt: "Toxic rain image",
+    alt: "Toxic rain behind the glass",
     options: [
       {
         text: `Go directly to the arena.`,
