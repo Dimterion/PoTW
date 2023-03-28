@@ -1216,8 +1216,8 @@ const texts = [
     “I’m Arika.”`,
     image: shrikeEntranceImage,
     additionalImage: arikaImage,
-    alt: "Shrike entrance image",
-    additionalImageAlt: "Arika image",
+    alt: "Futuristic Arena Entrance",
+    additionalImageAlt: "Futuristic girl with yellow hair",
     options: [
       {
         text: `“Hey-hey! Welcome. I’m Soai. Kind of a regular here. Or just stuck, heh. But we can all hope for a better tomorrow. Where did you come from if you don’t mind me asking?”`,
@@ -1254,8 +1254,8 @@ const texts = [
     It’s time to choose a character you’ll be playing during the arena. You go to your locker and open the menu with the provided options.`,
     image: shrikeLockersAreaImage,
     additionalImage: kassadAndMasteenImage,
-    alt: "Shrike lockers area image",
-    additionalImageAlt: "Kassad and Masteen portrait",
+    alt: "Arena lockers area",
+    additionalImageAlt: "Two characters faces next to each other",
     options: [
       {
         text: `Kassad. A romantic soldier, loving his past. Special ability of moving backwards and using weapons from any period of history. Can be stunned by random flashbacks. With very little chance can disappear from the battle after seeing a strange woman.`,
@@ -1286,8 +1286,8 @@ const texts = [
     The race begins.`,
     image: shrikeArenaImage,
     additionalImage: gnomeImage,
-    alt: "Shrike arena image",
-    additionalImageAlt: "Futuristic gnome portrait",
+    alt: "Futuristic arena",
+    additionalImageAlt: "Futuristic gnome",
     options: [
       {
         text: `Shoot a few rounds in the gnome’s arm, then enter the screen.`,
@@ -1312,8 +1312,8 @@ const texts = [
     Arika is standing at the finish line, smiling.`,
     image: arikaAtFinishLineImage,
     additionalImage: arikaImage,
-    alt: "A girl looking away",
-    additionalImageAlt: "Arika portrait",
+    alt: "A girl with yellow hair looking away",
+    additionalImageAlt: "Futuristic girl with yellow hair",
     options: [
       {
         text: `“Congrats! Nice bike you’ve made yourself there.”`,
@@ -1341,7 +1341,7 @@ const texts = [
     
     Today you’ve got your second place. And maybe tomorrow is a better day.`,
     image: finalSecondPlaceImage,
-    alt: "A man looking away",
+    alt: "Character looking away",
     options: [
       {
         text: `A rerun with a unicorny start perchance?`,
