@@ -81,7 +81,7 @@ function StoryScreen() {
           call it the Last Song: the fight after each you either go down or rise
           up.
         </p>
-        <h3>This is the world you’re living in…</h3>
+        <h3>This is the world you’re living in...</h3>
         <Link className="storyScreen-link" to="/game">
           {">>>"} Jump in
         </Link>

@@ -2,17 +2,3 @@
   font-family: "Orbitron", sans-serif;
   color: var(--primaryColor);
 }
-
-/* Temp area below
-.gameScreen-link {
-  font-size: 1.3rem;
-  text-decoration: none;
-  color: var(--primaryColor);
-  transition: 0.5s;
-}
-
-.gameScreen-link:hover {
-  color: var(--tertiaryColor);
-  transition: 0.5s;
-}
-Temp area above */
