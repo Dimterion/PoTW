@@ -1385,8 +1385,8 @@ const texts = [
     “Sup, Soai. How are things in that poetic life of yours?”`,
     image: dixiesShopImage,
     additionalImage: nnifImage,
-    alt: "Dixie's shop entrance image",
-    additionalImageAlt: "Nnif image",
+    alt: "Futuristic shop entrance",
+    additionalImageAlt: "Girl with futuristic glasses",
     options: [
       {
         text: `“Hola, Nnif. The usual, nothing too much, anything too little. I see you’re getting some special requests, huh?”`,
@@ -1431,8 +1431,8 @@ const texts = [
     “Sup, Soai. How are things in that poetic life of yours?”`,
     image: dixiesShopImage,
     additionalImage: nnifImage,
-    alt: "Dixie's shop entrance image",
-    additionalImageAlt: "Nnif image",
+    alt: "Futuristic shop entrance",
+    additionalImageAlt: "Girl with futuristic glasses",
     options: [
       {
         text: `“Hola, Nnif. The usual, nothing too much, anything too little. I see you’re getting some special requests, huh?”`,
@@ -1453,8 +1453,8 @@ const texts = [
     She taps herself on the ice ax tattoo.`,
     image: dixiesShopInteriorImage,
     additionalImage: nnifImage,
-    alt: "Dixie's shop interior image",
-    additionalImageAlt: "Nnif image",
+    alt: "Futuristic shop interior",
+    additionalImageAlt: "Girl with futuristic glasses",
     options: [
       {
         text: `“Nice tattoo by the way. Makes you think about breaking the ice, heh. Always wanted to ask where do you get such cool stuff?”`,
@@ -1486,7 +1486,7 @@ const texts = [
 
     Once being loaded into the virtual Bridge, you left your capsule and looked around, thinking where to go. In the evening you take part in the local Writers Fight.`,
     image: unicornImage,
-    alt: "Futuristic unicorn image",
+    alt: "Futuristic rainbow robo-unicorn",
     options: [
       {
         text: `Go to the Mnemonic bar nearby, your favorite place to hang out.`,
@@ -1513,8 +1513,8 @@ const texts = [
     “So, if my sales pitch didn’t make you wish to buy something, good luck, have fun, buddy.”`,
     image: dixiesShopInteriorImage,
     additionalImage: nnifImage,
-    alt: "Dixie's shop interior image",
-    additionalImageAlt: "Nnif image",
+    alt: "Futuristic shop interior",
+    additionalImageAlt: "Girl with futuristic glasses",
     options: [
       {
         text: `“Got it. Thanks for the advice, Nnif. Always appreciated your straightforwardness. Anyhow, time for me to go. Poetry awaits. You have fun with your customers, and I will go to the arena.”`,
@@ -1537,8 +1537,8 @@ const texts = [
     “Can’t promise everything will go as you’d expect, but, well, at least you could have some fun along the way… or not. Anywho, take it or leave it. I have work to do, so either this or good luck with writing poems on your own.”`,
     image: dixiesShopInteriorImage,
     additionalImage: nnifImage,
-    alt: "Dixie's shop interior image",
-    additionalImageAlt: "Nnif image",
+    alt: "Futuristic shop interior",
+    additionalImageAlt: "Girl with futuristic glasses",
     options: [
       {
         text: `“Oh fine, mademoiselle persuasion. You’ve got my attention now. Let’s talk about this mighty cheating mode of yours!”`,
@@ -1565,8 +1565,8 @@ const texts = [
     “But, if that’s not what you want, then wishing you a happy race I am.”`,
     image: dixiesShopInteriorImage,
     additionalImage: nnifImage,
-    alt: "Dixie's shop interior image",
-    additionalImageAlt: "Nnif image",
+    alt: "Futuristic shop interior",
+    additionalImageAlt: "Girl with futuristic glasses",
     options: [
       {
         text: `“Wow, consider me impressed. Fine, load me with that future seeing cookie. My brainsy is ready to taste this Deo…dorant. Should I sign something?”`,
@@ -1595,8 +1595,8 @@ const texts = [
     “Hah! Told ya it’s working. Pretty cool, ain’t it? It sort of shows you the most possible chain of events for the near future. To my knowledge, it works only in the arena. So, don’t get too excited about it. But if you find some new functionalities, be a darling and do let me know. I’ll probably need to replicate it and become super rich. Also, I’ve added an on/off switch, you’ll be able to see it in your UI now. No other options really. You either use it or keep it turned off.”`,
     image: dixiesShopInteriorImage,
     additionalImage: nnifImage,
-    alt: "Dixie's shop interior image",
-    additionalImageAlt: "Nnif image",
+    alt: "Futuristic shop interior",
+    additionalImageAlt: "Girl with futuristic glasses",
     options: [
       {
         text: `“Some practice needed, but looks great. Thanks Nnif, you rock. As always. Appreciate it. I better go now, looking forward to testing this thingy. See you on the other level… one day.”`,
@@ -1619,8 +1619,8 @@ const texts = [
     “Ok, one last time, just me being a good and kind individual, caring about friends. Wanna remove it or not?”`,
     image: dixiesShopInteriorImage,
     additionalImage: nnifImage,
-    alt: "Dixie's shop interior image",
-    additionalImageAlt: "Nnif image",
+    alt: "Futuristic shop interior",
+    additionalImageAlt: "Girl with futuristic glasses",
     options: [
       {
         text: `“Yes please. Sorry for being a bother. Let’s uninstall it and I’ll just go do my arena thingy as I always do.”`,
