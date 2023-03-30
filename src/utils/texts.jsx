@@ -1645,8 +1645,8 @@ const texts = [
     This seems strange. You’ve a feeling that quite recently you met with Sane but can’t remember why and when exactly.`,
     image: bridgeLivingAreaImage,
     additionalImage: saneImage,
-    alt: "Bridge living area image",
-    additionalImageAlt: "Sane image",
+    alt: "Futuristic living area",
+    additionalImageAlt: "A big guy wearing post-apocalyptic clothes",
     options: [
       {
         text: `“Ah well, been here and there. Listen, sorry for being harsh, but I’ve a Writers’ Fight to attend. Wanted to check on my apart, but there’s not much time. Catch up with you later, big guy.”`,
@@ -1669,8 +1669,8 @@ const texts = [
     “My friend, I advise you to stop spending so much time in the arena. All grind and no play makes you just a free-to-play, you know?”`,
     image: bridgeLivingAreaImage,
     additionalImage: saneImage,
-    alt: "Bridge living area image",
-    additionalImageAlt: "Sane image",
+    alt: "Futuristic living area",
+    additionalImageAlt: "A big guy wearing post-apocalyptic clothes",
     options: [
       {
         text: `“Yeah, right... Afraid, I need to go now. Need to pay Shrike a visit. Today might be the day. Take care, my wasteland friend.”`,
@@ -1699,8 +1699,8 @@ const texts = [
     “Would you make a different choice if you could, Soai? Are you happy with the path chosen? What if I could offer you the way to do it all again? Would you accept it?”`,
     image: bridgeLivingAreaImage,
     additionalImage: saneImage,
-    alt: "Bridge living area image",
-    additionalImageAlt: "Sane image",
+    alt: "Futuristic living area",
+    additionalImageAlt: "A big guy wearing post-apocalyptic clothes",
     options: [
       {
         text: `“Nah, man, I’m good. The choice I’ve made is the path to take. I aim to finish it. One day we’ll meet in Valhalla, but you know what we say to it, right? Not today. Be seeing you, bud, here’s my stop for the arena.”`,
@@ -1725,8 +1725,8 @@ const texts = [
     Despite the mocking tone, Arika keeps smiling happily as if you were best friends.`,
     image: shrikeLockersAreaImage,
     additionalImage: arikaImage,
-    alt: "Shrike lockers area",
-    additionalImageAlt: "Arika image",
+    alt: "Arena lockers area",
+    additionalImageAlt: "Futuristic girl with yellow hair",
     options: [
       {
         text: `“Sorry about that. I’m not good at meeting new people. Not a pro, you’ve guessed it right. Just keep trying and hope to become good enough to win one day. What about you?”`,
@@ -1751,8 +1751,8 @@ const texts = [
     It’s time to choose a character you’ll be playing during the arena. You go to your locker and open the menu with the provided options.`,
     image: shrikeLockersAreaImage,
     additionalImage: kassadAndMasteenImage,
-    alt: "Shrike lockers area",
-    additionalImageAlt: "Kassad and Masteen portrait",
+    alt: "Arena lockers area",
+    additionalImageAlt: "Two characters faces next to each other",
     options: [
       {
         text: `Kassad. A romantic soldier, loving his past. Special ability of moving backwards and using weapons from any period of history. Can be stunned by random flashbacks. With very little chance can disappear from the battle after seeing a strange woman.`,
@@ -1783,8 +1783,8 @@ const texts = [
     … 8 …`,
     image: shrikeArenaImage,
     additionalImage: gnomeImage,
-    alt: "Shrike arena image",
-    additionalImageAlt: "Futuristic gnome portrait",
+    alt: "Futuristic arena",
+    additionalImageAlt: "Futuristic gnome",
     options: [
       {
         text: `Evade gnome’s strike, ignore him and jump into the screen.`,
@@ -1816,7 +1816,7 @@ const texts = [
     useShortcut();
     }`,
     image: shortcutImage,
-    alt: "If-statement with a useShortcut function inside.",
+    alt: "Code for the if-statement with a useShortcut function inside.",
     options: [
       {
         text: `Open the console and call the function useShortcut().`,
@@ -1839,8 +1839,8 @@ const texts = [
     You stop thinking about it and see Arika standing at the finish line, smiling.`,
     image: arikaAtFinishLineImage,
     additionalImage: arikaImage,
-    alt: "A girl looking away",
-    additionalImageAlt: "Arika portrait",
+    alt: "A girl with yellow hair looking away",
+    additionalImageAlt: "Futuristic girl with yellow hair",
     options: [
       {
         text: `“Congrats! Nice bike you’ve made yourself there.”`,
@@ -1881,8 +1881,8 @@ const texts = [
     “What do you say?”`,
     image: shrikeTrackImage,
     additionalImage: arikaImage,
-    alt: "Shrike track image",
-    additionalImageAlt: "Arika portrait",
+    alt: "Futuristic race track",
+    additionalImageAlt: "Futuristic girl with yellow hair",
     options: [
       {
         text: `“You have a Virtual Holographic Slider? Sure! Let me watch it!”`,
@@ -1936,7 +1936,7 @@ const texts = [
     useShortcut();
     }`,
     image: shortcutImage,
-    alt: "If-statement with a useShortcut function inside.",
+    alt: "Code for the if-statement with a useShortcut function inside.",
     options: [
       {
         text: `Open the console and call the function useShortcut().`,
@@ -1968,7 +1968,7 @@ const texts = [
     
     Today you’ve got your second place. And maybe tomorrow is a better day.`,
     image: finalSecondPlaceImage,
-    alt: "A man looking away",
+    alt: "Character looking away",
     options: [
       {
         text: `Check if tomorrow is a better day.`,
@@ -1994,7 +1994,7 @@ const texts = [
     image: sphereImage,
     additionalImage: youngDeoImage,
     alt: "Sphere with a figure inside of it",
-    additionalImageAlt: "Young Deo picture",
+    additionalImageAlt: "Bearded man with glasses and futuristic headphones",
     options: [
       {
         text: `“Are you real, old man? Or is it a part of the arena challenge, an easter egg or some kind of a secret level?”`,
@@ -2016,7 +2016,7 @@ const texts = [
     image: sphereImage,
     additionalImage: youngDeoImage,
     alt: "Sphere with a figure inside of it",
-    additionalImageAlt: "Young Deo picture",
+    additionalImageAlt: "Bearded man with glasses and futuristic headphones",
     options: [
       {
         text: `“Oh, that’s grand! Cheers, old one! Finally you’ve made yourself useful. Appreciate your support and blah-blah-blah. To victory I go!”`,
@@ -2042,7 +2042,7 @@ const texts = [
     image: sphereImage,
     additionalImage: youngDeoImage,
     alt: "Sphere with a figure inside of it",
-    additionalImageAlt: "Young Deo picture",
+    additionalImageAlt: "Bearded man with glasses and futuristic headphones",
     options: [
       {
         text: `“Fine. Let’s play this million questions game. I feel completely real. Probably more real than you will ever be.”`,
@@ -2096,7 +2096,7 @@ const texts = [
     image: sphereImage,
     additionalImage: youngDeoImage,
     alt: "Sphere with a figure inside of it",
-    additionalImageAlt: "Young Deo picture",
+    additionalImageAlt: "Bearded man with glasses and futuristic headphones",
     options: [
       {
         text: `“Why are you telling me this? Does it mean that…”`,
@@ -2116,7 +2116,7 @@ const texts = [
     image: sphereImage,
     additionalImage: deoImage,
     alt: "Sphere with a figure inside of it",
-    additionalImageAlt: "Deo picture",
+    additionalImageAlt: "Old man in a blue robe",
     options: [
       {
         text: `“I don’t believe you! I am not some artificial creature made by a madman. I KNOW I’m real.”`,
@@ -2136,7 +2136,7 @@ const texts = [
     image: sphereImage,
     additionalImage: deoImage,
     alt: "Sphere with a figure inside of it",
-    additionalImageAlt: "Deo picture",
+    additionalImageAlt: "Old man in a blue robe",
     options: [
       {
         text: `“Feels like being a puppet made for the arena. For how long has it all been going on?”`,
@@ -2156,7 +2156,7 @@ const texts = [
     image: sphereImage,
     additionalImage: deoImage,
     alt: "Sphere with a figure inside of it",
-    additionalImageAlt: "Deo picture",
+    additionalImageAlt: "Old man in a blue robe",
     options: [
       {
         text: `“Wait. What do you mean by that? Are you going to leave me NOW? After explaining all this? What could possibly be a reason for it?”`,
@@ -2207,7 +2207,7 @@ const texts = [
     000000000000000
     000`,
     image: humanoidRabbitImage,
-    alt: "Humanoid robotic rabbit",
+    alt: "Humanoid robo-rabbit",
     options: [
       {
         text: `Ok, seriously, let's go already.`,
@@ -2255,15 +2255,15 @@ const texts = [
     She taps herself on the ice ax tattoo.`,
     image: dixiesShopInteriorImage,
     additionalImage: nnifImage,
-    alt: "Dixie's shop interior",
-    additionalImageAlt: "Nnif image",
+    alt: "Futuristic shop interior",
+    additionalImageAlt: "Girl with futuristic glasses",
     options: [
       {
         text: `“Nice tattoo by the way. Makes you think about breaking the ice, heh. Always wanted to ask where do you get such cool stuff?”`,
         nextText: 36,
       },
       {
-        text: `I feel ya. Listen Nnif, I’ll be doing some poetic work today, if you get my meaning. Was wondering if you have anything for that line of business.`,
+        text: `“I feel ya. Listen Nnif, I’ll be doing some poetic work today, if you get my meaning. Was wondering if you have anything for that line of business.”`,
         nextText: 37,
       },
     ],
