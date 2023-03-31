@@ -2279,8 +2279,8 @@ const texts = [
     “Apart from that I don’t much care as long as I can pay her back with some news from our beloved level numero deux. She asks how things are here, and I give her an idea on how bad they are.”`,
     image: dixiesShopInteriorImage,
     additionalImage: nnifImage,
-    alt: "Dixie's shop interior",
-    additionalImageAlt: "Nnif image",
+    alt: "Futuristic shop interior",
+    additionalImageAlt: "Girl with futuristic glasses",
     options: [
       {
         text: `“Sounds super-cool, but, as I don’t have any friends from above, this is beyond my paywall. Got anything affordable for a poetician?”`,
@@ -2315,8 +2315,8 @@ const texts = [
     “...to send you back where you began.”`,
     image: blueScreenImage,
     additionalImage: dixieImage,
-    alt: "OS Blue screen image",
-    additionalImageAlt: "Dixie image",
+    alt: "OS Blue screen image with the text - It's not me, it's you",
+    additionalImageAlt: "A rusty dixie with eyes and a revolver",
     options: [
       {
         text: `“Yeah, that was too much. Tell Nnif I’m sorry. Dunno what got into me.”`,
@@ -2361,8 +2361,8 @@ const texts = [
     “Ok, speed racer, that’s all I’ve got. Run fast and don’t get toasted.”`,
     image: dixiesShopInteriorImage,
     additionalImage: nnifImage,
-    alt: "Dixie's shop interior image",
-    additionalImageAlt: "Nnif image",
+    alt: "Futuristic shop interior",
+    additionalImageAlt: "Girl with futuristic glasses",
     options: [
       {
         text: `“Thanks for the advice, Nnif. Always appreciated your straightforwardness. Time for me to go. Poetry awaits. You have fun with your customers, and I will go to the arena.”`,
@@ -2395,8 +2395,8 @@ const texts = [
     This seems strange. You’ve a feeling that quite recently you met with Sane but can’t remember why and when exactly.`,
     image: bridgeLivingAreaImage,
     additionalImage: saneImage,
-    alt: "Bridge living area image",
-    additionalImageAlt: "Sane image",
+    alt: "Futuristic living area",
+    additionalImageAlt: "A big guy wearing post-apocalyptic clothes",
     options: [
       {
         text: `“Ah well, been here and there. Listen, sorry for being harsh, but I’ve a Writers’ Fight to attend. Wanted to check on my apart, but there’s not much time. Catch up with you later, big guy.”`,
@@ -2419,8 +2419,8 @@ const texts = [
     “My friend, I advise you to stop spending so much time in the arena. All grind and no play makes you just a free-to-play, you know?”`,
     image: bridgeLivingAreaImage,
     additionalImage: saneImage,
-    alt: "Bridge living area image",
-    additionalImageAlt: "Sane image",
+    alt: "Futuristic living area",
+    additionalImageAlt: "A big guy wearing post-apocalyptic clothes",
     options: [
       {
         text: `“Yeah, right... Afraid, I need to go now. Need to pay Shrike a visit. Today might be the day. Take care, my wasteland friend.”`,
@@ -2449,8 +2449,8 @@ const texts = [
     “Would you make a different choice if you could, Soai? Are you happy with the path chosen? What if I could offer you the way to do it all again? Would you accept it?”`,
     image: bridgeLivingAreaImage,
     additionalImage: saneImage,
-    alt: "Bridge living area image",
-    additionalImageAlt: "Sane image",
+    alt: "Futuristic living area",
+    additionalImageAlt: "A big guy wearing post-apocalyptic clothes",
     options: [
       {
         text: `“Nah, man, I’m good. The choice I’ve made is the path to take. I aim to finish it. One day we’ll meet in Valhalla, but you know what we say to it, right? Not today. Be seeing you, bud, here’s my stop for the arena.”`,
@@ -2489,8 +2489,8 @@ const texts = [
     “Ok, speed racer, that’s all I’ve got. Run fast and don’t get toasted.”`,
     image: dixiesShopInteriorImage,
     additionalImage: nnifImage,
-    alt: "Dixie's shop interior image",
-    additionalImageAlt: "Nnif image",
+    alt: "Futuristic shop interior",
+    additionalImageAlt: "Girl with futuristic glasses",
     options: [
       {
         text: `“Thanks for the advice, Nnif. Always appreciated your straightforwardness. Time for me to go. Poetry awaits. You have fun with your customers, and I will go to the arena.”`,
@@ -2513,8 +2513,8 @@ const texts = [
     “Can’t promise everything will go as you’d expect, but, well, at least you could have some fun along the way… or not. Anywho, take it or leave it. I have work to do, so either this or good luck with writing poems on your own.”`,
     image: dixiesShopInteriorImage,
     additionalImage: nnifImage,
-    alt: "Dixie's shop interior image",
-    additionalImageAlt: "Nnif image",
+    alt: "Futuristic shop interior",
+    additionalImageAlt: "Girl with futuristic glasses",
     options: [
       {
         text: `“Oh fine, mademoiselle persuasion. You’ve got my attention now. Let’s talk about this mighty cheating mode of yours!”`,
@@ -2530,7 +2530,7 @@ const texts = [
     id: 93,
     text: `Shrike’s always changing. Each time you enter it, you don’t know where the race will start or end and what challenges are waiting for you on the way. Today’s route goes through the rabbit hole. That probably means some hidden traps and weird-looking beasts. Not much to learn here. It’s supposed to be unknown up until the moment when the match begins.`,
     image: toxicRainImage,
-    alt: "Toxic rain image",
+    alt: "Toxic rain behind the glass",
     options: [
       {
         text: `Check the participants list.`,
@@ -2565,7 +2565,7 @@ const texts = [
     
     The name Moor Cow seems suspicious. You’re pretty sure this one will do something nasty. Won’t be a surprise if that’s a gnome.`,
     image: toxicRainImage,
-    alt: "Toxic rain image",
+    alt: "Toxic rain behind the glass",
     options: [
       {
         text: `Go directly to the arena.`,
@@ -2590,8 +2590,8 @@ const texts = [
     This seems strange. You’ve a feeling that quite recently you met with Sane but can’t remember why and when exactly.`,
     image: bridgeLivingAreaImage,
     additionalImage: saneImage,
-    alt: "Bridge living area image",
-    additionalImageAlt: "Sane image",
+    alt: "Futuristic living area",
+    additionalImageAlt: "A big guy wearing post-apocalyptic clothes",
     options: [
       {
         text: `“Ah well, been here and there. Listen, sorry for being harsh, but I’ve a Writers’ Fight to attend. Wanted to check on my apart, but there’s not much time. Catch up with you later, big guy.”`,
@@ -2616,8 +2616,8 @@ const texts = [
     Despite the mocking tone, Arika keeps smiling happily as if you were best friends.`,
     image: shrikeLockersAreaImage,
     additionalImage: arikaImage,
-    alt: "Shrike lockers area",
-    additionalImageAlt: "Arika image",
+    alt: "Arena lockers area",
+    additionalImageAlt: "Futuristic girl with yellow hair",
     options: [
       {
         text: `“Sorry about that. I’m not good at meeting new people. Not a pro, you’ve guessed it right. Just keep trying and hope to become good enough to win one day. What about you?”`,
@@ -2642,8 +2642,8 @@ const texts = [
     It’s time to choose a character you’ll be playing during the arena. You go to your locker and open the menu with the provided options.`,
     image: shrikeLockersAreaImage,
     additionalImage: kassadAndMasteenImage,
-    alt: "Shrike lockers area",
-    additionalImageAlt: "Kassad and Masteen portrait",
+    alt: "Arena lockers area",
+    additionalImageAlt: "Two characters faces next to each other",
     options: [
       {
         text: `Kassad. A romantic soldier, loving his past. Special ability of moving backwards and using weapons from any period of history. Can be stunned by random flashbacks. With very little chance can disappear from the battle after seeing a strange woman.`,
@@ -2674,8 +2674,8 @@ const texts = [
     The race begins.`,
     image: shrikeArenaImage,
     additionalImage: gnomeImage,
-    alt: "Shrike arena image",
-    additionalImageAlt: "Futuristic gnome portrait",
+    alt: "Futuristic arena",
+    additionalImageAlt: "Futuristic gnome",
     options: [
       {
         text: `Use the strange cube Masteen is carrying all the time.`,
@@ -2704,8 +2704,8 @@ const texts = [
     Arika is standing at the finish line, smiling.`,
     image: arikaAtFinishLineImage,
     additionalImage: arikaImage,
-    alt: "A girl looking away",
-    additionalImageAlt: "Arika portrait",
+    alt: "A girl with yellow hair looking away",
+    additionalImageAlt: "Futuristic girl with yellow hair",
     options: [
       {
         text: `“Congrats! Nice bike you’ve made yourself there.”`,
@@ -2731,7 +2731,7 @@ const texts = [
     
     ~ Do you like loops? ~`,
     image: finalLoopImage,
-    alt: "Character looking at the tower.",
+    alt: "Character looking at the futuristic tower.",
     options: [
       {
         text: `Not really, but there isn't much choice.`,
