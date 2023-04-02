@@ -13,7 +13,9 @@
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
+  justify-content: center;
   border: 5px solid var(--tertiaryColor);
+  position: relative;
 }
 
 .mainComponent-image {
@@ -100,6 +102,24 @@
   border: 1px solid var(--secondaryColor);
   color: var(--secondaryColor);
   transition: 0.5s;
+}
+
+#portal {
+  position: absolute;
+  top: 96.5%;
+  right: 0.5rem;
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  transform: rotate(45deg);
+  border: 1px solid gold;
+  cursor: auto;
+  opacity: 0.5;
+}
+
+#portal:hover {
+  scale: 1.1;
+  opacity: 1;
 }
 
 @media screen and (max-width: 992px) {

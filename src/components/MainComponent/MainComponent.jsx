@@ -18,6 +18,9 @@ function MainComponent({
       <div className="mainComponent-imageAndText">
         <img className="mainComponent-image" src={image} alt={alt} />
         <p className="mainComponent-text">{text}</p>
+        {alt === "Humanoid robo-rabbit" && (
+          <a id="portal" href="https://the-final-piece.vercel.app/"></a>
+        )}
       </div>
       <div className="mainComponent-options">
         {additionalImage && (
