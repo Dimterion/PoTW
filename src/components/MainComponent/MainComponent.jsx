@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Footer from "../Footer/Footer";
 import "./mainComponent.css";
 
@@ -29,6 +30,11 @@ function MainComponent({
             src={additionalImage}
             alt={additionalImageAlt}
           />
+        )}
+        {additionalImageAlt === "The End" && (
+          <Link className="mainComponent-creditsLink" to="/credits">
+            Credits
+          </Link>
         )}
         <div className="mainComponent-buttons">
           <div

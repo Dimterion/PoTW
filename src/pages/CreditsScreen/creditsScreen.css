@@ -1,0 +1,53 @@
+.creditsScreen-container {
+  font-family: "Orbitron", sans-serif;
+  color: var(--primaryColor);
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.creditsScreen-header {
+  font-size: 1.75rem;
+}
+
+.creditsScreen-block {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  margin: 1vw;
+}
+
+.creditsScreen-text {
+  margin: 0.5vw;
+}
+
+.creditsScreen-image {
+  margin: 0.5vw;
+  max-width: 45vw;
+  max-height: 45vh;
+  object-fit: cover;
+  border: 1px solid var(--secondaryColor);
+}
+
+.creditsScreen-startScreenLink {
+  color: var(--tertiaryColor);
+  background-color: var(--secondaryBackground);
+  font-size: 1.25rem;
+  margin: 2vh 0 3vh;
+  padding: 1vh 2vw;
+  border: 1px solid var(--tertiaryColor);
+  text-decoration: none;
+}
+
+.creditsScreen-personalLink {
+  color: var(--secondaryColor);
+  margin-bottom: 2vh;
+  text-decoration: none;
+  transition: 1s;
+}
+
+.creditsScreen-personalLink:hover {
+  color: var(--tertiaryColor);
+  transform: scale(0.9);
+  transition: 1s;
+}
