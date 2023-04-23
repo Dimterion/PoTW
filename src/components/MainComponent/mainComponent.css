@@ -97,6 +97,10 @@
   transition: 0.5s;
 }
 
+.mainComponent-rightBtn:active {
+  transform: scale(0.9);
+}
+
 .mainComponent-leftBtn {
   background-color: var(--secondaryBackground);
   font-family: "Turret Road", cursive;
@@ -119,6 +123,10 @@
   border: 1px solid var(--secondaryColor);
   color: var(--secondaryColor);
   transition: 0.5s;
+}
+
+.mainComponent-leftBtn:active {
+  transform: scale(0.9);
 }
 
 #portal {

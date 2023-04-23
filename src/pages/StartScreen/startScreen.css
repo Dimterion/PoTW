@@ -94,6 +94,7 @@
 .startScreen-btn {
   font-size: 1.5rem;
   color: var(--primaryColor);
+  background-color: var(--secondaryBackground);
   border: 1px solid var(--primaryColor);
   text-decoration: none;
   padding: 0.5rem 2.5rem;
