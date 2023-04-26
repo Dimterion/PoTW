@@ -12,7 +12,7 @@
 
   /* Dimensions & timings */
   --bar-width: 20px;
-  --bar-height: 2px;
+  --bar-height: 3px;
   --menuBtn-gap: 5px;
   --menuBtn-margin: 5px;
   --animation-timing: 200ms ease-in-out;

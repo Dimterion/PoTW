@@ -40,7 +40,7 @@
     background-position 0.3s calc(0.3s - var(--t, 0s));
   font-size: 1.25rem;
   margin: 2vh 0 3vh;
-  padding: 1vh 2vw;
+  padding: 1vh;
   border: 1px solid var(--tertiaryColor);
   text-decoration: none;
 }

@@ -618,7 +618,7 @@ const texts = [
         nextText: 24,
       },
       {
-        text: `“Chrome rabbit and Cheshire cat’s grin? Seriously? Couldn’t come up with something more creative? What am I, Soai in boredomland?”`,
+        text: `“Chrome rabbit and Cheshire cat? Couldn’t come up with something more creative? What am I, Soai in boredomland?”`,
         nextText: 73,
       },
     ],

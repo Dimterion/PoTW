@@ -136,6 +136,7 @@
 }
 
 .mainComponent-rightBtn {
+  box-sizing: inherit;
   background-color: var(--secondaryBackground);
   font-family: "Turret Road", cursive;
   font-size: 1.25rem;
@@ -164,6 +165,7 @@
 }
 
 .mainComponent-leftBtn {
+  box-sizing: inherit;
   background-color: var(--secondaryBackground);
   font-family: "Turret Road", cursive;
   font-size: 1.25rem;

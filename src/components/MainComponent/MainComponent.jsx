@@ -53,18 +53,18 @@ function MainComponent({
           </Link>
         )}
         <div className="mainComponent-buttons">
-          <div
+          <button
             onClick={() => setOption(idLeft)}
             className="mainComponent-leftBtn"
           >
             {btnLeft}
-          </div>
-          <div
+          </button>
+          <button
             onClick={() => setOption(idRight)}
             className="mainComponent-rightBtn"
           >
             {btnRight}
-          </div>
+          </button>
         </div>
       </div>
       <Footer />
