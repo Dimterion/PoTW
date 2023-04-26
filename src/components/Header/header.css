@@ -1,6 +1,9 @@
 .header-container {
   margin-top: 1px;
   padding: 10px;
+  background-color: var(--secondaryBackground);
+  text-align: center;
+  width: -webkit-fill-available;
 }
 
 .header-link {

@@ -3,11 +3,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Turret+Road:wght@400;700&display=swap");
 
 :root {
+  /* Colors */
   --primaryBackground: #240046;
   --secondaryBackground: #3c096c;
   --primaryColor: #dee2e6;
   --secondaryColor: #f72585;
   --tertiaryColor: #4cc9f0;
+
+  /* Dimensions & timings */
+  --bar-width: 20px;
+  --bar-height: 2px;
+  --menuBtn-gap: 5px;
+  --menuBtn-margin: 5px;
+  --animation-timing: 200ms ease-in-out;
+  --menuBtn-height: calc(var(--bar-height) * 3 + var(--menuBtn-gap) * 2);
 }
 
 body {

@@ -19,17 +19,65 @@
 }
 
 .mainComponent-menuBtn {
+  --x-width: calc(var(--menuBtn-height) * 1.41421356237);
+  display: flex;
+  flex-direction: column;
+  gap: var(--menuBtn-gap);
+  width: max-content;
   position: absolute;
-  top: 5px;
-  right: 5px;
-  border: 2px solid var(--tertiaryColor);
-  background-color: var(--secondaryBackground);
-  color: var(--primaryColor);
+  top: var(--menuBtn-margin);
+  right: var(--menuBtn-margin);
+  cursor: pointer;
   opacity: 0.3;
+  transition: 0.5s;
 }
 
 .mainComponent-menuBtn:hover {
   opacity: 1;
+  transition: 0.5s;
+}
+
+.mainComponent-menuBtn:has(input:focus-visible)::before,
+.mainComponent-menuBtn:has(input:focus-visible)::after {
+  box-shadow: 0 0 0 1px var(--secondaryColor);
+}
+
+.mainComponent-menuBtn::before,
+.mainComponent-menuBtn::after,
+.mainComponent-menuBtn input {
+  content: "";
+  width: var(--bar-width);
+  height: var(--bar-height);
+  background-color: var(--secondaryColor);
+  transform-origin: right center;
+  transition: opacity var(--animation-timing), width var(--animation-timing),
+    rotate var(--animation-timing), translate var(--animation-timing),
+    background-color var(--animation-timing);
+}
+
+.mainComponent-menuBtn input {
+  appearance: none;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  pointer-events: none;
+}
+
+.mainComponent-menuBtn:has(input:checked)::before {
+  rotate: -45deg;
+  width: var(--x-width);
+  translate: 0 calc(var(--bar-height) / -2);
+}
+
+.mainComponent-menuBtn:has(input:checked)::after {
+  rotate: 45deg;
+  width: var(--x-width);
+  translate: 0 calc(var(--bar-height) / 2);
+}
+
+.mainComponent-menuBtn input:checked {
+  opacity: 0;
+  width: 0;
 }
 
 .mainComponent-image {

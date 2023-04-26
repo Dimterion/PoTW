@@ -18,16 +18,21 @@ function MainComponent({
 }) {
   const [menuToggle, setMenuToggle] = useState(false);
 
+  const handleMenuToggle = () => {
+    setMenuToggle(!menuToggle);
+  };
+
   return (
     <div className="mainComponent-container">
       {menuToggle && <Header />}
       <div className="mainComponent-imageAndText">
-        <button
-          className="mainComponent-menuBtn"
-          onClick={() => setMenuToggle(!menuToggle)}
-        >
-          ^
-        </button>
+        <label className="mainComponent-menuBtn">
+          <input
+            type="checkbox"
+            checked={menuToggle}
+            onChange={handleMenuToggle}
+          />
+        </label>
         <img className="mainComponent-image" src={image} alt={alt} />
         <p className="mainComponent-text">{text}</p>
         {alt === "Humanoid robo-rabbit" && (
