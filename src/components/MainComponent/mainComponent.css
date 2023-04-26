@@ -18,6 +18,20 @@
   position: relative;
 }
 
+.mainComponent-menuBtn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  border: 2px solid var(--tertiaryColor);
+  background-color: var(--secondaryBackground);
+  color: var(--primaryColor);
+  opacity: 0.3;
+}
+
+.mainComponent-menuBtn:hover {
+  opacity: 1;
+}
+
 .mainComponent-image {
   margin: auto;
 }

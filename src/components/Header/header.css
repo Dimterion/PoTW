@@ -1,0 +1,13 @@
+.header-container {
+  margin-top: 1px;
+  padding: 10px;
+}
+
+.header-link {
+  color: var(--primaryColor);
+  text-decoration: none;
+}
+
+.header-link:hover {
+  color: var(--secondaryColor);
+}

@@ -1,4 +1,6 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
+import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import "./mainComponent.css";
 
@@ -14,9 +16,18 @@ function MainComponent({
   alt,
   additionalImageAlt,
 }) {
+  const [menuToggle, setMenuToggle] = useState(false);
+
   return (
     <div className="mainComponent-container">
+      {menuToggle && <Header />}
       <div className="mainComponent-imageAndText">
+        <button
+          className="mainComponent-menuBtn"
+          onClick={() => setMenuToggle(!menuToggle)}
+        >
+          ^
+        </button>
         <img className="mainComponent-image" src={image} alt={alt} />
         <p className="mainComponent-text">{text}</p>
         {alt === "Humanoid robo-rabbit" && (
