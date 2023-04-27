@@ -1,4 +1,7 @@
 .header-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   margin-top: 1px;
   padding: 10px;
   background-color: var(--secondaryBackground);
@@ -9,8 +12,10 @@
 .header-link {
   color: var(--primaryColor);
   text-decoration: none;
+  transition: 0.5s;
 }
 
 .header-link:hover {
   color: var(--secondaryColor);
+  transition: 0.5s;
 }
