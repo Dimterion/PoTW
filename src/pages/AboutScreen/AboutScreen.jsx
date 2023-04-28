@@ -7,7 +7,7 @@ function AboutScreen() {
     <div className="aboutScreen-container">
       <h1 className="aboutScreen-title">Poets of Tomorrow’s World</h1>
       <h2>Interactive Text-Adventure Game</h2>
-      <h3>Version 2.0</h3>
+      <h3>Version 2.5</h3>
       <div className="aboutScreen-linksContainer">
         <a
           className="aboutScreen-link"

@@ -49,6 +49,7 @@
   --p: 101%;
   --t: 0.3s;
   color: var(--secondaryColor);
+  background-color: var(--tertiaryColor);
   border: 1px solid var(--primaryColor);
 }
 
@@ -56,9 +57,11 @@
   color: var(--secondaryColor);
   margin-bottom: 2vh;
   text-decoration: none;
+  transition: 0.25s;
 }
 
 .creditsScreen-personalLink:hover {
   color: var(--tertiaryColor);
-  transform: scale(1.1);
+  scale: 1.1;
+  transition: 0.25s;
 }
