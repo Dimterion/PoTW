@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import storyScreenHeaderImg from "../../assets/storyScreenHeaderImg.jpg";
+import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 import "./storyScreen.css";
 
@@ -85,6 +86,7 @@ function StoryScreen() {
         <Link className="storyScreen-link" to="/game">
           {">>>"} Jump in
         </Link>
+        <Header />
       </div>
       <Footer />
     </div>

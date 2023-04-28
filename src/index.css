@@ -17,10 +17,10 @@
   --menuBtn-margin: 5px;
   --animation-timing: 200ms ease-in-out;
   --menuBtn-height: calc(var(--bar-height) * 3 + var(--menuBtn-gap) * 2);
+  scroll-behavior: smooth;
 }
 
 body {
   background: var(--primaryBackground);
   margin: 0;
-  scroll-behavior: smooth;
 }

@@ -77,6 +77,11 @@
     height: 100%;
     width: 100%;
   }
+
+  .storyScreen-textContainer {
+    width: 96vw;
+    margin: 5vh 1vw;
+  }
 }
 
 @keyframes storyScreen-load {

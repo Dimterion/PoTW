@@ -4,6 +4,10 @@
   align-items: center;
   margin-top: 1px;
   padding: 10px;
+  border-top: 5px solid var(--tertiaryColor);
+  border-left: 5px solid var(--tertiaryColor);
+  border-right: 5px solid var(--tertiaryColor);
+  font-size: 1rem;
   background-color: var(--secondaryBackground);
   text-align: center;
   width: -webkit-fill-available;
@@ -13,9 +17,16 @@
   color: var(--primaryColor);
   text-decoration: none;
   transition: 0.5s;
+  margin: 0 2px;
 }
 
 .header-link:hover {
   color: var(--secondaryColor);
   transition: 0.5s;
+}
+
+@media (max-width: 1024px) {
+  .header-container {
+    font-size: 0.9rem;
+  }
 }
