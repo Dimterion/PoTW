@@ -7,16 +7,11 @@ function AboutScreen() {
     <div className="aboutScreen-container">
       <h1 className="aboutScreen-title">Poets of Tomorrow’s World</h1>
       <h2>Interactive Text-Adventure Game</h2>
-      <h3>Version 2.5</h3>
+      <h3>Extended Cut</h3>
       <div className="aboutScreen-linksContainer">
-        <a
-          className="aboutScreen-link"
-          href="https://medium.com/@dimterion/making-an-interactive-text-adventure-game-with-react-779667cca2cb"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          {">"} More Info
-        </a>
+        <Link className="aboutScreen-link" to="/description">
+          {">"} Description
+        </Link>
         <a
           className="aboutScreen-link"
           href="https://dimterion.github.io/Interactive-text-adventure-game/"

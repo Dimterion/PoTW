@@ -1,0 +1,48 @@
+.descriptionScreen-container {
+  font-family: "Orbitron", sans-serif;
+  color: var(--primaryColor);
+  animation: descriptionScreen-load 400ms ease-in 200ms;
+  animation-fill-mode: forwards;
+  transform: translateY(-50px);
+  opacity: 0;
+}
+
+.descriptionScreen-header {
+  border-top: 5px solid var(--tertiaryColor);
+  margin: 0;
+  padding: 2vh;
+  text-align: center;
+}
+
+.descriptionScreen-text {
+  font-family: "Turret Road", cursive;
+  font-size: 1.4rem;
+  padding: 2vh 2vw;
+}
+
+.descriptionScreen-link {
+  color: var(--tertiaryColor);
+  text-decoration: none;
+}
+
+.descriptionScreen-link:hover {
+  color: var(--secondaryColor);
+  text-decoration: underline;
+}
+
+.descriptionScreen-subHeader {
+  font-family: "Orbitron", sans-serif;
+  font-size: 1.4rem;
+}
+
+@keyframes descriptionScreen-load {
+  0% {
+    transform: translateY(-10px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
