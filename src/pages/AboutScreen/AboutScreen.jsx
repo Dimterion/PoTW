@@ -9,6 +9,9 @@ function AboutScreen() {
       <h2>Interactive Text-Adventure Game</h2>
       <h3>Extended Cut</h3>
       <div className="aboutScreen-linksContainer">
+        <Link className="aboutScreen-link" to="/">
+          {">"} Start Screen
+        </Link>
         <Link className="aboutScreen-link" to="/description">
           {">"} Description
         </Link>
@@ -20,9 +23,6 @@ function AboutScreen() {
         >
           {">"} Original Version
         </a>
-        <Link className="aboutScreen-link" to="/">
-          {">"} Start Screen
-        </Link>
       </div>
       <a
         className="aboutScreen-personalLink"

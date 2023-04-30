@@ -1,5 +1,6 @@
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
+import descriptionScreenImage from "../../assets/descriptionScreenImage.jpg";
 import { diagramLink } from "../../utils/diagramLink";
 import "./descriptionScreen.css";
 
@@ -9,6 +10,11 @@ function DescriptionScreen() {
       <Header />
       <h2 className="descriptionScreen-header">Description</h2>
       <div className="descriptionScreen-text">
+        <img
+          className="descriptionScreen-image"
+          src={descriptionScreenImage}
+          alt="Futuristic towers"
+        />
         <div>
           Initially the game was made after following a JavaScript tutorial.
           More info about it can be found{" "}
@@ -87,6 +93,19 @@ function DescriptionScreen() {
             <li>Vercel (deployment)</li>
             <li>NightCafe (images)</li>
           </ul>
+        </div>
+        <div className="descriptionScreen-socialMediaLink">
+          In case you want to say hi,{" "}
+          <a
+            className="descriptionScreen-link"
+            href="https://twitter.com/Dimterion"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            here
+          </a>{" "}
+          is a Twitter link (which might be replaced by something else, if I
+          find another platform to hang out).
         </div>
       </div>
       <Footer />

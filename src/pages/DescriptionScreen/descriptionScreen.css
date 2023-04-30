@@ -18,6 +18,18 @@
   font-family: "Turret Road", cursive;
   font-size: 1.4rem;
   padding: 2vh 2vw;
+  margin: 0 1vw;
+  border-top: 5px solid var(--tertiaryColor);
+  border-bottom: 5px solid var(--tertiaryColor);
+}
+
+.descriptionScreen-image {
+  display: block;
+  border: 5px solid var(--secondaryColor);
+  width: 512px;
+  max-width: 90vw;
+  object-fit: cover;
+  margin: 0 auto 2vh;
 }
 
 .descriptionScreen-link {
@@ -33,6 +45,11 @@
 .descriptionScreen-subHeader {
   font-family: "Orbitron", sans-serif;
   font-size: 1.4rem;
+}
+
+.descriptionScreen-socialMediaLink {
+  border-top: 1px solid var(--secondaryColor);
+  padding-top: 1rem;
 }
 
 @keyframes descriptionScreen-load {
