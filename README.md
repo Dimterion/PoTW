@@ -1,16 +1,25 @@
 # Interactive Text Adventure Game
 
-Work In Progress
+## Links
 
-[More Info](https://medium.com/@dimterion/making-an-interactive-text-adventure-game-with-react-779667cca2cb)
+[Description](https://poets-of-tomorrows-world.vercel.app/description)
 
 [Live Version](https://poets-of-tomorrows-world.vercel.app/)
 
 [Original Version](https://github.com/Dimterion/Interactive-text-adventure-game)
 
-## Current state
+## Details
 
-- General structure has been done (subject to updates)
-- Game can be completed (some visuals might change in the future)
-- Texts and dialogues have been finished (occasional edits may occur)
+- A short interactive story made with React
+- Overall the game is completed with some chances of future adjustments/changes
+- Original version linked above is kept for the reference and won't be updated
 - With a small chance the styling and images may change
+
+## Made with
+
+React
+React Router
+CSS
+Vite
+Vercel (deployment)
+NightCafe (images)

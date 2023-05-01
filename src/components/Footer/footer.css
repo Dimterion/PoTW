@@ -1,5 +1,15 @@
 .footer-container {
-  color: var(--secondaryColor);
-  margin: 4vh 0;
+  margin: 3vh 0;
   text-align: center;
+}
+
+.footer-link {
+  letter-spacing: normal;
+  color: var(--secondaryColor);
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: var(--tertiaryColor);
+  border-bottom: 1px solid var(--tertiaryColor);
 }
