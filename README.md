@@ -17,9 +17,4 @@
 
 ## Made with
 
-React
-React Router
-CSS
-Vite
-Vercel (deployment)
-NightCafe (images)
+React, React Router, CSS, Vite, Vercel (deployment), NightCafe (images)
