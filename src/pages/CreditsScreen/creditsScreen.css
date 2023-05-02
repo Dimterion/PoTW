@@ -4,6 +4,10 @@
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
+  animation: creditsScreen-load 2s ease-in 0ms;
+  animation-fill-mode: forwards;
+  transform: translateY(-10px);
+  opacity: 0;
 }
 
 .creditsScreen-header {
@@ -64,4 +68,16 @@
   color: var(--tertiaryColor);
   scale: 1.1;
   transition: 0.25s;
+}
+
+@keyframes creditsScreen-load {
+  0% {
+    transform: translateY(-700px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
 }

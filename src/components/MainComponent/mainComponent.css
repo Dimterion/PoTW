@@ -112,11 +112,16 @@
   width: 250px;
 }
 
+.mainComponent-thankYouMessage {
+  text-align: center;
+  color: var(--secondaryColor);
+}
+
 .mainComponent-creditsLink {
   color: var(--tertiaryColor);
   background-color: var(--secondaryBackground);
   font-size: 1.5rem;
-  margin-top: 1.5vh;
+  margin-top: 2vh;
   padding: 1vh 2vw;
   text-decoration: none;
   border: 1px solid var(--tertiaryColor);

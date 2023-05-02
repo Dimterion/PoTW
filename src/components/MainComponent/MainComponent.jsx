@@ -48,9 +48,14 @@ function MainComponent({
           />
         )}
         {additionalImageAlt === "The End" && (
-          <Link className="mainComponent-creditsLink" to="/credits">
-            Credits
-          </Link>
+          <>
+            <h3 className="mainComponent-thankYouMessage">
+              Thank you for playing & reading my story.
+            </h3>
+            <Link className="mainComponent-creditsLink" to="/credits">
+              Credits
+            </Link>
+          </>
         )}
         <div className="mainComponent-buttons">
           <button
