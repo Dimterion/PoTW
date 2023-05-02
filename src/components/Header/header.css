@@ -11,6 +11,7 @@
   background-color: var(--secondaryBackground);
   text-align: center;
   width: -webkit-fill-available;
+  width: -moz-available;
 }
 
 .header-link {
