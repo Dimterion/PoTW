@@ -625,7 +625,7 @@ const texts = [
   },
   {
     id: 24,
-    text: `“Not so fast, young one, we have a bit of time to talk. As for your questions… I’ve been here since you started taking part in the Writers Fights. Call it a rabbit hole, a place I had built a very long time ago. A secret little corner to hide from the virtuality of ZerOne in… let’s say, another layer of it. I have been waiting for you as there’s something we need to discuss, if you choose so.”
+    text: `“Not so fast, young one, we have a bit of time to talk. As for your questions… I’ve been here since you started taking part in the Writers Fights. Call it a rabbit hole, a place I had built a very long time ago. A secret little corner to hide from the virtuality of zerOne in… let’s say, another layer of it. I have been waiting for you as there’s something we need to discuss, if you choose so.”
 
     The smiling mouth finally disappears, and, after a brief moment of displaying thousands of 404 errors, the sphere walls in front of you show Deo. He looks different now. Younger, without his eyes-implants and dragon-head cane. Instead he wears a stylish costume and vintage glasses. He looks at you, waiting for another question.`,
     image: sphereImage,
