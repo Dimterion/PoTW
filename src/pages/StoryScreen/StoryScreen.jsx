@@ -79,7 +79,7 @@ function StoryScreen() {
           match. These characters fight each other in a special virtual space.
           Participants call themselves poets: for the majority every fight is
           the final frontier between the lower and higher tower’s levels. They
-          call it the Last Song: the fight after each you either go down or rise
+          call it the Last Song: the fight after which you either go down or rise
           up.
         </p>
         <h3>This is the world you’re living in...</h3>
