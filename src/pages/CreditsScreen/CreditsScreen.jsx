@@ -20,6 +20,18 @@ function CreditsScreen() {
         <h2 className="creditsScreen-text">Developed in hope...</h2>
         <img className="creditsScreen-image" src={coverZerOneImage} />
       </div>
+      <h3>
+        The story continues{" "}
+        <a
+          className="creditsScreen-personalLink"
+          href="https://profound-cat-a609de.netlify.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          here
+        </a>
+        .
+      </h3>
       <Link className="creditsScreen-startScreenLink" to="/">
         Start Screen
       </Link>
