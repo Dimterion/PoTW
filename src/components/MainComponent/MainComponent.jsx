@@ -52,6 +52,14 @@ function MainComponent({
             <h3 className="mainComponent-thankYouMessage">
               Thank you for playing & reading my story.
             </h3>
+            <a
+              className="mainComponent-link"
+              href="https://profound-cat-a609de.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Next chapter
+            </a>
             <Link className="mainComponent-creditsLink" to="/credits">
               Credits
             </Link>

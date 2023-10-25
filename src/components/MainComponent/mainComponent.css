@@ -119,6 +119,22 @@
   color: var(--secondaryColor);
 }
 
+.mainComponent-link {
+  color: var(--tertiaryColor);
+  background-color: var(--secondaryBackground);
+  font-size: 1.5rem;
+  padding: 1vh 2vw;
+  text-decoration: none;
+  border: 1px solid var(--tertiaryColor);
+  transition: 0.5s;
+}
+
+.mainComponent-link:hover {
+  border: 1px solid var(--secondaryColor);
+  color: var(--secondaryColor);
+  transition: 0.5s;
+}
+
 .mainComponent-creditsLink {
   color: var(--tertiaryColor);
   background-color: var(--secondaryBackground);
