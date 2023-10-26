@@ -1,4 +1,6 @@
-# Interactive Text Adventure Game
+# Poets of Tomorrow’s World
+
+Interactive Text Adventure Game
 
 ## Links
 
